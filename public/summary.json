@@ -1,0 +1,436 @@
+{
+  "data_month": "2026-05-01",
+  "generated_at": "2026-06-02T18:01:38.298536+00:00",
+  "banner": {
+    "peak_week": 19,
+    "peak_week_tickets": 90,
+    "closure_rate": 93.57,
+    "total_tickets": 280,
+    "total_skus": 50593,
+    "e2e_vs_adhoc": "163 E2E / 117 Ad-hoc",
+    "top_category": "Beauty & Grooming",
+    "top_assignee": "Chirag Dubal",
+    "avg_tat": 4.49
+  },
+  "priority": [
+    {
+      "priority": "High",
+      "count": 1,
+      "pct_of_total": 0.36,
+      "avg_tat": 2.0,
+      "closure_rate": 100.0
+    },
+    {
+      "priority": "Highest",
+      "count": 3,
+      "pct_of_total": 1.07,
+      "avg_tat": 4.97,
+      "closure_rate": 100.0
+    },
+    {
+      "priority": "Medium",
+      "count": 276,
+      "pct_of_total": 98.57,
+      "avg_tat": 4.49,
+      "closure_rate": 93.48
+    }
+  ],
+  "status": [
+    {
+      "status": "Brand to Resolve Queries",
+      "count": 5,
+      "pct_of_total": 1.79,
+      "avg_tat": 1.81,
+      "avg_volume": 143.6
+    },
+    {
+      "status": "CLOSED",
+      "count": 236,
+      "pct_of_total": 84.29,
+      "avg_tat": 4.43,
+      "avg_volume": 200.12
+    },
+    {
+      "status": "CLOSED Due to Inactive/Insufficient Information",
+      "count": 26,
+      "pct_of_total": 9.29,
+      "avg_tat": 5.7,
+      "avg_volume": 192.19
+    },
+    {
+      "status": "FAILED",
+      "count": 5,
+      "pct_of_total": 1.79,
+      "avg_tat": 19.98,
+      "avg_volume": 29.4
+    },
+    {
+      "status": "Tech Error",
+      "count": 2,
+      "pct_of_total": 0.71,
+      "avg_tat": 4.04,
+      "avg_volume": 368.0
+    },
+    {
+      "status": "Ticket Raised",
+      "count": 2,
+      "pct_of_total": 0.71,
+      "avg_tat": 1.0,
+      "avg_volume": 169.0
+    },
+    {
+      "status": "Uploaded/Retriggered",
+      "count": 4,
+      "pct_of_total": 1.43,
+      "avg_tat": 3.6,
+      "avg_volume": 3.75
+    }
+  ],
+  "listing_type": [
+    {
+      "listing_type_group": "Ad-hoc",
+      "tickets": 117,
+      "adhoc_skus": 21196,
+      "e2e_options": 0,
+      "avg_tat": 6.37,
+      "total_options": 6169
+    },
+    {
+      "listing_type_group": "E2E",
+      "tickets": 162,
+      "adhoc_skus": 0,
+      "e2e_options": 9076,
+      "avg_tat": 3.15,
+      "total_options": 9076
+    },
+    {
+      "listing_type_group": "E2E GC",
+      "tickets": 1,
+      "adhoc_skus": 0,
+      "e2e_options": 88,
+      "avg_tat": 1.0,
+      "total_options": 88
+    }
+  ],
+  "category": [
+    {
+      "l1_category": "Beauty & Grooming",
+      "tickets": 98,
+      "adhoc_skus": 846,
+      "e2e_options": 1264,
+      "avg_tat": 6.11,
+      "closure_rate": 91.84
+    },
+    {
+      "l1_category": "Footwear",
+      "tickets": 85,
+      "adhoc_skus": 5884,
+      "e2e_options": 3551,
+      "avg_tat": 3.41,
+      "closure_rate": 91.76
+    },
+    {
+      "l1_category": "Apparel",
+      "tickets": 36,
+      "adhoc_skus": 1558,
+      "e2e_options": 1107,
+      "avg_tat": 4.21,
+      "closure_rate": 97.22
+    },
+    {
+      "l1_category": "Jewellery",
+      "tickets": 24,
+      "adhoc_skus": 1032,
+      "e2e_options": 2795,
+      "avg_tat": 4.67,
+      "closure_rate": 95.83
+    },
+    {
+      "l1_category": "HOME",
+      "tickets": 8,
+      "adhoc_skus": 85,
+      "e2e_options": 176,
+      "avg_tat": 3.98,
+      "closure_rate": 100.0
+    },
+    {
+      "l1_category": "Health & Wellness",
+      "tickets": 6,
+      "adhoc_skus": 58,
+      "e2e_options": 185,
+      "avg_tat": 9.6,
+      "closure_rate": 83.33
+    },
+    {
+      "l1_category": "Multi Category",
+      "tickets": 6,
+      "adhoc_skus": 11719,
+      "e2e_options": 34,
+      "avg_tat": 6.76,
+      "closure_rate": 100.0
+    },
+    {
+      "l1_category": "Kids",
+      "tickets": 4,
+      "adhoc_skus": 12,
+      "e2e_options": 52,
+      "avg_tat": 3.47,
+      "closure_rate": 100.0
+    },
+    {
+      "l1_category": "Men's Apparel",
+      "tickets": 2,
+      "adhoc_skus": 0,
+      "e2e_options": 0,
+      "avg_tat": 8.0,
+      "closure_rate": 100.0
+    },
+    {
+      "l1_category": "Accessories",
+      "tickets": 1,
+      "adhoc_skus": 2,
+      "e2e_options": 0,
+      "avg_tat": 11.0,
+      "closure_rate": 100.0
+    }
+  ],
+  "platform": [
+    {
+      "platform": "Mall",
+      "tickets": 190,
+      "adhoc_skus": 3438,
+      "e2e_options": 8047,
+      "avg_tat": 3.4
+    },
+    {
+      "platform": "Mall;Luxury",
+      "tickets": 45,
+      "adhoc_skus": 16671,
+      "e2e_options": 570,
+      "avg_tat": 6.04
+    },
+    {
+      "platform": "Luxury",
+      "tickets": 38,
+      "adhoc_skus": 1087,
+      "e2e_options": 547,
+      "avg_tat": 4.17
+    }
+  ],
+  "tat_insights": {
+    "overall_avg": 4.49,
+    "min_tat": 0.0,
+    "max_tat": 22.0,
+    "median_tat": 4.0,
+    "pct_0_5": 61.07,
+    "pct_5_15": 36.43,
+    "pct_15_plus": 2.5,
+    "green_count": 171,
+    "amber_count": 102,
+    "red_count": 7
+  },
+  "top_brands": [
+    {
+      "brand_name": "Adidas",
+      "tickets": 9,
+      "adhoc_skus": 722,
+      "e2e_options": 124,
+      "avg_tat": 3.77,
+      "closure_rate": 88.89
+    },
+    {
+      "brand_name": "Puma",
+      "tickets": 9,
+      "adhoc_skus": 11415,
+      "e2e_options": 211,
+      "avg_tat": 7.16,
+      "closure_rate": 88.89
+    },
+    {
+      "brand_name": "Hoversoul",
+      "tickets": 5,
+      "adhoc_skus": 20,
+      "e2e_options": 28,
+      "avg_tat": 3.82,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Lancome",
+      "tickets": 5,
+      "adhoc_skus": 6,
+      "e2e_options": 7,
+      "avg_tat": 5.69,
+      "closure_rate": 80.0
+    },
+    {
+      "brand_name": "Libas",
+      "tickets": 5,
+      "adhoc_skus": 46,
+      "e2e_options": 303,
+      "avg_tat": 2.94,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Skechers",
+      "tickets": 5,
+      "adhoc_skus": 2855,
+      "e2e_options": 0,
+      "avg_tat": 4.53,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Asics",
+      "tickets": 4,
+      "adhoc_skus": 0,
+      "e2e_options": 38,
+      "avg_tat": 1.7,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Crimsoune Club",
+      "tickets": 4,
+      "adhoc_skus": 289,
+      "e2e_options": 0,
+      "avg_tat": 4.06,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Globus",
+      "tickets": 4,
+      "adhoc_skus": 104,
+      "e2e_options": 32,
+      "avg_tat": 1.98,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Love Earth",
+      "tickets": 4,
+      "adhoc_skus": 8,
+      "e2e_options": 11,
+      "avg_tat": 4.74,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Soch",
+      "tickets": 4,
+      "adhoc_skus": 11,
+      "e2e_options": 375,
+      "avg_tat": 1.96,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Colors Queen",
+      "tickets": 3,
+      "adhoc_skus": 41,
+      "e2e_options": 7,
+      "avg_tat": 4.33,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Foxtale",
+      "tickets": 3,
+      "adhoc_skus": 0,
+      "e2e_options": 3,
+      "avg_tat": 9.0,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Garnier",
+      "tickets": 3,
+      "adhoc_skus": 5,
+      "e2e_options": 0,
+      "avg_tat": 2.4,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Miarcus",
+      "tickets": 3,
+      "adhoc_skus": 0,
+      "e2e_options": 52,
+      "avg_tat": 3.35,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Palladium",
+      "tickets": 3,
+      "adhoc_skus": 411,
+      "e2e_options": 3,
+      "avg_tat": 8.19,
+      "closure_rate": 66.67
+    },
+    {
+      "brand_name": "Palmonas",
+      "tickets": 3,
+      "adhoc_skus": 0,
+      "e2e_options": 750,
+      "avg_tat": 2.33,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Rosso Brunello",
+      "tickets": 3,
+      "adhoc_skus": 0,
+      "e2e_options": 54,
+      "avg_tat": 1.46,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Saint G",
+      "tickets": 3,
+      "adhoc_skus": 1327,
+      "e2e_options": 114,
+      "avg_tat": 3.25,
+      "closure_rate": 66.67
+    },
+    {
+      "brand_name": "The Souled Store",
+      "tickets": 3,
+      "adhoc_skus": 0,
+      "e2e_options": 52,
+      "avg_tat": 1.06,
+      "closure_rate": 100.0
+    }
+  ],
+  "assignees": [
+    {
+      "assignee": "Chirag Dubal",
+      "tickets": 171,
+      "adhoc_skus": 3327,
+      "e2e_options": 5995,
+      "avg_tat": 3.82,
+      "closure_rate": 94.15
+    },
+    {
+      "assignee": "netscribes",
+      "tickets": 105,
+      "adhoc_skus": 17183,
+      "e2e_options": 3165,
+      "avg_tat": 4.84,
+      "closure_rate": 92.38
+    },
+    {
+      "assignee": "Mohd Tahir Shaikh",
+      "tickets": 2,
+      "adhoc_skus": 12,
+      "e2e_options": 0,
+      "avg_tat": 3.83,
+      "closure_rate": 100.0
+    },
+    {
+      "assignee": "Ataur Rahman",
+      "tickets": 1,
+      "adhoc_skus": 674,
+      "e2e_options": 0,
+      "avg_tat": 5.0,
+      "closure_rate": 100.0
+    },
+    {
+      "assignee": "Sushma Ram",
+      "tickets": 1,
+      "adhoc_skus": 0,
+      "e2e_options": 4,
+      "avg_tat": 2.0,
+      "closure_rate": 100.0
+    }
+  ]
+}
