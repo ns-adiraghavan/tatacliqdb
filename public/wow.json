@@ -1,0 +1,92 @@
+{
+  "data_month": "2026-05-01",
+  "generated_at": "2026-06-02T18:01:38.211268+00:00",
+  "kpis": {
+    "total_tickets": 280,
+    "adhoc_skus": 21196,
+    "e2e_options": 9164,
+    "avg_tat": 4.49,
+    "e2e_tickets": 163,
+    "adhoc_tickets": 117,
+    "closed_tickets": 262,
+    "open_tickets": 13,
+    "closure_rate": 93.57
+  },
+  "weeks": [
+    {
+      "week_number": 18,
+      "week_start": "2026-04-27",
+      "week_end": "2026-05-03",
+      "tickets": 17,
+      "adhoc_skus": 54,
+      "e2e_options": 777,
+      "avg_tat": 4.31,
+      "e2e_tickets": 10,
+      "adhoc_tickets": 7,
+      "closed_tickets": 16,
+      "open_tickets": 0,
+      "wow_pct": null,
+      "cumulative_tickets": 17
+    },
+    {
+      "week_number": 19,
+      "week_start": "2026-05-04",
+      "week_end": "2026-05-10",
+      "tickets": 90,
+      "adhoc_skus": 13440,
+      "e2e_options": 3643,
+      "avg_tat": 5.43,
+      "e2e_tickets": 55,
+      "adhoc_tickets": 35,
+      "closed_tickets": 88,
+      "open_tickets": 0,
+      "wow_pct": 429.41,
+      "cumulative_tickets": 107
+    },
+    {
+      "week_number": 20,
+      "week_start": "2026-05-11",
+      "week_end": "2026-05-17",
+      "tickets": 71,
+      "adhoc_skus": 2672,
+      "e2e_options": 2175,
+      "avg_tat": 4.85,
+      "e2e_tickets": 45,
+      "adhoc_tickets": 26,
+      "closed_tickets": 70,
+      "open_tickets": 0,
+      "wow_pct": -21.11,
+      "cumulative_tickets": 178
+    },
+    {
+      "week_number": 21,
+      "week_start": "2026-05-18",
+      "week_end": "2026-05-24",
+      "tickets": 67,
+      "adhoc_skus": 2955,
+      "e2e_options": 1494,
+      "avg_tat": 3.31,
+      "e2e_tickets": 29,
+      "adhoc_tickets": 38,
+      "closed_tickets": 65,
+      "open_tickets": 1,
+      "wow_pct": -5.63,
+      "cumulative_tickets": 245
+    },
+    {
+      "week_number": 22,
+      "week_start": "2026-05-25",
+      "week_end": "2026-05-31",
+      "tickets": 35,
+      "adhoc_skus": 2075,
+      "e2e_options": 1075,
+      "avg_tat": 2.02,
+      "e2e_tickets": 24,
+      "adhoc_tickets": 11,
+      "closed_tickets": 23,
+      "open_tickets": 12,
+      "wow_pct": -47.76,
+      "cumulative_tickets": 280
+    }
+  ]
+}
