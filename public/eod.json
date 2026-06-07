@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-07T17:24:56.334486+00:00",
+  "generated_at": "2026-06-07T17:28:35.195834+00:00",
   "dates": [
     "2026-05-01",
     "2026-05-02",
@@ -1295,7 +1295,7 @@
           "category": "Health & Wellness",
           "platform": "Mall",
           "listing_type": "E2E",
-          "brand": NaN,
+          "brand": null,
           "adhoc_skus": 0,
           "e2e_options": 0,
           "tat": 24.0
@@ -1958,7 +1958,7 @@
           "category": "Health & Wellness",
           "platform": "Mall",
           "listing_type": "E2E",
-          "brand": NaN,
+          "brand": null,
           "adhoc_skus": 0,
           "e2e_options": 80,
           "tat": 5.0
