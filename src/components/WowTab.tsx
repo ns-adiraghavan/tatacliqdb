@@ -26,6 +26,7 @@ interface Week {
   week_number: number;
   week_start: string;
   week_end: string;
+  abridged?: boolean;
   tickets: number;
   adhoc_skus: number;
   e2e_options: number;
@@ -145,7 +146,8 @@ export default function WowTab({ data }: { data: any }) {
     Cumulative: w.cumulative_tickets,
   }));
 
-  const includesW18 = filteredWeeks.some((w) => w.week_number === 18);
+  const abridgedWeek = filteredWeeks.find((w) => w.abridged);
+  const includesAbridged = !!abridgedWeek;
 
   const columns: Column<Week>[] = [
     { header: "Week", render: (w) => `W${w.week_number}` },
@@ -371,9 +373,9 @@ export default function WowTab({ data }: { data: any }) {
 
       {/* SECTION 4 — WoW TABLE */}
       <DataTable columns={columns} rows={tableWeeks} footer={footer} />
-      {includesW18 && (
+      {includesAbridged && (
         <div style={{ fontSize: 12, color: "#94A3B8", marginTop: -8 }}>
-          * W18 includes tickets from 27 Apr – 03 May. W19 WoW% is calculated against this partial baseline.
+          * W{abridgedWeek!.week_number} week start shown as {abridgedWeek!.week_start} — April data not included in this dataset.
         </div>
       )}
 
