@@ -10,6 +10,18 @@ import eodData from "./data/eod";
 
 type TabKey = "wow" | "summary" | "eod";
 
+function deriveMonthLabel(weeks: { week_start: string; week_end: string }[]): string {
+  if (!weeks || weeks.length === 0) return "";
+  const starts = weeks.map((w) => new Date(w.week_start));
+  const ends = weeks.map((w) => new Date(w.week_end));
+  const earliest = new Date(Math.min(...starts.map((d) => d.getTime())));
+  const latest = new Date(Math.max(...ends.map((d) => d.getTime())));
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const startLabel = `${MONTHS[earliest.getUTCMonth()]} ${earliest.getUTCFullYear()}`;
+  const endLabel = `${MONTHS[latest.getUTCMonth()]} ${latest.getUTCFullYear()}`;
+  return startLabel === endLabel ? startLabel : `${startLabel}–${endLabel}`;
+}
+
 export default function App() {
   const [signedIn, setSignedIn] = useState(false);
   const [tab, setTab] = useState<TabKey>("wow");
@@ -65,7 +77,7 @@ export default function App() {
               fontWeight: 500,
             }}
           >
-            May 2026
+            {deriveMonthLabel(wowData.weeks)}
           </span>
           <div style={{ fontSize: 13, color: "rgba(255,255,255,0.75)" }}>
             {"\n"}
