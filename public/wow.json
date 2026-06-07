@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-07T17:28:34.334939+00:00",
+  "generated_at": "2026-06-07T17:40:21.804606+00:00",
   "kpis": {
     "total_tickets": 345,
     "adhoc_skus": 18678,
@@ -15,8 +15,9 @@
   "weeks": [
     {
       "week_number": 18,
-      "week_start": "2026-04-27",
+      "week_start": "2026-05-01",
       "week_end": "2026-05-03",
+      "abridged": true,
       "tickets": 17,
       "adhoc_skus": 54,
       "e2e_options": 732,
@@ -32,6 +33,7 @@
       "week_number": 19,
       "week_start": "2026-05-04",
       "week_end": "2026-05-10",
+      "abridged": false,
       "tickets": 90,
       "adhoc_skus": 3570,
       "e2e_options": 4503,
@@ -47,6 +49,7 @@
       "week_number": 20,
       "week_start": "2026-05-11",
       "week_end": "2026-05-17",
+      "abridged": false,
       "tickets": 71,
       "adhoc_skus": 2672,
       "e2e_options": 3086,
@@ -62,6 +65,7 @@
       "week_number": 21,
       "week_start": "2026-05-18",
       "week_end": "2026-05-24",
+      "abridged": false,
       "tickets": 67,
       "adhoc_skus": 6696,
       "e2e_options": 1491,
@@ -77,6 +81,7 @@
       "week_number": 22,
       "week_start": "2026-05-25",
       "week_end": "2026-05-31",
+      "abridged": false,
       "tickets": 35,
       "adhoc_skus": 2129,
       "e2e_options": 1070,
@@ -92,6 +97,7 @@
       "week_number": 23,
       "week_start": "2026-06-01",
       "week_end": "2026-06-07",
+      "abridged": false,
       "tickets": 65,
       "adhoc_skus": 3557,
       "e2e_options": 2831,
