@@ -514,11 +514,44 @@ export default function WowTab({ data }: { data: any }) {
       <div>
         <SectionHeader>
           Top Brands by Ticket Volume
-          <span style={{ fontSize: 11, color: "#94A3B8", fontWeight: 500, marginLeft: 8 }}>(full month)</span>
+          <span style={{ fontSize: 11, color: "#94A3B8", fontWeight: 500, marginLeft: 8 }}>
+            {isFullRange ? "(full month)" : "(filtered range)"}
+          </span>
         </SectionHeader>
         {(() => {
-          const brands: any[] = summary.top_brands || [];
-          const brandMaxTickets = Math.max(1, ...brands.map((r) => r.tickets || 0));
+          // Aggregate brands_by_week across filtered weeks only
+          const brandsByWeek: Record<string, any[]> = data.brands_by_week || {};
+          const brandMap: Record<string, { tickets: number; adhoc_skus: number; e2e_options: number; tat_sum: number; tat_weight: number; closed: number }> = {};
+          filteredWeeks.forEach((w) => {
+            const weekBrands: any[] = brandsByWeek[String(w.week_number)] || [];
+            weekBrands.forEach((b) => {
+              if (!brandMap[b.brand_name]) {
+                brandMap[b.brand_name] = { tickets: 0, adhoc_skus: 0, e2e_options: 0, tat_sum: 0, tat_weight: 0, closed: 0 };
+              }
+              const entry = brandMap[b.brand_name];
+              entry.tickets    += b.tickets;
+              entry.adhoc_skus += b.adhoc_skus;
+              entry.e2e_options += b.e2e_options;
+              if (b.avg_tat != null) {
+                entry.tat_sum    += b.avg_tat * b.tickets;
+                entry.tat_weight += b.tickets;
+              }
+              entry.closed += Math.round((b.closure_rate / 100) * b.tickets);
+            });
+          });
+          const brands = Object.entries(brandMap)
+            .map(([name, v]) => ({
+              brand_name:   name,
+              tickets:      v.tickets,
+              adhoc_skus:   v.adhoc_skus,
+              e2e_options:  v.e2e_options,
+              avg_tat:      v.tat_weight > 0 ? v.tat_sum / v.tat_weight : null,
+              closure_rate: v.tickets > 0 ? (v.closed / v.tickets) * 100 : null,
+            }))
+            .sort((a, b) => b.tickets - a.tickets)
+            .slice(0, 20);
+
+          const brandMaxTickets = Math.max(1, ...brands.map((r) => r.tickets));
           const brandCols: Column<any>[] = [
             { header: "Brand", render: (r) => r.brand_name },
             {
@@ -537,9 +570,9 @@ export default function WowTab({ data }: { data: any }) {
               },
             },
             { header: "Ad-hoc SKUs", align: "right", render: (r) => fmtNum(r.adhoc_skus) },
-            { header: "E2E Options", align: "right", render: (r) => fmtNum(r.e2e_options) },
-            { header: "Avg TAT", align: "right", render: (r) => r.avg_tat.toFixed(2) },
-            { header: "Closure %", align: "right", render: (r) => `${r.closure_rate.toFixed(2)}%` },
+            { header: "E2E Options",  align: "right", render: (r) => fmtNum(r.e2e_options) },
+            { header: "Avg TAT",      align: "right", render: (r) => r.avg_tat != null ? r.avg_tat.toFixed(2) : "—" },
+            { header: "Closure %",    align: "right", render: (r) => r.closure_rate != null ? `${r.closure_rate.toFixed(2)}%` : "—" },
           ];
           return <DataTable columns={brandCols} rows={brands} />;
         })()}
