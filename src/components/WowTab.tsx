@@ -181,11 +181,55 @@ export default function WowTab({ data }: { data: any }) {
     </tr>
   );
 
-  // TAT Bifurcation rows
-  const bifRows =
-    selectedCat === "All Categories"
-      ? bifData.overall
-      : (bifData.by_category?.[selectedCat] ?? bifData.overall);
+  // TAT Bifurcation rows — aggregate across filteredWeeks using by_week / by_week_category
+  const bifRows = useMemo(() => {
+    const weekNums = filteredWeeks.map((w) => String(w.week_number));
+    const isFiltered = !isFullRange;
+
+    // If full range and no by_week data, fall back to pre-aggregated overall/by_category
+    const hasByWeek = !!bifData.by_week;
+
+    if (!isFiltered || !hasByWeek) {
+      // Original behaviour
+      return selectedCat === "All Categories"
+        ? bifData.overall
+        : (bifData.by_category?.[selectedCat] ?? bifData.overall);
+    }
+
+    // Aggregate across filtered weeks
+    const bucketMap: Record<string, { tickets: number; e2e_options: number; tat_sum: number; tat_weight: number; bucket_order: number }> = {};
+
+    weekNums.forEach((wn) => {
+      let source: any[];
+      if (selectedCat === "All Categories") {
+        source = bifData.by_week?.[wn] ?? [];
+      } else {
+        source = bifData.by_week_category?.[`${wn}__${selectedCat}`] ?? [];
+      }
+      source.forEach((r: any) => {
+        if (!bucketMap[r.tat_bucket]) {
+          bucketMap[r.tat_bucket] = { tickets: 0, e2e_options: 0, tat_sum: 0, tat_weight: 0, bucket_order: r.bucket_order };
+        }
+        const entry = bucketMap[r.tat_bucket];
+        entry.tickets += r.tickets;
+        entry.e2e_options += r.e2e_options;
+        if (r.avg_tat != null && r.tickets > 0) {
+          entry.tat_sum += r.avg_tat * r.tickets;
+          entry.tat_weight += r.tickets;
+        }
+      });
+    });
+
+    const totalTickets = Object.values(bucketMap).reduce((s, e) => s + e.tickets, 0);
+    return Object.entries(bucketMap).map(([label, e]) => ({
+      tat_bucket:   label,
+      bucket_order: e.bucket_order,
+      tickets:      e.tickets,
+      e2e_options:  e.e2e_options,
+      avg_tat:      e.tat_weight > 0 ? Math.round((e.tat_sum / e.tat_weight) * 100) / 100 : null,
+      pct:          totalTickets > 0 ? Math.round((e.tickets / totalTickets) * 10000) / 100 : 0,
+    }));
+  }, [filteredWeeks, isFullRange, selectedCat, bifData]);
   const sortedBifRows = [...bifRows].sort(
     (a: any, b: any) => BUCKET_ORDER.indexOf(a.tat_bucket) - BUCKET_ORDER.indexOf(b.tat_bucket),
   );
@@ -483,7 +527,9 @@ export default function WowTab({ data }: { data: any }) {
       <div>
         <SectionHeader>
           Breakdown
-          <span style={{ fontSize: 11, color: "#94A3B8", fontWeight: 500, marginLeft: 8 }}>(full month)</span>
+          <span style={{ fontSize: 11, color: "#94A3B8", fontWeight: 500, marginLeft: 8 }}>
+            {isFullRange ? "(full month)" : "(filtered range)"}
+          </span>
         </SectionHeader>
         <div style={{ display: "flex", gap: 6, marginBottom: 12, flexWrap: "wrap" }}>
           {(Object.keys(dimConfigs) as DimKey[]).map((dk) => {
