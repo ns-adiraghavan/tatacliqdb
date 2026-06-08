@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-08T06:25:40.815734+00:00",
+  "generated_at": "2026-06-08T06:28:37.051591+00:00",
   "kpis": {
     "total_tickets": 345,
     "adhoc_skus": 18678,
@@ -9,7 +9,7 @@
     "e2e_tickets": 219,
     "adhoc_tickets": 126,
     "closed_tickets": 311,
-    "open_tickets": 33,
+    "open_tickets": 34,
     "closure_rate": 90.14
   },
   "weeks": [
@@ -105,7 +105,7 @@
       "e2e_tickets": 49,
       "adhoc_tickets": 16,
       "closed_tickets": 37,
-      "open_tickets": 27,
+      "open_tickets": 28,
       "wow_pct": 85.71,
       "cumulative_tickets": 345
     }

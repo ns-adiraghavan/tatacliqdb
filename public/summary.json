@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-08T06:25:40.913931+00:00",
+  "generated_at": "2026-06-08T06:28:37.141559+00:00",
   "banner": {
     "peak_week": 19,
     "peak_week_tickets": 90,
@@ -58,18 +58,11 @@
       "avg_volume": 117.41
     },
     {
-      "status": "FAILED",
-      "count": 1,
-      "pct_of_total": 0.29,
-      "avg_tat": 3.0,
-      "avg_volume": 135.0
-    },
-    {
       "status": "Failed",
-      "count": 5,
-      "pct_of_total": 1.45,
-      "avg_tat": 20.0,
-      "avg_volume": 0.0
+      "count": 6,
+      "pct_of_total": 1.74,
+      "avg_tat": 3.61,
+      "avg_volume": 22.5
     },
     {
       "status": "QUERY TO CATEGORY",
@@ -226,8 +219,8 @@
   "platform": [
     {
       "platform": "Mall",
-      "tickets": 240,
-      "adhoc_skus": 5251,
+      "tickets": 241,
+      "adhoc_skus": 5283,
       "e2e_options": 10504,
       "avg_tat": 2.74
     },
@@ -244,13 +237,6 @@
       "adhoc_skus": 1771,
       "e2e_options": 695,
       "avg_tat": 3.43
-    },
-    {
-      "platform": "Adidas",
-      "tickets": 1,
-      "adhoc_skus": 32,
-      "e2e_options": 0,
-      "avg_tat": 10.0
     }
   ],
   "tat_insights": {

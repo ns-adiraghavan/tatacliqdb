@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-08T06:25:41.849889+00:00",
+  "generated_at": "2026-06-08T06:28:37.950242+00:00",
   "dates": [
     "2026-05-01",
     "2026-05-02",
@@ -4834,17 +4834,10 @@
       "platform": [
         {
           "platform": "Mall",
-          "tickets": 7,
-          "adhoc_skus": 716,
+          "tickets": 8,
+          "adhoc_skus": 748,
           "e2e_options": 81,
-          "avg_tat": 6.83
-        },
-        {
-          "platform": "Adidas",
-          "tickets": 1,
-          "adhoc_skus": 32,
-          "e2e_options": 0,
-          "avg_tat": 10.0
+          "avg_tat": 6.93
         },
         {
           "platform": "Luxury",
@@ -5073,7 +5066,7 @@
           "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
-          "platform": "Adidas",
+          "platform": "Mall",
           "listing_type": "Ad-hoc",
           "brand": "Adidas",
           "adhoc_skus": 32,
@@ -8353,7 +8346,7 @@
       "adhoc_skus": 34,
       "e2e_options": 166,
       "avg_tat": 1.7,
-      "open_tickets": 1,
+      "open_tickets": 2,
       "closed_tickets": 8,
       "closure_rate": 80.0,
       "e2e_tickets": 9,
@@ -8372,7 +8365,7 @@
           "count": 1
         },
         {
-          "status": "FAILED",
+          "status": "Failed",
           "count": 1
         }
       ],
@@ -8461,7 +8454,7 @@
           "adhoc_skus": 0,
           "e2e_options": 46,
           "avg_tat": 2.5,
-          "status": "FAILED"
+          "status": "Failed"
         },
         {
           "brand_name": "Dermatouch",
@@ -8571,7 +8564,7 @@
         },
         {
           "key": "UCW-32205",
-          "status": "FAILED",
+          "status": "Failed",
           "assignee": "netscribes",
           "category": "Footwear",
           "platform": "Mall",
