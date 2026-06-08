@@ -234,24 +234,76 @@ export default function WowTab({ data }: { data: any }) {
     (a: any, b: any) => BUCKET_ORDER.indexOf(a.tat_bucket) - BUCKET_ORDER.indexOf(b.tat_bucket),
   );
 
-  // Breakdown (from summary.json — full month)
+  // Breakdown — aggregate across filteredWeeks using breakdown_by_week when filtered,
+  // fall back to full-month summary arrays when at full range or data unavailable.
+  const breakdownRows = useMemo(() => {
+    const hasByWeek = !!summary.breakdown_by_week;
+    const weekNums = filteredWeeks.map((w) => String(w.week_number));
+
+    if (isFullRange || !hasByWeek) {
+      return {
+        priority:     summary.priority     || [],
+        status:       summary.status       || [],
+        listing_type: summary.listing_type || [],
+        category:     summary.category     || [],
+        platform:     summary.platform     || [],
+      };
+    }
+
+    // Aggregate each dimension across the filtered week slice
+    function aggregateDim(dimKey: string, nameKey: string): any[] {
+      const map: Record<string, { tickets: number; tat_sum: number; tat_weight: number; [k: string]: any }> = {};
+      weekNums.forEach((wn) => {
+        const wRows: any[] = summary.breakdown_by_week[wn]?.[dimKey] ?? [];
+        wRows.forEach((r: any) => {
+          const key = r[nameKey] ?? "Unknown";
+          if (!map[key]) map[key] = { tickets: 0, tat_sum: 0, tat_weight: 0, [nameKey]: key };
+          const entry = map[key];
+          const t = r.tickets ?? r.count ?? 0;
+          entry.tickets += t;
+          // carry through extra numeric fields
+          if (r.adhoc_skus  != null) entry.adhoc_skus  = (entry.adhoc_skus  ?? 0) + r.adhoc_skus;
+          if (r.e2e_options != null) entry.e2e_options = (entry.e2e_options ?? 0) + r.e2e_options;
+          if (r.avg_tat != null && t > 0) {
+            entry.tat_sum    += r.avg_tat * t;
+            entry.tat_weight += t;
+          }
+        });
+      });
+      const totalTickets = Object.values(map).reduce((s, e) => s + e.tickets, 0);
+      return Object.values(map).map((e) => ({
+        ...e,
+        count:        e.tickets,
+        avg_tat:      e.tat_weight > 0 ? Math.round((e.tat_sum / e.tat_weight) * 100) / 100 : null,
+        pct_of_total: totalTickets > 0 ? Math.round((e.tickets / totalTickets) * 10000) / 100 : 0,
+      })).sort((a, b) => b.tickets - a.tickets);
+    }
+
+    return {
+      priority:     aggregateDim("priority",     "priority"),
+      status:       aggregateDim("status",        "status"),
+      listing_type: aggregateDim("listing_type",  "listing_type_group"),
+      category:     aggregateDim("category",      "l1_category"),
+      platform:     aggregateDim("platform",      "platform"),
+    };
+  }, [filteredWeeks, isFullRange, summary]);
+
   const dimConfigs: Record<
     DimKey,
     { label: string; rows: any[]; nameKey: string; flagRow?: (r: any) => boolean }
   > = {
-    priority: { label: "Priority", rows: summary.priority || [], nameKey: "priority" },
-    status: { label: "Status", rows: summary.status || [], nameKey: "status" },
-    listing_type: { label: "Listing Type", rows: summary.listing_type || [], nameKey: "listing_type_group" },
+    priority:     { label: "Priority",     rows: breakdownRows.priority,     nameKey: "priority" },
+    status:       { label: "Status",       rows: breakdownRows.status,       nameKey: "status" },
+    listing_type: { label: "Listing Type", rows: breakdownRows.listing_type, nameKey: "listing_type_group" },
     category: {
       label: "Category L1",
-      rows: summary.category || [],
+      rows: breakdownRows.category,
       nameKey: "l1_category",
       flagRow: (r) => r.l1_category === "Health & Wellness",
     },
-    platform: { label: "Platform", rows: summary.platform || [], nameKey: "platform" },
+    platform: { label: "Platform", rows: breakdownRows.platform, nameKey: "platform" },
   };
   const activeDim = dimConfigs[dim];
-  const totalAll = summary.banner?.total_tickets ?? 0;
   const dimTotalTickets = activeDim.rows.reduce((s, r) => s + (r.tickets ?? r.count ?? 0), 0);
   const dimTotalTatNum = activeDim.rows.reduce(
     (s, r) => s + (r.avg_tat ?? 0) * (r.tickets ?? r.count ?? 0),
@@ -292,7 +344,7 @@ export default function WowTab({ data }: { data: any }) {
       align: "right",
       render: (r) => {
         const t = r.tickets ?? r.count ?? 0;
-        const pct = r.pct_of_total ?? (totalAll > 0 ? (t / totalAll) * 100 : 0);
+        const pct = r.pct_of_total ?? (dimTotalTickets > 0 ? (t / dimTotalTickets) * 100 : 0);
         return `${pct.toFixed(2)}%`;
       },
     },
