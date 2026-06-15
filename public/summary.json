@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-15T06:14:53.909760+00:00",
+  "generated_at": "2026-06-15T06:22:55.125087+00:00",
   "banner": {
     "peak_week": 19,
     "peak_week_tickets": 90,
@@ -228,10 +228,10 @@
   "platform": [
     {
       "platform": "Mall",
-      "tickets": 273,
-      "adhoc_skus": 19104,
+      "tickets": 274,
+      "adhoc_skus": 19136,
       "e2e_options": 12579,
-      "avg_tat": 3.58
+      "avg_tat": 3.59
     },
     {
       "platform": "Mall;Luxury",
@@ -246,13 +246,6 @@
       "adhoc_skus": 1771,
       "e2e_options": 1338,
       "avg_tat": 2.84
-    },
-    {
-      "platform": "Adidas",
-      "tickets": 1,
-      "adhoc_skus": 32,
-      "e2e_options": 0,
-      "avg_tat": 10.0
     }
   ],
   "tat_insights": {
@@ -357,14 +350,6 @@
       "closure_rate": 100.0
     },
     {
-      "brand_name": "-",
-      "tickets": 4,
-      "adhoc_skus": 15,
-      "e2e_options": 80,
-      "avg_tat": 5.3,
-      "closure_rate": 50.0
-    },
-    {
       "brand_name": "Crimsoune Club",
       "tickets": 4,
       "adhoc_skus": 289,
@@ -426,6 +411,14 @@
       "adhoc_skus": 0,
       "e2e_options": 394,
       "avg_tat": 2.1,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Colors Queen",
+      "tickets": 3,
+      "adhoc_skus": 41,
+      "e2e_options": 7,
+      "avg_tat": 4.33,
       "closure_rate": 100.0
     }
   ],

@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-15T06:14:54.898565+00:00",
+  "generated_at": "2026-06-15T06:22:57.589589+00:00",
   "dates": [
     "2026-05-01",
     "2026-05-02",
@@ -1149,14 +1149,6 @@
       ],
       "brands": [
         {
-          "brand_name": "-",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 0,
-          "avg_tat": 29.0,
-          "status": "FAILED"
-        },
-        {
           "brand_name": "Bobbi Brown",
           "tickets": 1,
           "adhoc_skus": 1,
@@ -1309,7 +1301,7 @@
           "category": "Health & Wellness",
           "platform": "Mall",
           "listing_type": "E2E",
-          "brand": "-",
+          "brand": NaN,
           "adhoc_skus": 0,
           "e2e_options": 0,
           "tat": 29.0
@@ -1672,14 +1664,6 @@
           "status": "CLOSED Due to Inactive/Insufficient Information"
         },
         {
-          "brand_name": "-",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 80,
-          "avg_tat": 5.0,
-          "status": "CLOSED"
-        },
-        {
           "brand_name": "Adidas Originals",
           "tickets": 1,
           "adhoc_skus": 0,
@@ -1980,7 +1964,7 @@
           "category": "Health & Wellness",
           "platform": "Mall",
           "listing_type": "E2E",
-          "brand": "-",
+          "brand": NaN,
           "adhoc_skus": 0,
           "e2e_options": 80,
           "tat": 5.0
@@ -3438,14 +3422,6 @@
           "status": "CLOSED"
         },
         {
-          "brand_name": "-",
-          "tickets": 1,
-          "adhoc_skus": 5,
-          "e2e_options": 0,
-          "avg_tat": 6.0,
-          "status": "CLOSED"
-        },
-        {
           "brand_name": "Aria Nica, Tao Paris",
           "tickets": 1,
           "adhoc_skus": 0,
@@ -3802,7 +3778,7 @@
           "category": "Apparel",
           "platform": "Mall",
           "listing_type": "Ad-hoc",
-          "brand": "-",
+          "brand": NaN,
           "adhoc_skus": 5,
           "e2e_options": 0,
           "tat": 6.0
@@ -4856,17 +4832,10 @@
       "platform": [
         {
           "platform": "Mall",
-          "tickets": 7,
-          "adhoc_skus": 716,
+          "tickets": 8,
+          "adhoc_skus": 748,
           "e2e_options": 81,
-          "avg_tat": 6.83
-        },
-        {
-          "platform": "Adidas",
-          "tickets": 1,
-          "adhoc_skus": 32,
-          "e2e_options": 0,
-          "avg_tat": 10.0
+          "avg_tat": 6.93
         },
         {
           "platform": "Luxury",
@@ -5095,7 +5064,7 @@
           "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
-          "platform": "Adidas",
+          "platform": "Mall",
           "listing_type": "Ad-hoc",
           "brand": "Adidas",
           "adhoc_skus": 32,
@@ -9756,14 +9725,6 @@
           "status": "CLOSED"
         },
         {
-          "brand_name": "-",
-          "tickets": 1,
-          "adhoc_skus": 10,
-          "e2e_options": 0,
-          "avg_tat": 5.0,
-          "status": "Uploaded/Retriggered"
-        },
-        {
           "brand_name": "Dr.Reju-All",
           "tickets": 1,
           "adhoc_skus": 0,
@@ -9988,7 +9949,7 @@
           "category": "Beauty & Grooming",
           "platform": "Mall",
           "listing_type": "Ad-hoc",
-          "brand": "-",
+          "brand": NaN,
           "adhoc_skus": 10,
           "e2e_options": 0,
           "tat": 5.0
