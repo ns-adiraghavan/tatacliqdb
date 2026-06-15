@@ -1,12 +1,21 @@
 import { useState } from "react";
 
+const VALID_EMAIL = "tatacliq@netscribes.com";
+const VALID_PASSWORD = "Tatacliq@2026";
+
 export default function Login({ onSignIn }: { onSignIn: () => void }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSignIn();
+    if (email === VALID_EMAIL && password === VALID_PASSWORD) {
+      setError("");
+      onSignIn();
+    } else {
+      setError("Invalid email or password.");
+    }
   };
 
   const inputStyle: React.CSSProperties = {
@@ -75,7 +84,7 @@ export default function Login({ onSignIn }: { onSignIn: () => void }) {
             type="email"
             placeholder="Email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => { setEmail(e.target.value); setError(""); }}
             required
             style={inputStyle}
           />
@@ -83,10 +92,25 @@ export default function Login({ onSignIn }: { onSignIn: () => void }) {
             type="password"
             placeholder="Password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => { setPassword(e.target.value); setError(""); }}
             required
             style={inputStyle}
           />
+          {error && (
+            <div
+              style={{
+                fontSize: 13,
+                color: "#c0392b",
+                background: "#fdf0f0",
+                border: "1px solid #f5c6c6",
+                borderRadius: 6,
+                padding: "8px 12px",
+                textAlign: "center",
+              }}
+            >
+              {error}
+            </div>
+          )}
           <button
             type="submit"
             style={{
