@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-15T06:24:37.085280+00:00",
+  "generated_at": "2026-06-15T06:27:34.373484+00:00",
   "dates": [
     "2026-05-01",
     "2026-05-02",
@@ -1301,7 +1301,7 @@
           "category": "Health & Wellness",
           "platform": "Mall",
           "listing_type": "E2E",
-          "brand": NaN,
+          "brand": null,
           "adhoc_skus": 0,
           "e2e_options": 0,
           "tat": 29.0
@@ -1964,7 +1964,7 @@
           "category": "Health & Wellness",
           "platform": "Mall",
           "listing_type": "E2E",
-          "brand": NaN,
+          "brand": null,
           "adhoc_skus": 0,
           "e2e_options": 80,
           "tat": 5.0
@@ -3778,7 +3778,7 @@
           "category": "Apparel",
           "platform": "Mall",
           "listing_type": "Ad-hoc",
-          "brand": NaN,
+          "brand": null,
           "adhoc_skus": 5,
           "e2e_options": 0,
           "tat": 6.0
@@ -9949,7 +9949,7 @@
           "category": "Beauty & Grooming",
           "platform": "Mall",
           "listing_type": "Ad-hoc",
-          "brand": NaN,
+          "brand": null,
           "adhoc_skus": 10,
           "e2e_options": 0,
           "tat": 5.0
