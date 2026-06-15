@@ -1,155 +1,148 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-08T06:34:20.938229+00:00",
+  "generated_at": "2026-06-15T06:06:58.150369+00:00",
   "banner": {
     "peak_week": 19,
     "peak_week_tickets": 90,
-    "closure_rate": 90.14,
-    "total_tickets": 345,
-    "total_skus": 59559,
-    "e2e_vs_adhoc": "219 E2E / 126 Ad-hoc",
+    "closure_rate": 91.35,
+    "total_tickets": 393,
+    "total_skus": 84474,
+    "e2e_vs_adhoc": "261 E2E / 132 Ad-hoc",
     "top_category": "Beauty & Grooming",
     "top_assignee": "Chirag Dubal",
-    "avg_tat": 3.1
+    "avg_tat": 3.47
   },
   "priority": [
     {
       "priority": "High",
       "count": 1,
-      "pct_of_total": 0.29,
+      "pct_of_total": 0.25,
       "avg_tat": 2.0,
       "closure_rate": 100.0
     },
     {
       "priority": "Highest",
       "count": 3,
-      "pct_of_total": 0.87,
+      "pct_of_total": 0.76,
       "avg_tat": 4.97,
       "closure_rate": 100.0
     },
     {
       "priority": "Medium",
-      "count": 341,
-      "pct_of_total": 98.84,
-      "avg_tat": 3.08,
-      "closure_rate": 90.03
+      "count": 389,
+      "pct_of_total": 98.98,
+      "avg_tat": 3.45,
+      "closure_rate": 91.26
     }
   ],
   "status": [
     {
       "status": "Brand to Resolve Queries",
-      "count": 17,
-      "pct_of_total": 4.93,
-      "avg_tat": 0.6,
-      "avg_volume": 325.65
+      "count": 13,
+      "pct_of_total": 3.31,
+      "avg_tat": 0.95,
+      "avg_volume": 82.38
     },
     {
       "status": "CLOSED",
-      "count": 282,
-      "pct_of_total": 81.74,
-      "avg_tat": 3.22,
-      "avg_volume": 172.91
+      "count": 324,
+      "pct_of_total": 82.44,
+      "avg_tat": 3.0,
+      "avg_volume": 171.39
     },
     {
       "status": "CLOSED Due to Inactive/Insufficient Information",
-      "count": 29,
-      "pct_of_total": 8.41,
-      "avg_tat": 5.3,
-      "avg_volume": 117.41
+      "count": 35,
+      "pct_of_total": 8.91,
+      "avg_tat": 5.21,
+      "avg_volume": 99.66
     },
     {
-      "status": "Failed",
+      "status": "FAILED",
       "count": 6,
-      "pct_of_total": 1.74,
-      "avg_tat": 3.61,
+      "pct_of_total": 1.53,
+      "avg_tat": 8.61,
       "avg_volume": 22.5
     },
     {
-      "status": "QUERY TO CATEGORY",
-      "count": 1,
-      "pct_of_total": 0.29,
-      "avg_tat": 1.0,
-      "avg_volume": 56.0
-    },
-    {
       "status": "Query To CCMT",
-      "count": 2,
-      "pct_of_total": 0.58,
-      "avg_tat": 1.97,
-      "avg_volume": 18.0
+      "count": 1,
+      "pct_of_total": 0.25,
+      "avg_tat": 0.0,
+      "avg_volume": 194.0
     },
     {
       "status": "Tech Error",
-      "count": 3,
-      "pct_of_total": 0.87,
-      "avg_tat": 7.75,
-      "avg_volume": 246.0
+      "count": 2,
+      "pct_of_total": 0.51,
+      "avg_tat": 3.0,
+      "avg_volume": 155.0
     },
     {
       "status": "Ticket Raised",
       "count": 1,
-      "pct_of_total": 0.29,
+      "pct_of_total": 0.25,
       "avg_tat": 0.0,
-      "avg_volume": 856.0
+      "avg_volume": 270.0
     },
     {
       "status": "Uploaded/Retriggered",
-      "count": 4,
-      "pct_of_total": 1.16,
-      "avg_tat": 1.0,
-      "avg_volume": 8.75
+      "count": 11,
+      "pct_of_total": 2.8,
+      "avg_tat": 4.48,
+      "avg_volume": 2134.18
     }
   ],
   "listing_type": [
     {
       "listing_type_group": "Ad-hoc",
-      "tickets": 126,
-      "adhoc_skus": 18678,
+      "tickets": 132,
+      "adhoc_skus": 32801,
       "e2e_options": 0,
-      "avg_tat": 4.56,
-      "total_options": 12037
+      "avg_tat": 4.68,
+      "total_options": 25881
     },
     {
       "listing_type_group": "E2E",
-      "tickets": 219,
+      "tickets": 261,
       "adhoc_skus": 0,
-      "e2e_options": 13713,
-      "avg_tat": 2.44,
-      "total_options": 13713
+      "e2e_options": 16633,
+      "avg_tat": 2.69,
+      "total_options": 16633
     }
   ],
   "category": [
     {
       "l1_category": "Beauty & Grooming",
-      "tickets": 126,
-      "adhoc_skus": 935,
-      "e2e_options": 1379,
-      "avg_tat": 5.3,
-      "closure_rate": 86.51
+      "tickets": 141,
+      "adhoc_skus": 946,
+      "e2e_options": 1575,
+      "avg_tat": 4.99,
+      "closure_rate": 90.07
     },
     {
       "l1_category": "Footwear",
-      "tickets": 116,
-      "adhoc_skus": 10929,
-      "e2e_options": 6953,
-      "avg_tat": 2.56,
-      "closure_rate": 87.07
+      "tickets": 135,
+      "adhoc_skus": 24933,
+      "e2e_options": 8185,
+      "avg_tat": 3.22,
+      "closure_rate": 89.63
     },
     {
       "l1_category": "Apparel",
-      "tickets": 40,
+      "tickets": 41,
       "adhoc_skus": 2426,
-      "e2e_options": 1160,
-      "avg_tat": 3.71,
-      "closure_rate": 100.0
+      "e2e_options": 1350,
+      "avg_tat": 3.96,
+      "closure_rate": 97.56
     },
     {
       "l1_category": "Jewellery",
-      "tickets": 32,
+      "tickets": 40,
       "adhoc_skus": 1086,
-      "e2e_options": 3818,
-      "avg_tat": 3.99,
-      "closure_rate": 96.88
+      "e2e_options": 4918,
+      "avg_tat": 3.53,
+      "closure_rate": 92.5
     },
     {
       "l1_category": "HOME",
@@ -160,20 +153,20 @@
       "closure_rate": 100.0
     },
     {
+      "l1_category": "Multi Category",
+      "tickets": 8,
+      "adhoc_skus": 1955,
+      "e2e_options": 35,
+      "avg_tat": 5.36,
+      "closure_rate": 100.0
+    },
+    {
       "l1_category": "Health & Wellness",
       "tickets": 7,
       "adhoc_skus": 58,
       "e2e_options": 107,
-      "avg_tat": 4.61,
+      "avg_tat": 4.64,
       "closure_rate": 85.71
-    },
-    {
-      "l1_category": "Multi Category",
-      "tickets": 7,
-      "adhoc_skus": 1895,
-      "e2e_options": 35,
-      "avg_tat": 5.47,
-      "closure_rate": 100.0
     },
     {
       "l1_category": "Kids",
@@ -181,6 +174,14 @@
       "adhoc_skus": 12,
       "e2e_options": 52,
       "avg_tat": 3.47,
+      "closure_rate": 100.0
+    },
+    {
+      "l1_category": "Fashion Jewellery",
+      "tickets": 3,
+      "adhoc_skus": 48,
+      "e2e_options": 177,
+      "avg_tat": 1.21,
       "closure_rate": 100.0
     },
     {
@@ -208,6 +209,14 @@
       "closure_rate": 100.0
     },
     {
+      "l1_category": "Eyewear",
+      "tickets": 1,
+      "adhoc_skus": 0,
+      "e2e_options": 25,
+      "avg_tat": 1.0,
+      "closure_rate": 0.0
+    },
+    {
       "l1_category": "Fine Jewellery",
       "tickets": 1,
       "adhoc_skus": 0,
@@ -219,62 +228,69 @@
   "platform": [
     {
       "platform": "Mall",
-      "tickets": 241,
-      "adhoc_skus": 5283,
-      "e2e_options": 10504,
-      "avg_tat": 2.74
+      "tickets": 273,
+      "adhoc_skus": 19104,
+      "e2e_options": 12579,
+      "avg_tat": 3.58
     },
     {
       "platform": "Mall;Luxury",
-      "tickets": 63,
+      "tickets": 69,
       "adhoc_skus": 11624,
-      "e2e_options": 2514,
-      "avg_tat": 3.87
+      "e2e_options": 2716,
+      "avg_tat": 3.47
     },
     {
       "platform": "Luxury",
-      "tickets": 41,
+      "tickets": 49,
       "adhoc_skus": 1771,
-      "e2e_options": 695,
-      "avg_tat": 3.43
+      "e2e_options": 1338,
+      "avg_tat": 2.84
+    },
+    {
+      "platform": "Adidas",
+      "tickets": 1,
+      "adhoc_skus": 32,
+      "e2e_options": 0,
+      "avg_tat": 10.0
     }
   ],
   "tat_insights": {
-    "overall_avg": 3.1,
+    "overall_avg": 3.47,
     "min_tat": 0.0,
-    "max_tat": 26.0,
+    "max_tat": 31.0,
     "median_tat": 3.0,
-    "pct_0_5": 68.12,
-    "pct_5_15": 29.57,
-    "pct_15_plus": 2.32,
-    "green_count": 235,
-    "amber_count": 102,
-    "red_count": 8
+    "pct_0_5": 70.74,
+    "pct_5_15": 26.97,
+    "pct_15_plus": 2.29,
+    "green_count": 278,
+    "amber_count": 106,
+    "red_count": 9
   },
   "top_brands": [
     {
       "brand_name": "Adidas",
-      "tickets": 16,
-      "adhoc_skus": 5004,
-      "e2e_options": 2019,
-      "avg_tat": 1.65,
-      "closure_rate": 100.0
+      "tickets": 18,
+      "adhoc_skus": 5274,
+      "e2e_options": 2117,
+      "avg_tat": 1.83,
+      "closure_rate": 88.89
     },
     {
       "brand_name": "Puma",
       "tickets": 11,
       "adhoc_skus": 1667,
       "e2e_options": 217,
-      "avg_tat": 7.97,
-      "closure_rate": 90.91
+      "avg_tat": 6.64,
+      "closure_rate": 100.0
     },
     {
       "brand_name": "Hoversoul",
       "tickets": 7,
       "adhoc_skus": 20,
       "e2e_options": 38,
-      "avg_tat": 3.5,
-      "closure_rate": 85.71
+      "avg_tat": 3.2,
+      "closure_rate": 100.0
     },
     {
       "brand_name": "Libas",
@@ -285,27 +301,51 @@
       "closure_rate": 100.0
     },
     {
+      "brand_name": "Palmonas",
+      "tickets": 6,
+      "adhoc_skus": 54,
+      "e2e_options": 1465,
+      "avg_tat": 2.13,
+      "closure_rate": 100.0
+    },
+    {
       "brand_name": "Skechers",
       "tickets": 6,
       "adhoc_skus": 3285,
       "e2e_options": 0,
-      "avg_tat": 4.59,
-      "closure_rate": 83.33
+      "avg_tat": 4.46,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Asics",
+      "tickets": 5,
+      "adhoc_skus": 0,
+      "e2e_options": 49,
+      "avg_tat": 1.76,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Foxtale",
+      "tickets": 5,
+      "adhoc_skus": 0,
+      "e2e_options": 10,
+      "avg_tat": 4.1,
+      "closure_rate": 60.0
     },
     {
       "brand_name": "Lancome",
       "tickets": 5,
       "adhoc_skus": 6,
       "e2e_options": 2,
-      "avg_tat": 6.0,
+      "avg_tat": 6.56,
       "closure_rate": 80.0
     },
     {
-      "brand_name": "Palmonas",
+      "brand_name": "Love Earth",
       "tickets": 5,
-      "adhoc_skus": 54,
-      "e2e_options": 1227,
-      "avg_tat": 2.15,
+      "adhoc_skus": 9,
+      "e2e_options": 11,
+      "avg_tat": 4.6,
       "closure_rate": 100.0
     },
     {
@@ -314,14 +354,6 @@
       "adhoc_skus": 1327,
       "e2e_options": 303,
       "avg_tat": 2.02,
-      "closure_rate": 100.0
-    },
-    {
-      "brand_name": "Asics",
-      "tickets": 4,
-      "adhoc_skus": 0,
-      "e2e_options": 38,
-      "avg_tat": 1.7,
       "closure_rate": 100.0
     },
     {
@@ -345,16 +377,16 @@
       "tickets": 4,
       "adhoc_skus": 89,
       "e2e_options": 8,
-      "avg_tat": 3.0,
-      "closure_rate": 75.0
+      "avg_tat": 2.42,
+      "closure_rate": 100.0
     },
     {
-      "brand_name": "Love Earth",
+      "brand_name": "Rosso Brunello",
       "tickets": 4,
-      "adhoc_skus": 8,
-      "e2e_options": 11,
-      "avg_tat": 4.74,
-      "closure_rate": 100.0
+      "adhoc_skus": 0,
+      "e2e_options": 72,
+      "avg_tat": 1.34,
+      "closure_rate": 75.0
     },
     {
       "brand_name": "Soch",
@@ -370,7 +402,23 @@
       "adhoc_skus": 576,
       "e2e_options": 153,
       "avg_tat": 4.03,
+      "closure_rate": 100.0
+    },
+    {
+      "brand_name": "Woodland",
+      "tickets": 4,
+      "adhoc_skus": 0,
+      "e2e_options": 380,
+      "avg_tat": 0.98,
       "closure_rate": 75.0
+    },
+    {
+      "brand_name": "Accessorize London",
+      "tickets": 3,
+      "adhoc_skus": 0,
+      "e2e_options": 394,
+      "avg_tat": 2.1,
+      "closure_rate": 100.0
     },
     {
       "brand_name": "Colors Queen",
@@ -379,56 +427,24 @@
       "e2e_options": 7,
       "avg_tat": 4.33,
       "closure_rate": 100.0
-    },
-    {
-      "brand_name": "Converse",
-      "tickets": 3,
-      "adhoc_skus": 10,
-      "e2e_options": 25,
-      "avg_tat": 1.39,
-      "closure_rate": 66.67
-    },
-    {
-      "brand_name": "Foxtale",
-      "tickets": 3,
-      "adhoc_skus": 0,
-      "e2e_options": 3,
-      "avg_tat": 9.0,
-      "closure_rate": 100.0
-    },
-    {
-      "brand_name": "Garnier",
-      "tickets": 3,
-      "adhoc_skus": 5,
-      "e2e_options": 0,
-      "avg_tat": 2.4,
-      "closure_rate": 100.0
-    },
-    {
-      "brand_name": "Miarcus",
-      "tickets": 3,
-      "adhoc_skus": 0,
-      "e2e_options": 52,
-      "avg_tat": 3.35,
-      "closure_rate": 100.0
     }
   ],
   "assignees": [
     {
       "assignee": "Chirag Dubal",
-      "tickets": 210,
-      "adhoc_skus": 8519,
-      "e2e_options": 7224,
-      "avg_tat": 3.05,
-      "closure_rate": 90.0
+      "tickets": 251,
+      "adhoc_skus": 22582,
+      "e2e_options": 9820,
+      "avg_tat": 3.39,
+      "closure_rate": 88.45
     },
     {
       "assignee": "netscribes",
-      "tickets": 130,
-      "adhoc_skus": 9468,
-      "e2e_options": 6485,
-      "avg_tat": 3.1,
-      "closure_rate": 90.0
+      "tickets": 137,
+      "adhoc_skus": 9528,
+      "e2e_options": 6809,
+      "avg_tat": 3.54,
+      "closure_rate": 96.35
     },
     {
       "assignee": "Mohd Tahir Shaikh",
@@ -454,961 +470,5 @@
       "avg_tat": 2.0,
       "closure_rate": 100.0
     }
-  ],
-  "breakdown_by_week": {
-    "18": {
-      "total_tickets": 17,
-      "priority": [
-        {
-          "priority": "Medium",
-          "count": 17,
-          "tickets": 17,
-          "pct_of_total": 100.0,
-          "avg_tat": 3.84,
-          "closure_rate": 94.12
-        }
-      ],
-      "status": [
-        {
-          "status": "CLOSED",
-          "count": 15,
-          "tickets": 15,
-          "pct_of_total": 88.24,
-          "avg_tat": 3.83,
-          "avg_volume": 110.67
-        },
-        {
-          "status": "CLOSED Due to Inactive/Insufficient Information",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 5.88,
-          "avg_tat": 8.0,
-          "avg_volume": 1.0
-        },
-        {
-          "status": "Failed",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 5.88,
-          "avg_tat": 26.0,
-          "avg_volume": 0.0
-        }
-      ],
-      "listing_type": [
-        {
-          "listing_type_group": "Ad-hoc",
-          "tickets": 6,
-          "adhoc_skus": 54,
-          "e2e_options": 0,
-          "avg_tat": 5.67,
-          "total_options": 54,
-          "pct_of_total": 35.29
-        },
-        {
-          "listing_type_group": "E2E",
-          "tickets": 11,
-          "adhoc_skus": 0,
-          "e2e_options": 732,
-          "avg_tat": 3.78,
-          "total_options": 732,
-          "pct_of_total": 64.71
-        }
-      ],
-      "category": [
-        {
-          "l1_category": "Apparel",
-          "tickets": 5,
-          "adhoc_skus": 10,
-          "e2e_options": 328,
-          "avg_tat": 3.46,
-          "closure_rate": 100.0,
-          "pct_of_total": 29.41
-        },
-        {
-          "l1_category": "Beauty & Grooming",
-          "tickets": 5,
-          "adhoc_skus": 3,
-          "e2e_options": 1,
-          "avg_tat": 10.0,
-          "closure_rate": 80.0,
-          "pct_of_total": 29.41
-        },
-        {
-          "l1_category": "Footwear",
-          "tickets": 3,
-          "adhoc_skus": 0,
-          "e2e_options": 89,
-          "avg_tat": 4.67,
-          "closure_rate": 100.0,
-          "pct_of_total": 17.65
-        },
-        {
-          "l1_category": "Jewellery",
-          "tickets": 2,
-          "adhoc_skus": 0,
-          "e2e_options": 314,
-          "avg_tat": 2.99,
-          "closure_rate": 100.0,
-          "pct_of_total": 11.76
-        },
-        {
-          "l1_category": "Accessories",
-          "tickets": 1,
-          "adhoc_skus": 2,
-          "e2e_options": 0,
-          "avg_tat": 11.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 5.88
-        },
-        {
-          "l1_category": "HOME",
-          "tickets": 1,
-          "adhoc_skus": 39,
-          "e2e_options": 0,
-          "avg_tat": 6.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 5.88
-        }
-      ],
-      "platform": [
-        {
-          "platform": "Mall",
-          "tickets": 13,
-          "adhoc_skus": 54,
-          "e2e_options": 642,
-          "avg_tat": 3.44,
-          "pct_of_total": 76.47
-        },
-        {
-          "platform": "Mall;Luxury",
-          "tickets": 3,
-          "adhoc_skus": 0,
-          "e2e_options": 90,
-          "avg_tat": 4.66,
-          "pct_of_total": 17.65
-        },
-        {
-          "platform": "Luxury",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 0,
-          "avg_tat": 26.0,
-          "pct_of_total": 5.88
-        }
-      ]
-    },
-    "19": {
-      "total_tickets": 90,
-      "priority": [
-        {
-          "priority": "Highest",
-          "count": 2,
-          "tickets": 2,
-          "pct_of_total": 2.22,
-          "avg_tat": 4.49,
-          "closure_rate": 100.0
-        },
-        {
-          "priority": "Medium",
-          "count": 88,
-          "tickets": 88,
-          "pct_of_total": 97.78,
-          "avg_tat": 4.22,
-          "closure_rate": 97.73
-        }
-      ],
-      "status": [
-        {
-          "status": "CLOSED",
-          "count": 80,
-          "tickets": 80,
-          "pct_of_total": 88.89,
-          "avg_tat": 3.87,
-          "avg_volume": 163.51
-        },
-        {
-          "status": "CLOSED Due to Inactive/Insufficient Information",
-          "count": 8,
-          "tickets": 8,
-          "pct_of_total": 8.89,
-          "avg_tat": 10.37,
-          "avg_volume": 94.12
-        },
-        {
-          "status": "Failed",
-          "count": 2,
-          "tickets": 2,
-          "pct_of_total": 2.22,
-          "avg_tat": 23.5,
-          "avg_volume": 0.0
-        }
-      ],
-      "listing_type": [
-        {
-          "listing_type_group": "Ad-hoc",
-          "tickets": 32,
-          "adhoc_skus": 3570,
-          "e2e_options": 0,
-          "avg_tat": 6.87,
-          "total_options": 2202,
-          "pct_of_total": 35.56
-        },
-        {
-          "listing_type_group": "E2E",
-          "tickets": 58,
-          "adhoc_skus": 0,
-          "e2e_options": 4503,
-          "avg_tat": 3.3,
-          "total_options": 4503,
-          "pct_of_total": 64.44
-        }
-      ],
-      "category": [
-        {
-          "l1_category": "Beauty & Grooming",
-          "tickets": 36,
-          "adhoc_skus": 352,
-          "e2e_options": 759,
-          "avg_tat": 7.58,
-          "closure_rate": 100.0,
-          "pct_of_total": 40.0
-        },
-        {
-          "l1_category": "Footwear",
-          "tickets": 27,
-          "adhoc_skus": 855,
-          "e2e_options": 2156,
-          "avg_tat": 3.32,
-          "closure_rate": 96.3,
-          "pct_of_total": 30.0
-        },
-        {
-          "l1_category": "Apparel",
-          "tickets": 9,
-          "adhoc_skus": 889,
-          "e2e_options": 669,
-          "avg_tat": 4.83,
-          "closure_rate": 100.0,
-          "pct_of_total": 10.0
-        },
-        {
-          "l1_category": "HOME",
-          "tickets": 4,
-          "adhoc_skus": 37,
-          "e2e_options": 10,
-          "avg_tat": 5.36,
-          "closure_rate": 100.0,
-          "pct_of_total": 4.44
-        },
-        {
-          "l1_category": "Health & Wellness",
-          "tickets": 4,
-          "adhoc_skus": 58,
-          "e2e_options": 80,
-          "avg_tat": 4.72,
-          "closure_rate": 75.0,
-          "pct_of_total": 4.44
-        },
-        {
-          "l1_category": "Jewellery",
-          "tickets": 4,
-          "adhoc_skus": 162,
-          "e2e_options": 747,
-          "avg_tat": 3.7,
-          "closure_rate": 100.0,
-          "pct_of_total": 4.44
-        },
-        {
-          "l1_category": "Kids",
-          "tickets": 4,
-          "adhoc_skus": 12,
-          "e2e_options": 52,
-          "avg_tat": 3.47,
-          "closure_rate": 100.0,
-          "pct_of_total": 4.44
-        },
-        {
-          "l1_category": "Multi Category",
-          "tickets": 2,
-          "adhoc_skus": 1205,
-          "e2e_options": 30,
-          "avg_tat": 6.85,
-          "closure_rate": 100.0,
-          "pct_of_total": 2.22
-        }
-      ],
-      "platform": [
-        {
-          "platform": "Mall",
-          "tickets": 61,
-          "adhoc_skus": 1317,
-          "e2e_options": 3368,
-          "avg_tat": 3.4,
-          "pct_of_total": 67.78
-        },
-        {
-          "platform": "Mall;Luxury",
-          "tickets": 15,
-          "adhoc_skus": 2067,
-          "e2e_options": 995,
-          "avg_tat": 5.64,
-          "pct_of_total": 16.67
-        },
-        {
-          "platform": "Luxury",
-          "tickets": 14,
-          "adhoc_skus": 186,
-          "e2e_options": 140,
-          "avg_tat": 9.45,
-          "pct_of_total": 15.56
-        }
-      ]
-    },
-    "20": {
-      "total_tickets": 71,
-      "priority": [
-        {
-          "priority": "Highest",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 1.41,
-          "avg_tat": 5.0,
-          "closure_rate": 100.0
-        },
-        {
-          "priority": "Medium",
-          "count": 70,
-          "tickets": 70,
-          "pct_of_total": 98.59,
-          "avg_tat": 4.84,
-          "closure_rate": 98.57
-        }
-      ],
-      "status": [
-        {
-          "status": "CLOSED",
-          "count": 62,
-          "tickets": 62,
-          "pct_of_total": 87.32,
-          "avg_tat": 4.94,
-          "avg_volume": 153.37
-        },
-        {
-          "status": "CLOSED Due to Inactive/Insufficient Information",
-          "count": 8,
-          "tickets": 8,
-          "pct_of_total": 11.27,
-          "avg_tat": 4.42,
-          "avg_volume": 277.38
-        },
-        {
-          "status": "Failed",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 1.41,
-          "avg_tat": 17.0,
-          "avg_volume": 0.0
-        }
-      ],
-      "listing_type": [
-        {
-          "listing_type_group": "Ad-hoc",
-          "tickets": 24,
-          "adhoc_skus": 2672,
-          "e2e_options": 0,
-          "avg_tat": 7.97,
-          "total_options": 1604,
-          "pct_of_total": 33.8
-        },
-        {
-          "listing_type_group": "E2E",
-          "tickets": 47,
-          "adhoc_skus": 0,
-          "e2e_options": 3086,
-          "avg_tat": 3.92,
-          "total_options": 3086,
-          "pct_of_total": 66.2
-        }
-      ],
-      "category": [
-        {
-          "l1_category": "Footwear",
-          "tickets": 30,
-          "adhoc_skus": 1544,
-          "e2e_options": 2081,
-          "avg_tat": 4.49,
-          "closure_rate": 100.0,
-          "pct_of_total": 42.25
-        },
-        {
-          "l1_category": "Beauty & Grooming",
-          "tickets": 23,
-          "adhoc_skus": 282,
-          "e2e_options": 118,
-          "avg_tat": 5.59,
-          "closure_rate": 95.65,
-          "pct_of_total": 32.39
-        },
-        {
-          "l1_category": "Jewellery",
-          "tickets": 7,
-          "adhoc_skus": 809,
-          "e2e_options": 606,
-          "avg_tat": 7.62,
-          "closure_rate": 100.0,
-          "pct_of_total": 9.86
-        },
-        {
-          "l1_category": "Apparel",
-          "tickets": 5,
-          "adhoc_skus": 21,
-          "e2e_options": 110,
-          "avg_tat": 3.64,
-          "closure_rate": 100.0,
-          "pct_of_total": 7.04
-        },
-        {
-          "l1_category": "HOME",
-          "tickets": 3,
-          "adhoc_skus": 9,
-          "e2e_options": 166,
-          "avg_tat": 3.15,
-          "closure_rate": 100.0,
-          "pct_of_total": 4.23
-        },
-        {
-          "l1_category": "Multi Category",
-          "tickets": 3,
-          "adhoc_skus": 7,
-          "e2e_options": 5,
-          "avg_tat": 3.75,
-          "closure_rate": 100.0,
-          "pct_of_total": 4.23
-        }
-      ],
-      "platform": [
-        {
-          "platform": "Mall",
-          "tickets": 51,
-          "adhoc_skus": 1280,
-          "e2e_options": 1937,
-          "avg_tat": 4.23,
-          "pct_of_total": 71.83
-        },
-        {
-          "platform": "Mall;Luxury",
-          "tickets": 14,
-          "adhoc_skus": 1210,
-          "e2e_options": 1130,
-          "avg_tat": 7.59,
-          "pct_of_total": 19.72
-        },
-        {
-          "platform": "Luxury",
-          "tickets": 6,
-          "adhoc_skus": 182,
-          "e2e_options": 19,
-          "avg_tat": 4.72,
-          "pct_of_total": 8.45
-        }
-      ]
-    },
-    "21": {
-      "total_tickets": 67,
-      "priority": [
-        {
-          "priority": "Medium",
-          "count": 67,
-          "tickets": 67,
-          "pct_of_total": 100.0,
-          "avg_tat": 3.32,
-          "closure_rate": 98.51
-        }
-      ],
-      "status": [
-        {
-          "status": "CLOSED",
-          "count": 61,
-          "tickets": 61,
-          "pct_of_total": 91.04,
-          "avg_tat": 3.33,
-          "avg_volume": 152.38
-        },
-        {
-          "status": "CLOSED Due to Inactive/Insufficient Information",
-          "count": 5,
-          "tickets": 5,
-          "pct_of_total": 7.46,
-          "avg_tat": 2.43,
-          "avg_volume": 28.4
-        },
-        {
-          "status": "Failed",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 1.49,
-          "avg_tat": 10.0,
-          "avg_volume": 0.0
-        }
-      ],
-      "listing_type": [
-        {
-          "listing_type_group": "Ad-hoc",
-          "tickets": 37,
-          "adhoc_skus": 6696,
-          "e2e_options": 0,
-          "avg_tat": 3.87,
-          "total_options": 7018,
-          "pct_of_total": 55.22
-        },
-        {
-          "listing_type_group": "E2E",
-          "tickets": 30,
-          "adhoc_skus": 0,
-          "e2e_options": 1491,
-          "avg_tat": 1.98,
-          "total_options": 1491,
-          "pct_of_total": 44.78
-        }
-      ],
-      "category": [
-        {
-          "l1_category": "Beauty & Grooming",
-          "tickets": 24,
-          "adhoc_skus": 193,
-          "e2e_options": 152,
-          "avg_tat": 2.36,
-          "closure_rate": 95.83,
-          "pct_of_total": 35.82
-        },
-        {
-          "l1_category": "Footwear",
-          "tickets": 17,
-          "adhoc_skus": 4411,
-          "e2e_options": 239,
-          "avg_tat": 2.59,
-          "closure_rate": 100.0,
-          "pct_of_total": 25.37
-        },
-        {
-          "l1_category": "Apparel",
-          "tickets": 14,
-          "adhoc_skus": 786,
-          "e2e_options": 0,
-          "avg_tat": 3.28,
-          "closure_rate": 100.0,
-          "pct_of_total": 20.9
-        },
-        {
-          "l1_category": "Jewellery",
-          "tickets": 9,
-          "adhoc_skus": 61,
-          "e2e_options": 1083,
-          "avg_tat": 2.39,
-          "closure_rate": 100.0,
-          "pct_of_total": 13.43
-        },
-        {
-          "l1_category": "Men's Apparel",
-          "tickets": 2,
-          "adhoc_skus": 1245,
-          "e2e_options": 0,
-          "avg_tat": 7.93,
-          "closure_rate": 100.0,
-          "pct_of_total": 2.99
-        },
-        {
-          "l1_category": "Health & Wellness",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 17,
-          "avg_tat": 5.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 1.49
-        }
-      ],
-      "platform": [
-        {
-          "platform": "Mall",
-          "tickets": 49,
-          "adhoc_skus": 1691,
-          "e2e_options": 1330,
-          "avg_tat": 3.75,
-          "pct_of_total": 73.13
-        },
-        {
-          "platform": "Mall;Luxury",
-          "tickets": 11,
-          "adhoc_skus": 4261,
-          "e2e_options": 113,
-          "avg_tat": 2.73,
-          "pct_of_total": 16.42
-        },
-        {
-          "platform": "Luxury",
-          "tickets": 7,
-          "adhoc_skus": 744,
-          "e2e_options": 48,
-          "avg_tat": 4.64,
-          "pct_of_total": 10.45
-        }
-      ]
-    },
-    "22": {
-      "total_tickets": 35,
-      "priority": [
-        {
-          "priority": "High",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 2.86,
-          "avg_tat": 2.0,
-          "closure_rate": 100.0
-        },
-        {
-          "priority": "Medium",
-          "count": 34,
-          "tickets": 34,
-          "pct_of_total": 97.14,
-          "avg_tat": 2.1,
-          "closure_rate": 97.06
-        }
-      ],
-      "status": [
-        {
-          "status": "CLOSED",
-          "count": 30,
-          "tickets": 30,
-          "pct_of_total": 85.71,
-          "avg_tat": 1.55,
-          "avg_volume": 249.3
-        },
-        {
-          "status": "CLOSED Due to Inactive/Insufficient Information",
-          "count": 4,
-          "tickets": 4,
-          "pct_of_total": 11.43,
-          "avg_tat": 1.36,
-          "avg_volume": 13.25
-        },
-        {
-          "status": "Tech Error",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 2.86,
-          "avg_tat": 8.0,
-          "avg_volume": 707.0
-        }
-      ],
-      "listing_type": [
-        {
-          "listing_type_group": "Ad-hoc",
-          "tickets": 11,
-          "adhoc_skus": 2129,
-          "e2e_options": 0,
-          "avg_tat": 2.97,
-          "total_options": 441,
-          "pct_of_total": 31.43
-        },
-        {
-          "listing_type_group": "E2E",
-          "tickets": 24,
-          "adhoc_skus": 0,
-          "e2e_options": 1070,
-          "avg_tat": 1.8,
-          "total_options": 1070,
-          "pct_of_total": 68.57
-        }
-      ],
-      "category": [
-        {
-          "l1_category": "Footwear",
-          "tickets": 15,
-          "adhoc_skus": 1386,
-          "e2e_options": 808,
-          "avg_tat": 2.04,
-          "closure_rate": 93.33,
-          "pct_of_total": 42.86
-        },
-        {
-          "l1_category": "Beauty & Grooming",
-          "tickets": 13,
-          "adhoc_skus": 23,
-          "e2e_options": 214,
-          "avg_tat": 2.27,
-          "closure_rate": 100.0,
-          "pct_of_total": 37.14
-        },
-        {
-          "l1_category": "Apparel",
-          "tickets": 3,
-          "adhoc_skus": 17,
-          "e2e_options": 0,
-          "avg_tat": 1.41,
-          "closure_rate": 100.0,
-          "pct_of_total": 8.57
-        },
-        {
-          "l1_category": "Jewellery",
-          "tickets": 2,
-          "adhoc_skus": 54,
-          "e2e_options": 40,
-          "avg_tat": 0.57,
-          "closure_rate": 100.0,
-          "pct_of_total": 5.71
-        },
-        {
-          "l1_category": "Health & Wellness",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 8,
-          "avg_tat": 2.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 2.86
-        },
-        {
-          "l1_category": "Multi Category",
-          "tickets": 1,
-          "adhoc_skus": 649,
-          "e2e_options": 0,
-          "avg_tat": 3.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 2.86
-        }
-      ],
-      "platform": [
-        {
-          "platform": "Mall",
-          "tickets": 21,
-          "adhoc_skus": 91,
-          "e2e_options": 733,
-          "avg_tat": 1.03,
-          "pct_of_total": 60.0
-        },
-        {
-          "platform": "Luxury",
-          "tickets": 10,
-          "adhoc_skus": 659,
-          "e2e_options": 285,
-          "avg_tat": 1.55,
-          "pct_of_total": 28.57
-        },
-        {
-          "platform": "Mall;Luxury",
-          "tickets": 4,
-          "adhoc_skus": 1379,
-          "e2e_options": 52,
-          "avg_tat": 4.72,
-          "pct_of_total": 11.43
-        }
-      ]
-    },
-    "23": {
-      "total_tickets": 65,
-      "priority": [
-        {
-          "priority": "Medium",
-          "count": 65,
-          "tickets": 65,
-          "pct_of_total": 100.0,
-          "avg_tat": 0.99,
-          "closure_rate": 56.92
-        }
-      ],
-      "status": [
-        {
-          "status": "Brand to Resolve Queries",
-          "count": 17,
-          "tickets": 17,
-          "pct_of_total": 26.15,
-          "avg_tat": 0.6,
-          "avg_volume": 325.65
-        },
-        {
-          "status": "CLOSED",
-          "count": 34,
-          "tickets": 34,
-          "pct_of_total": 52.31,
-          "avg_tat": 1.36,
-          "avg_volume": 227.59
-        },
-        {
-          "status": "CLOSED Due to Inactive/Insufficient Information",
-          "count": 3,
-          "tickets": 3,
-          "pct_of_total": 4.62,
-          "avg_tat": 0.03,
-          "avg_volume": 79.0
-        },
-        {
-          "status": "Failed",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 1.54,
-          "avg_tat": 3.0,
-          "avg_volume": 135.0
-        },
-        {
-          "status": "QUERY TO CATEGORY",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 1.54,
-          "avg_tat": 1.0,
-          "avg_volume": 56.0
-        },
-        {
-          "status": "Query To CCMT",
-          "count": 2,
-          "tickets": 2,
-          "pct_of_total": 3.08,
-          "avg_tat": 1.97,
-          "avg_volume": 18.0
-        },
-        {
-          "status": "Tech Error",
-          "count": 2,
-          "tickets": 2,
-          "pct_of_total": 3.08,
-          "avg_tat": 2.13,
-          "avg_volume": 15.5
-        },
-        {
-          "status": "Ticket Raised",
-          "count": 1,
-          "tickets": 1,
-          "pct_of_total": 1.54,
-          "avg_tat": 0.0,
-          "avg_volume": 856.0
-        },
-        {
-          "status": "Uploaded/Retriggered",
-          "count": 4,
-          "tickets": 4,
-          "pct_of_total": 6.15,
-          "avg_tat": 1.0,
-          "avg_volume": 8.75
-        }
-      ],
-      "listing_type": [
-        {
-          "listing_type_group": "Ad-hoc",
-          "tickets": 16,
-          "adhoc_skus": 3557,
-          "e2e_options": 0,
-          "avg_tat": 1.91,
-          "total_options": 718,
-          "pct_of_total": 24.62
-        },
-        {
-          "listing_type_group": "E2E",
-          "tickets": 49,
-          "adhoc_skus": 0,
-          "e2e_options": 2831,
-          "avg_tat": 0.69,
-          "total_options": 2831,
-          "pct_of_total": 75.38
-        }
-      ],
-      "category": [
-        {
-          "l1_category": "Beauty & Grooming",
-          "tickets": 25,
-          "adhoc_skus": 82,
-          "e2e_options": 135,
-          "avg_tat": 1.18,
-          "closure_rate": 44.0,
-          "pct_of_total": 38.46
-        },
-        {
-          "l1_category": "Footwear",
-          "tickets": 24,
-          "adhoc_skus": 2733,
-          "e2e_options": 1580,
-          "avg_tat": 0.8,
-          "closure_rate": 45.83,
-          "pct_of_total": 36.92
-        },
-        {
-          "l1_category": "Jewellery",
-          "tickets": 8,
-          "adhoc_skus": 0,
-          "e2e_options": 1028,
-          "avg_tat": 1.64,
-          "closure_rate": 87.5,
-          "pct_of_total": 12.31
-        },
-        {
-          "l1_category": "Apparel",
-          "tickets": 4,
-          "adhoc_skus": 703,
-          "e2e_options": 53,
-          "avg_tat": 2.36,
-          "closure_rate": 100.0,
-          "pct_of_total": 6.15
-        },
-        {
-          "l1_category": "Electronics",
-          "tickets": 1,
-          "adhoc_skus": 5,
-          "e2e_options": 0,
-          "avg_tat": 2.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 1.54
-        },
-        {
-          "l1_category": "Fine Jewellery",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 33,
-          "avg_tat": 3.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 1.54
-        },
-        {
-          "l1_category": "Health & Wellness",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 2,
-          "avg_tat": 4.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 1.54
-        },
-        {
-          "l1_category": "Multi Category",
-          "tickets": 1,
-          "adhoc_skus": 34,
-          "e2e_options": 0,
-          "avg_tat": 2.0,
-          "closure_rate": 100.0,
-          "pct_of_total": 1.54
-        }
-      ],
-      "platform": [
-        {
-          "platform": "Mall",
-          "tickets": 46,
-          "adhoc_skus": 850,
-          "e2e_options": 2494,
-          "avg_tat": 0.92,
-          "pct_of_total": 70.77
-        },
-        {
-          "platform": "Mall;Luxury",
-          "tickets": 16,
-          "adhoc_skus": 2707,
-          "e2e_options": 134,
-          "avg_tat": 1.48,
-          "pct_of_total": 24.62
-        },
-        {
-          "platform": "Luxury",
-          "tickets": 3,
-          "adhoc_skus": 0,
-          "e2e_options": 203,
-          "avg_tat": 0.01,
-          "pct_of_total": 4.62
-        }
-      ]
-    }
-  }
+  ]
 }
