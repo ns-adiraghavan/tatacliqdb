@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-15T06:06:59.412473+00:00",
+  "generated_at": "2026-06-15T06:14:54.898565+00:00",
   "dates": [
     "2026-05-01",
     "2026-05-02",
@@ -1149,6 +1149,14 @@
       ],
       "brands": [
         {
+          "brand_name": "-",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 0,
+          "avg_tat": 29.0,
+          "status": "FAILED"
+        },
+        {
           "brand_name": "Bobbi Brown",
           "tickets": 1,
           "adhoc_skus": 1,
@@ -1301,7 +1309,7 @@
           "category": "Health & Wellness",
           "platform": "Mall",
           "listing_type": "E2E",
-          "brand": NaN,
+          "brand": "-",
           "adhoc_skus": 0,
           "e2e_options": 0,
           "tat": 29.0
@@ -1664,6 +1672,14 @@
           "status": "CLOSED Due to Inactive/Insufficient Information"
         },
         {
+          "brand_name": "-",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 80,
+          "avg_tat": 5.0,
+          "status": "CLOSED"
+        },
+        {
           "brand_name": "Adidas Originals",
           "tickets": 1,
           "adhoc_skus": 0,
@@ -1964,7 +1980,7 @@
           "category": "Health & Wellness",
           "platform": "Mall",
           "listing_type": "E2E",
-          "brand": NaN,
+          "brand": "-",
           "adhoc_skus": 0,
           "e2e_options": 80,
           "tat": 5.0
