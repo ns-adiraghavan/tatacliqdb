@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-15T06:27:33.292386+00:00",
+  "generated_at": "2026-06-22T04:38:39.555366+00:00",
   "categories": [
     "Accessories",
     "Apparel",
@@ -21,42 +21,42 @@
     {
       "tat_bucket": "0-3 Days",
       "bucket_order": 1,
-      "tickets": 234,
-      "e2e_options": 11702,
-      "avg_tat": 1.62,
-      "pct": 59.54
+      "tickets": 258,
+      "e2e_options": 11978,
+      "avg_tat": 1.82,
+      "pct": 55.36
     },
     {
       "tat_bucket": "4-7 Days",
       "bucket_order": 2,
-      "tickets": 108,
-      "e2e_options": 3528,
-      "avg_tat": 4.99,
-      "pct": 27.48
+      "tickets": 136,
+      "e2e_options": 4633,
+      "avg_tat": 5.04,
+      "pct": 29.18
     },
     {
       "tat_bucket": "8-11 Days",
       "bucket_order": 3,
-      "tickets": 32,
-      "e2e_options": 1162,
-      "avg_tat": 9.0,
-      "pct": 8.14
+      "tickets": 47,
+      "e2e_options": 2394,
+      "avg_tat": 8.83,
+      "pct": 10.09
     },
     {
       "tat_bucket": "12-16 Days",
       "bucket_order": 4,
-      "tickets": 13,
-      "e2e_options": 238,
-      "avg_tat": 12.77,
-      "pct": 3.31
+      "tickets": 19,
+      "e2e_options": 676,
+      "avg_tat": 12.27,
+      "pct": 4.08
     },
     {
       "tat_bucket": "16+ Days",
       "bucket_order": 5,
       "tickets": 6,
-      "e2e_options": 3,
-      "avg_tat": 16.31,
-      "pct": 1.53
+      "e2e_options": 0,
+      "avg_tat": 16.44,
+      "pct": 1.29
     }
   ],
   "by_category": {
@@ -64,10 +64,10 @@
       {
         "tat_bucket": "0-3 Days",
         "bucket_order": 1,
-        "tickets": 0,
+        "tickets": 1,
         "e2e_options": 0,
-        "avg_tat": null,
-        "pct": 0.0
+        "avg_tat": 2.0,
+        "pct": 50.0
       },
       {
         "tat_bucket": "4-7 Days",
@@ -83,7 +83,7 @@
         "tickets": 1,
         "e2e_options": 0,
         "avg_tat": 11.0,
-        "pct": 100.0
+        "pct": 50.0
       },
       {
         "tat_bucket": "12-16 Days",
@@ -106,34 +106,34 @@
       {
         "tat_bucket": "0-3 Days",
         "bucket_order": 1,
-        "tickets": 25,
-        "e2e_options": 1007,
-        "avg_tat": 1.87,
-        "pct": 60.98
+        "tickets": 29,
+        "e2e_options": 1172,
+        "avg_tat": 1.75,
+        "pct": 55.77
       },
       {
         "tat_bucket": "4-7 Days",
         "bucket_order": 2,
-        "tickets": 10,
-        "e2e_options": 343,
-        "avg_tat": 4.8,
-        "pct": 24.39
+        "tickets": 15,
+        "e2e_options": 398,
+        "avg_tat": 4.88,
+        "pct": 28.85
       },
       {
         "tat_bucket": "8-11 Days",
         "bucket_order": 3,
-        "tickets": 6,
-        "e2e_options": 0,
-        "avg_tat": 8.19,
-        "pct": 14.63
+        "tickets": 7,
+        "e2e_options": 43,
+        "avg_tat": 8.01,
+        "pct": 13.46
       },
       {
         "tat_bucket": "12-16 Days",
         "bucket_order": 4,
-        "tickets": 0,
+        "tickets": 1,
         "e2e_options": 0,
-        "avg_tat": null,
-        "pct": 0.0
+        "avg_tat": 12.0,
+        "pct": 1.92
       },
       {
         "tat_bucket": "16+ Days",
@@ -148,42 +148,42 @@
       {
         "tat_bucket": "0-3 Days",
         "bucket_order": 1,
-        "tickets": 68,
-        "e2e_options": 864,
-        "avg_tat": 1.17,
-        "pct": 48.23
+        "tickets": 89,
+        "e2e_options": 950,
+        "avg_tat": 1.56,
+        "pct": 50.57
       },
       {
         "tat_bucket": "4-7 Days",
         "bucket_order": 2,
-        "tickets": 47,
-        "e2e_options": 474,
-        "avg_tat": 5.11,
-        "pct": 33.33
+        "tickets": 58,
+        "e2e_options": 618,
+        "avg_tat": 5.0,
+        "pct": 32.95
       },
       {
         "tat_bucket": "8-11 Days",
         "bucket_order": 3,
-        "tickets": 12,
-        "e2e_options": 89,
-        "avg_tat": 9.42,
-        "pct": 8.51
+        "tickets": 13,
+        "e2e_options": 56,
+        "avg_tat": 9.5,
+        "pct": 7.39
       },
       {
         "tat_bucket": "12-16 Days",
         "bucket_order": 4,
-        "tickets": 10,
-        "e2e_options": 145,
-        "avg_tat": 12.75,
-        "pct": 7.09
+        "tickets": 12,
+        "e2e_options": 207,
+        "avg_tat": 12.62,
+        "pct": 6.82
       },
       {
         "tat_bucket": "16+ Days",
         "bucket_order": 5,
         "tickets": 4,
-        "e2e_options": 3,
-        "avg_tat": 16.15,
-        "pct": 2.84
+        "e2e_options": 0,
+        "avg_tat": 16.22,
+        "pct": 2.27
       }
     ],
     "Electronics": [
@@ -316,9 +316,9 @@
       {
         "tat_bucket": "0-3 Days",
         "bucket_order": 1,
-        "tickets": 1,
-        "e2e_options": 33,
-        "avg_tat": 3.0,
+        "tickets": 2,
+        "e2e_options": 72,
+        "avg_tat": 1.92,
         "pct": 100.0
       },
       {
@@ -358,68 +358,68 @@
       {
         "tat_bucket": "0-3 Days",
         "bucket_order": 1,
-        "tickets": 92,
-        "e2e_options": 4602,
-        "avg_tat": 1.51,
-        "pct": 68.15
+        "tickets": 82,
+        "e2e_options": 4029,
+        "avg_tat": 1.79,
+        "pct": 55.78
       },
       {
         "tat_bucket": "4-7 Days",
         "bucket_order": 2,
-        "tickets": 30,
-        "e2e_options": 2481,
-        "avg_tat": 4.86,
-        "pct": 22.22
+        "tickets": 44,
+        "e2e_options": 3421,
+        "avg_tat": 5.07,
+        "pct": 29.93
       },
       {
         "tat_bucket": "8-11 Days",
         "bucket_order": 3,
-        "tickets": 9,
-        "e2e_options": 1009,
-        "avg_tat": 8.06,
-        "pct": 6.67
+        "tickets": 16,
+        "e2e_options": 1632,
+        "avg_tat": 8.83,
+        "pct": 10.88
       },
       {
         "tat_bucket": "12-16 Days",
         "bucket_order": 4,
-        "tickets": 3,
-        "e2e_options": 93,
-        "avg_tat": 12.77,
-        "pct": 2.22
+        "tickets": 4,
+        "e2e_options": 201,
+        "avg_tat": 12.08,
+        "pct": 2.72
       },
       {
         "tat_bucket": "16+ Days",
         "bucket_order": 5,
         "tickets": 1,
         "e2e_options": 0,
-        "avg_tat": 28.0,
-        "pct": 0.74
+        "avg_tat": 33.0,
+        "pct": 0.68
       }
     ],
     "HOME": [
       {
         "tat_bucket": "0-3 Days",
         "bucket_order": 1,
-        "tickets": 1,
-        "e2e_options": 166,
-        "avg_tat": 3.0,
-        "pct": 12.5
+        "tickets": 0,
+        "e2e_options": 0,
+        "avg_tat": null,
+        "pct": 0.0
       },
       {
         "tat_bucket": "4-7 Days",
         "bucket_order": 2,
-        "tickets": 6,
+        "tickets": 5,
         "e2e_options": 10,
-        "avg_tat": 5.44,
-        "pct": 75.0
+        "avg_tat": 4.98,
+        "pct": 62.5
       },
       {
         "tat_bucket": "8-11 Days",
         "bucket_order": 3,
-        "tickets": 1,
-        "e2e_options": 0,
-        "avg_tat": 8.0,
-        "pct": 12.5
+        "tickets": 3,
+        "e2e_options": 166,
+        "avg_tat": 9.55,
+        "pct": 37.5
       },
       {
         "tat_bucket": "12-16 Days",
@@ -476,7 +476,7 @@
         "bucket_order": 5,
         "tickets": 1,
         "e2e_options": 0,
-        "avg_tat": 29.0,
+        "avg_tat": 34.0,
         "pct": 14.29
       }
     ],
@@ -484,34 +484,34 @@
       {
         "tat_bucket": "0-3 Days",
         "bucket_order": 1,
-        "tickets": 36,
-        "e2e_options": 4803,
-        "avg_tat": 2.13,
-        "pct": 90.0
+        "tickets": 45,
+        "e2e_options": 5545,
+        "avg_tat": 2.1,
+        "pct": 88.24
       },
       {
         "tat_bucket": "4-7 Days",
         "bucket_order": 2,
-        "tickets": 2,
-        "e2e_options": 51,
-        "avg_tat": 6.28,
-        "pct": 5.0
+        "tickets": 1,
+        "e2e_options": 0,
+        "avg_tat": 7.0,
+        "pct": 1.96
       },
       {
         "tat_bucket": "8-11 Days",
         "bucket_order": 3,
-        "tickets": 2,
-        "e2e_options": 64,
-        "avg_tat": 10.78,
-        "pct": 5.0
+        "tickets": 3,
+        "e2e_options": 374,
+        "avg_tat": 10.05,
+        "pct": 5.88
       },
       {
         "tat_bucket": "12-16 Days",
         "bucket_order": 4,
-        "tickets": 0,
-        "e2e_options": 0,
-        "avg_tat": null,
-        "pct": 0.0
+        "tickets": 2,
+        "e2e_options": 268,
+        "avg_tat": 13.38,
+        "pct": 3.92
       },
       {
         "tat_bucket": "16+ Days",
@@ -526,18 +526,18 @@
       {
         "tat_bucket": "0-3 Days",
         "bucket_order": 1,
-        "tickets": 1,
-        "e2e_options": 17,
-        "avg_tat": 2.0,
-        "pct": 25.0
+        "tickets": 0,
+        "e2e_options": 0,
+        "avg_tat": null,
+        "pct": 0.0
       },
       {
         "tat_bucket": "4-7 Days",
         "bucket_order": 2,
-        "tickets": 3,
-        "e2e_options": 35,
+        "tickets": 4,
+        "e2e_options": 52,
         "avg_tat": 4.0,
-        "pct": 75.0
+        "pct": 100.0
       },
       {
         "tat_bucket": "8-11 Days",
@@ -576,18 +576,18 @@
       {
         "tat_bucket": "4-7 Days",
         "bucket_order": 2,
-        "tickets": 1,
+        "tickets": 0,
         "e2e_options": 0,
-        "avg_tat": 7.0,
-        "pct": 50.0
+        "avg_tat": null,
+        "pct": 0.0
       },
       {
         "tat_bucket": "8-11 Days",
         "bucket_order": 3,
-        "tickets": 1,
+        "tickets": 2,
         "e2e_options": 0,
-        "avg_tat": 9.0,
-        "pct": 50.0
+        "avg_tat": 8.46,
+        "pct": 100.0
       },
       {
         "tat_bucket": "12-16 Days",
@@ -612,24 +612,24 @@
         "bucket_order": 1,
         "tickets": 4,
         "e2e_options": 0,
-        "avg_tat": 2.87,
-        "pct": 50.0
+        "avg_tat": 1.92,
+        "pct": 40.0
       },
       {
         "tat_bucket": "4-7 Days",
         "bucket_order": 2,
         "tickets": 4,
         "e2e_options": 35,
-        "avg_tat": 6.82,
-        "pct": 50.0
+        "avg_tat": 4.94,
+        "pct": 40.0
       },
       {
         "tat_bucket": "8-11 Days",
         "bucket_order": 3,
-        "tickets": 0,
-        "e2e_options": 0,
-        "avg_tat": null,
-        "pct": 0.0
+        "tickets": 2,
+        "e2e_options": 123,
+        "avg_tat": 8.01,
+        "pct": 20.0
       },
       {
         "tat_bucket": "12-16 Days",
