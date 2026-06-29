@@ -1,13 +1,13 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-29T05:08:17.142729+00:00",
+  "generated_at": "2026-06-29T06:11:00.490842+00:00",
   "kpis": {
     "total_tickets": 519,
-    "adhoc_skus": 27607,
+    "adhoc_skus": 28321,
     "e2e_options": 23334,
     "avg_tat": 4.46,
     "e2e_tickets": 365,
-    "adhoc_tickets": 140,
+    "adhoc_tickets": 154,
     "closed_tickets": 486,
     "open_tickets": 31,
     "closure_rate": 93.64
@@ -138,11 +138,11 @@
       "week_start": "2026-06-22",
       "week_end": "2026-06-28",
       "tickets": 59,
-      "adhoc_skus": 0,
+      "adhoc_skus": 714,
       "e2e_options": 3468,
       "avg_tat": 2.2,
       "e2e_tickets": 45,
-      "adhoc_tickets": 0,
+      "adhoc_tickets": 14,
       "closed_tickets": 29,
       "open_tickets": 29,
       "wow_pct": -19.18,
@@ -3218,7 +3218,7 @@
       {
         "brand_name": "Love Earth",
         "tickets": 3,
-        "adhoc_skus": 0,
+        "adhoc_skus": 13,
         "e2e_options": 0,
         "avg_tat": 1.23,
         "closure_rate": 100.0
@@ -3266,7 +3266,7 @@
       {
         "brand_name": "Adidas",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 378,
         "e2e_options": 0,
         "avg_tat": 2.0,
         "closure_rate": 0.0
@@ -3362,7 +3362,7 @@
       {
         "brand_name": "Forest Essentials",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 36,
         "e2e_options": 0,
         "avg_tat": 2.0,
         "closure_rate": 100.0
@@ -3370,7 +3370,7 @@
       {
         "brand_name": "Gillette",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 7,
         "e2e_options": 0,
         "avg_tat": 2.0,
         "closure_rate": 100.0
@@ -3394,7 +3394,7 @@
       {
         "brand_name": "Hermès",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 3,
         "e2e_options": 0,
         "avg_tat": 1.0,
         "closure_rate": 100.0
@@ -3402,7 +3402,7 @@
       {
         "brand_name": "Interparfum Brands",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 111,
         "e2e_options": 0,
         "avg_tat": 2.0,
         "closure_rate": 0.0
@@ -3426,7 +3426,7 @@
       {
         "brand_name": "Joyalukad",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 9,
         "e2e_options": 0,
         "avg_tat": 2.0,
         "closure_rate": 100.0
@@ -3466,7 +3466,7 @@
       {
         "brand_name": "Loreal Paris",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 2,
         "e2e_options": 0,
         "avg_tat": 1.0,
         "closure_rate": 100.0
@@ -3474,7 +3474,7 @@
       {
         "brand_name": "Moroccanoil",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 1,
         "e2e_options": 0,
         "avg_tat": 2.0,
         "closure_rate": 100.0
@@ -3482,7 +3482,7 @@
       {
         "brand_name": "Multiple",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 78,
         "e2e_options": 0,
         "avg_tat": 3.0,
         "closure_rate": 0.0
@@ -3522,7 +3522,7 @@
       {
         "brand_name": "Or Brands",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 75,
         "e2e_options": 0,
         "avg_tat": 4.0,
         "closure_rate": 100.0
@@ -3538,7 +3538,7 @@
       {
         "brand_name": "Protouc",
         "tickets": 1,
-        "adhoc_skus": 0,
+        "adhoc_skus": 1,
         "e2e_options": 0,
         "avg_tat": 1.0,
         "closure_rate": 0.0

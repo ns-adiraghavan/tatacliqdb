@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-06-29T05:08:18.362685+00:00",
+  "generated_at": "2026-06-29T06:11:03.171549+00:00",
   "dates": [
     "2026-05-01",
     "2026-05-02",
@@ -12854,14 +12854,14 @@
     {
       "date": "2026-06-22",
       "total_tickets": 9,
-      "adhoc_skus": 0,
+      "adhoc_skus": 1,
       "e2e_options": 749,
       "avg_tat": 4.1,
       "open_tickets": 2,
       "closed_tickets": 7,
       "closure_rate": 77.78,
       "e2e_tickets": 8,
-      "adhoc_tickets": 0,
+      "adhoc_tickets": 1,
       "status": [
         {
           "status": "CLOSED",
@@ -12880,7 +12880,7 @@
         {
           "category": "Beauty & Grooming",
           "tickets": 4,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 3,
           "avg_tat": 2.5
         },
@@ -12903,7 +12903,7 @@
         {
           "platform": "Mall",
           "tickets": 7,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 703,
           "avg_tat": 4.06
         },
@@ -12924,9 +12924,9 @@
       ],
       "listing_type": [
         {
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 0,
           "avg_tat": 2.0
         },
@@ -12974,7 +12974,7 @@
         {
           "brand_name": "Love Earth",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 0,
           "avg_tat": 2.0,
           "status": "CLOSED"
@@ -13019,9 +13019,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Love Earth",
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 0,
           "tat": 2.0
         },
@@ -13126,14 +13126,14 @@
     {
       "date": "2026-06-23",
       "total_tickets": 11,
-      "adhoc_skus": 0,
+      "adhoc_skus": 114,
       "e2e_options": 386,
       "avg_tat": 3.01,
       "open_tickets": 0,
       "closed_tickets": 11,
       "closure_rate": 100.0,
       "e2e_tickets": 7,
-      "adhoc_tickets": 0,
+      "adhoc_tickets": 4,
       "status": [
         {
           "status": "CLOSED",
@@ -13148,7 +13148,7 @@
         {
           "category": "Beauty & Grooming",
           "tickets": 10,
-          "adhoc_skus": 0,
+          "adhoc_skus": 114,
           "e2e_options": 46,
           "avg_tat": 3.04
         },
@@ -13164,23 +13164,23 @@
         {
           "platform": "Mall",
           "tickets": 8,
-          "adhoc_skus": 0,
+          "adhoc_skus": 77,
           "e2e_options": 379,
           "avg_tat": 3.07
         },
         {
           "platform": "Mall;Luxury",
           "tickets": 3,
-          "adhoc_skus": 0,
+          "adhoc_skus": 37,
           "e2e_options": 7,
           "avg_tat": 2.0
         }
       ],
       "listing_type": [
         {
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "tickets": 4,
-          "adhoc_skus": 0,
+          "adhoc_skus": 114,
           "e2e_options": 0,
           "avg_tat": 3.32
         },
@@ -13212,7 +13212,7 @@
         {
           "brand_name": "Forest Essentials",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 36,
           "e2e_options": 0,
           "avg_tat": 2.0,
           "status": "CLOSED"
@@ -13220,7 +13220,7 @@
         {
           "brand_name": "Love Earth",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 2,
           "e2e_options": 0,
           "avg_tat": 2.0,
           "status": "CLOSED"
@@ -13228,7 +13228,7 @@
         {
           "brand_name": "Moroccanoil",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 0,
           "avg_tat": 2.0,
           "status": "CLOSED"
@@ -13244,7 +13244,7 @@
         {
           "brand_name": "Or Brands",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 75,
           "e2e_options": 0,
           "avg_tat": 4.0,
           "status": "CLOSED"
@@ -13301,9 +13301,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall & Luxury",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Moroccanoil",
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 0,
           "tat": 2.0
         },
@@ -13313,9 +13313,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Love Earth",
-          "adhoc_skus": 0,
+          "adhoc_skus": 2,
           "e2e_options": 0,
           "tat": 2.0
         },
@@ -13361,9 +13361,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall & Luxury",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Forest Essentials",
-          "adhoc_skus": 0,
+          "adhoc_skus": 36,
           "e2e_options": 0,
           "tat": 2.0
         },
@@ -13409,9 +13409,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Or Brands",
-          "adhoc_skus": 0,
+          "adhoc_skus": 75,
           "e2e_options": 0,
           "tat": 4.0
         }
@@ -13420,14 +13420,14 @@
     {
       "date": "2026-06-24",
       "total_tickets": 9,
-      "adhoc_skus": 0,
+      "adhoc_skus": 85,
       "e2e_options": 256,
       "avg_tat": 2.97,
       "open_tickets": 6,
       "closed_tickets": 3,
       "closure_rate": 33.33,
       "e2e_tickets": 7,
-      "adhoc_tickets": 0,
+      "adhoc_tickets": 2,
       "status": [
         {
           "status": "Brand to Resolve Queries",
@@ -13450,7 +13450,7 @@
         {
           "category": "Beauty & Grooming",
           "tickets": 3,
-          "adhoc_skus": 0,
+          "adhoc_skus": 85,
           "e2e_options": 3,
           "avg_tat": 2.92
         },
@@ -13494,23 +13494,23 @@
         {
           "platform": "Mall",
           "tickets": 5,
-          "adhoc_skus": 0,
+          "adhoc_skus": 7,
           "e2e_options": 178,
           "avg_tat": 2.92
         },
         {
           "platform": "Mall;Luxury",
           "tickets": 4,
-          "adhoc_skus": 0,
+          "adhoc_skus": 78,
           "e2e_options": 78,
           "avg_tat": 3.0
         }
       ],
       "listing_type": [
         {
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "tickets": 2,
-          "adhoc_skus": 0,
+          "adhoc_skus": 85,
           "e2e_options": 0,
           "avg_tat": 2.92
         },
@@ -13542,7 +13542,7 @@
         {
           "brand_name": "Gillette",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 7,
           "e2e_options": 0,
           "avg_tat": 2.0,
           "status": "CLOSED"
@@ -13574,7 +13574,7 @@
         {
           "brand_name": "Multiple",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 78,
           "e2e_options": 0,
           "avg_tat": 3.0,
           "status": "Tech Error"
@@ -13627,9 +13627,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Gillette",
-          "adhoc_skus": 0,
+          "adhoc_skus": 7,
           "e2e_options": 0,
           "tat": 2.0
         },
@@ -13699,9 +13699,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall & Luxury",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Multiple",
-          "adhoc_skus": 0,
+          "adhoc_skus": 78,
           "e2e_options": 0,
           "tat": 3.0
         }
@@ -13710,14 +13710,14 @@
     {
       "date": "2026-06-25",
       "total_tickets": 16,
-      "adhoc_skus": 0,
+      "adhoc_skus": 513,
       "e2e_options": 1003,
       "avg_tat": 1.92,
       "open_tickets": 11,
       "closed_tickets": 5,
       "closure_rate": 31.25,
       "e2e_tickets": 10,
-      "adhoc_tickets": 0,
+      "adhoc_tickets": 6,
       "status": [
         {
           "status": "Brand to Resolve Queries",
@@ -13740,21 +13740,21 @@
         {
           "category": "Beauty & Grooming",
           "tickets": 10,
-          "adhoc_skus": 0,
+          "adhoc_skus": 126,
           "e2e_options": 40,
           "avg_tat": 1.92
         },
         {
           "category": "Footwear",
           "tickets": 5,
-          "adhoc_skus": 0,
+          "adhoc_skus": 378,
           "e2e_options": 963,
           "avg_tat": 1.92
         },
         {
           "category": "Jewellery",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 9,
           "e2e_options": 0,
           "avg_tat": 2.0
         }
@@ -13763,30 +13763,30 @@
         {
           "platform": "Mall",
           "tickets": 9,
-          "adhoc_skus": 0,
+          "adhoc_skus": 399,
           "e2e_options": 853,
           "avg_tat": 1.91
         },
         {
           "platform": "Mall;Luxury",
           "tickets": 4,
-          "adhoc_skus": 0,
+          "adhoc_skus": 111,
           "e2e_options": 139,
           "avg_tat": 2.0
         },
         {
           "platform": "Luxury",
           "tickets": 3,
-          "adhoc_skus": 0,
+          "adhoc_skus": 3,
           "e2e_options": 11,
           "avg_tat": 1.79
         }
       ],
       "listing_type": [
         {
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "tickets": 6,
-          "adhoc_skus": 0,
+          "adhoc_skus": 513,
           "e2e_options": 0,
           "avg_tat": 1.97
         },
@@ -13810,7 +13810,7 @@
         {
           "brand_name": "Adidas",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 378,
           "e2e_options": 0,
           "avg_tat": 2.0,
           "status": "Uploaded/Retriggered"
@@ -13858,7 +13858,7 @@
         {
           "brand_name": "Hermès",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 3,
           "e2e_options": 0,
           "avg_tat": 1.0,
           "status": "CLOSED"
@@ -13866,7 +13866,7 @@
         {
           "brand_name": "Interparfum Brands",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 111,
           "e2e_options": 0,
           "avg_tat": 2.0,
           "status": "Uploaded/Retriggered"
@@ -13874,7 +13874,7 @@
         {
           "brand_name": "Joyalukad",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 9,
           "e2e_options": 0,
           "avg_tat": 2.0,
           "status": "CLOSED"
@@ -13898,7 +13898,7 @@
         {
           "brand_name": "Loreal Paris",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 2,
           "e2e_options": 0,
           "avg_tat": 1.0,
           "status": "CLOSED"
@@ -13906,7 +13906,7 @@
         {
           "brand_name": "Love Earth",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 10,
           "e2e_options": 0,
           "avg_tat": 1.0,
           "status": "CLOSED"
@@ -13939,9 +13939,9 @@
           "assignee": "netscribes",
           "category": "Footwear",
           "platform": "Mall",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Adidas",
-          "adhoc_skus": 0,
+          "adhoc_skus": 378,
           "e2e_options": 0,
           "tat": 2.0
         },
@@ -13951,9 +13951,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall & Luxury",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Interparfum Brands",
-          "adhoc_skus": 0,
+          "adhoc_skus": 111,
           "e2e_options": 0,
           "tat": 2.0
         },
@@ -14011,9 +14011,9 @@
           "assignee": "netscribes",
           "category": "Beauty & Grooming",
           "platform": "Luxury",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Hermès",
-          "adhoc_skus": 0,
+          "adhoc_skus": 3,
           "e2e_options": 0,
           "tat": 1.0
         },
@@ -14023,9 +14023,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Love Earth",
-          "adhoc_skus": 0,
+          "adhoc_skus": 10,
           "e2e_options": 0,
           "tat": 1.0
         },
@@ -14047,9 +14047,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Loreal Paris",
-          "adhoc_skus": 0,
+          "adhoc_skus": 2,
           "e2e_options": 0,
           "tat": 1.0
         },
@@ -14095,9 +14095,9 @@
           "assignee": "Chirag Dubal",
           "category": "Jewellery",
           "platform": "Mall",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Joyalukad",
-          "adhoc_skus": 0,
+          "adhoc_skus": 9,
           "e2e_options": 0,
           "tat": 2.0
         },
@@ -14118,14 +14118,14 @@
     {
       "date": "2026-06-26",
       "total_tickets": 14,
-      "adhoc_skus": 0,
+      "adhoc_skus": 1,
       "e2e_options": 1074,
       "avg_tat": 1.0,
       "open_tickets": 10,
       "closed_tickets": 3,
       "closure_rate": 21.43,
       "e2e_tickets": 13,
-      "adhoc_tickets": 0,
+      "adhoc_tickets": 1,
       "status": [
         {
           "status": "Brand to Resolve Queries",
@@ -14159,7 +14159,7 @@
         {
           "category": "Beauty & Grooming",
           "tickets": 3,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 10,
           "avg_tat": 1.0
         },
@@ -14196,16 +14196,16 @@
         {
           "platform": "Mall;Luxury",
           "tickets": 2,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 9,
           "avg_tat": 1.0
         }
       ],
       "listing_type": [
         {
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 0,
           "avg_tat": 1.0
         },
@@ -14285,7 +14285,7 @@
         {
           "brand_name": "Protouc",
           "tickets": 1,
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 0,
           "avg_tat": 1.0,
           "status": "Uploaded/Retriggered"
@@ -14330,9 +14330,9 @@
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall & Luxury",
-          "listing_type": "Adhoc",
+          "listing_type": "Ad-hoc",
           "brand": "Protouc",
-          "adhoc_skus": 0,
+          "adhoc_skus": 1,
           "e2e_options": 0,
           "tat": 1.0
         },
