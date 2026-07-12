@@ -1,0 +1,291 @@
+{
+  "generated_at": "2026-07-12T17:31:44.203890+00:00",
+  "kpis": {
+    "total_escalations": 15,
+    "critical_count": 12,
+    "noncritical_count": 3,
+    "total_affected_options": 436,
+    "avg_resolution_days": 4.47,
+    "max_resolution_days": 13.0,
+    "min_resolution_days": 0.0,
+    "pct_critical": 80.0
+  },
+  "records": [
+    {
+      "ticket_id": "UCW-30599",
+      "assigned_on": "2026-05-04",
+      "processed_on": "2026-05-09",
+      "closed_on": "2026-05-09",
+      "subject": "ERROR_PUMA Accessories_Footwear_Apparel 124130 & 125381 New Listing 12-02-2026_NC",
+      "error_by": "NS",
+      "actions_taken": "Retriggering Done post deletion",
+      "affected_options": 3,
+      "error_type": "Critical",
+      "resolution_days": 5,
+      "process_days": 5,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-31011",
+      "assigned_on": "2026-05-11",
+      "processed_on": "2026-05-12",
+      "closed_on": "2026-05-14",
+      "subject": "ERROR_Catalogue New errors for the Multibrands Agency (NETSCRIBES) 11th MAY_NC",
+      "error_by": "NS",
+      "actions_taken": "Content Retriggering Done post impact validation",
+      "affected_options": 4,
+      "error_type": "Non - critical",
+      "resolution_days": 3,
+      "process_days": 1,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-30555",
+      "assigned_on": "2026-05-15",
+      "processed_on": "2026-05-16",
+      "closed_on": "2026-05-16",
+      "subject": "Error_Andon Cord | Thrice Wrong Product Delivered | Allen Cooper",
+      "error_by": "NS",
+      "actions_taken": "Image Retriggering Done post impact validation",
+      "affected_options": 1,
+      "error_type": "Critical",
+      "resolution_days": 1,
+      "process_days": 1,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-31393",
+      "assigned_on": "2026-05-18",
+      "processed_on": "2026-05-19",
+      "closed_on": "2026-05-29",
+      "subject": "Error_U.S. Polo Assn. ( Sizes Uploaded with Alpha numeric code )_NC",
+      "error_by": "NS",
+      "actions_taken": "Size chart errors were rectified and retriggered accordingly",
+      "affected_options": 96,
+      "error_type": "Critical",
+      "resolution_days": 11,
+      "process_days": 1,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-30315",
+      "assigned_on": "2026-05-19",
+      "processed_on": "2026-05-19",
+      "closed_on": "2026-06-01",
+      "subject": "Error_Need to update Correct Brand Name - DIESEL",
+      "error_by": "NS",
+      "actions_taken": "content and image update",
+      "affected_options": 50,
+      "error_type": "Critical",
+      "resolution_days": 13,
+      "process_days": 0,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-31521",
+      "assigned_on": "2026-05-20",
+      "processed_on": "2026-05-20",
+      "closed_on": "2026-05-29",
+      "subject": "ERROR_Calvin Klein | Size Chart Mismatch | Customer escalation_NC",
+      "error_by": "NS",
+      "actions_taken": "Size chart updated and Brand Name Migration by CCMT",
+      "affected_options": 129,
+      "error_type": "Critical",
+      "resolution_days": 9,
+      "process_days": 0,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-31678",
+      "assigned_on": "2026-05-22",
+      "processed_on": "2026-05-22",
+      "closed_on": "2026-05-25",
+      "subject": "ERROR_Catalogue New errors for the brand Soch Agency (NETSCRIBES) 22ND MAY_NC",
+      "error_by": "NS",
+      "actions_taken": "Bust size measurement used as across shoulder, size chart retriggered",
+      "affected_options": 31,
+      "error_type": "Critical",
+      "resolution_days": 3,
+      "process_days": 0,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-31820",
+      "assigned_on": "2026-05-25",
+      "processed_on": "2026-05-25",
+      "closed_on": "2026-05-26",
+      "subject": "ERROR_Catalogue New errors for the Multibrands Agency (NETSCRIBES) 25th MAY_NC",
+      "error_by": "NS",
+      "actions_taken": "The special character issue in the description has been corrected by retriggering the SKU.",
+      "affected_options": 54,
+      "error_type": "Non - critical",
+      "resolution_days": 1,
+      "process_days": 0,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-31939",
+      "assigned_on": "2026-05-27",
+      "processed_on": "2026-05-27",
+      "closed_on": "2026-05-29",
+      "subject": "ERROR_Fame Forever by Lifestyle Size Missing for Joggers.",
+      "error_by": "NS",
+      "actions_taken": "Just Size chart code creation by us",
+      "affected_options": 0,
+      "error_type": "Critical",
+      "resolution_days": 2,
+      "process_days": 0,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-31941",
+      "assigned_on": "2026-05-27",
+      "processed_on": "2026-05-27",
+      "closed_on": "2026-05-29",
+      "subject": "ERROR_Fame Forever by Lifestyle Size Missing for Shorts",
+      "error_by": "NS",
+      "actions_taken": "Just Size chart code creation by us",
+      "affected_options": 0,
+      "error_type": "Critical",
+      "resolution_days": 2,
+      "process_days": 0,
+      "month": "2026-05"
+    },
+    {
+      "ticket_id": "UCW-32637",
+      "assigned_on": "2026-06-08",
+      "processed_on": "2026-06-08",
+      "closed_on": "2026-06-11",
+      "subject": "ERROR_Catalogue New errors for the Multibrands Agency (NETSCRIBES) 9th June _NC",
+      "error_by": "NS",
+      "actions_taken": "The special character issue in the description has been corrected by retriggering the SKU and Title",
+      "affected_options": 14,
+      "error_type": "Non - critical",
+      "resolution_days": 3,
+      "process_days": 0,
+      "month": "2026-06"
+    },
+    {
+      "ticket_id": "UCW-32908",
+      "assigned_on": "2026-06-16",
+      "processed_on": "2026-06-16",
+      "closed_on": "2026-06-16",
+      "subject": "ERROR_Catalogue New errors for the Multibrands Agency (NETSCRIBES) 16th June _NC",
+      "error_by": "NS",
+      "actions_taken": "The size UK 3 was uploaded by mistake instead of UK 10. We have corrected the issue and retriggered the batch through PCM.",
+      "affected_options": 13,
+      "error_type": "Critical",
+      "resolution_days": 0,
+      "process_days": 0,
+      "month": "2026-06"
+    },
+    {
+      "ticket_id": "UCW-32965",
+      "assigned_on": "2026-06-17",
+      "processed_on": "2026-06-17",
+      "closed_on": "2026-06-19",
+      "subject": "Error_Images Not reflecting-Need To re-trigger",
+      "error_by": "NS",
+      "actions_taken": "Image Retriggering Done post impact validation",
+      "affected_options": 1,
+      "error_type": "Critical",
+      "resolution_days": 2,
+      "process_days": 0,
+      "month": "2026-06"
+    },
+    {
+      "ticket_id": "UCW-32964",
+      "assigned_on": "2026-06-17",
+      "processed_on": "2026-06-17",
+      "closed_on": "2026-06-25",
+      "subject": "Error_Images Not reflecting-Need To re-trigger",
+      "error_by": "NS",
+      "actions_taken": "Image Retriggering Done post impact validation",
+      "affected_options": 1,
+      "error_type": "Critical",
+      "resolution_days": 8,
+      "process_days": 0,
+      "month": "2026-06"
+    },
+    {
+      "ticket_id": "UCW-33106",
+      "assigned_on": "2026-06-18",
+      "processed_on": "2026-06-18",
+      "closed_on": "2026-06-22",
+      "subject": "ERROR_Catalogue New errors for the Multibrands Agency (Netscribes) 18th June _NC",
+      "error_by": "NS",
+      "actions_taken": "Incorrect Image Sequencing, we update correctly",
+      "affected_options": 39,
+      "error_type": "Critical",
+      "resolution_days": 4,
+      "process_days": 0,
+      "month": "2026-06"
+    }
+  ],
+  "by_error_type": [
+    {
+      "error_type": "Critical",
+      "count": 12,
+      "pct": 80.0,
+      "avg_resolution_days": 5.0,
+      "total_affected": 364
+    },
+    {
+      "error_type": "Non - critical",
+      "count": 3,
+      "pct": 20.0,
+      "avg_resolution_days": 2.33,
+      "total_affected": 72
+    }
+  ],
+  "by_month": [
+    {
+      "month": "2026-05",
+      "count": 10,
+      "critical_count": 8,
+      "noncritical_count": 2,
+      "total_affected": 368,
+      "avg_resolution_days": 5.0
+    },
+    {
+      "month": "2026-06",
+      "count": 5,
+      "critical_count": 4,
+      "noncritical_count": 1,
+      "total_affected": 68,
+      "avg_resolution_days": 3.4
+    }
+  ],
+  "resolution_buckets": [
+    {
+      "bucket": "Same day",
+      "count": 1,
+      "pct": 6.67,
+      "critical": 1
+    },
+    {
+      "bucket": "1-3 days",
+      "count": 8,
+      "pct": 53.33,
+      "critical": 5
+    },
+    {
+      "bucket": "4-7 days",
+      "count": 2,
+      "pct": 13.33,
+      "critical": 2
+    },
+    {
+      "bucket": "8-14 days",
+      "count": 4,
+      "pct": 26.67,
+      "critical": 4
+    },
+    {
+      "bucket": "15+ days",
+      "count": 0,
+      "pct": 0.0,
+      "critical": 0
+    }
+  ]
+}
