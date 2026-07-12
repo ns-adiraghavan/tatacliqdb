@@ -2,13 +2,15 @@ import { useState } from "react";
 import WowTab from "./components/WowTab";
 import SummaryTab from "./components/SummaryTab";
 import EodTab from "./components/EodTab";
+import EscalationsTab from "./components/EscalationsTab";
 import Login from "./components/Login";
 
 import wowData from "./data/wow";
 import summaryData from "./data/summary";
 import eodData from "./data/eod";
+import escalationsData from "./data/escalations";
 
-type TabKey = "wow" | "summary" | "eod";
+type TabKey = "wow" | "summary" | "eod" | "escalations";
 
 function deriveMonthLabel(weeks: { week_start: string; week_end: string }[]): string {
   if (!weeks || weeks.length === 0) return "";
@@ -30,6 +32,7 @@ export default function App() {
     { key: "wow", label: "WoW Dashboard" },
     { key: "summary", label: "Monthly Summary" },
     { key: "eod", label: "Day View" },
+    { key: "escalations", label: "Escalations" },
   ];
 
   if (!signedIn) {
@@ -121,6 +124,7 @@ export default function App() {
         {tab === "wow" && <WowTab data={wowData} />}
         {tab === "summary" && <SummaryTab data={summaryData} />}
         {tab === "eod" && <EodTab data={eodData} />}
+        {tab === "escalations" && <EscalationsTab data={escalationsData} />}
       </main>
     </div>
   );
