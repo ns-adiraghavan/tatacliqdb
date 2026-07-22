@@ -32,7 +32,7 @@ export const GITHUB = {
 // ROTATE it before any real client use. Set to "" to force manual paste.
 // -----------------------------------------------------------------
 export const DEFAULT_PAT =
-  "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";
+  "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";
 
 // Base URL the app fetches runtime JSON from.
 // Locally (vite) this resolves to public/data/*.json.

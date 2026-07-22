@@ -62,10 +62,30 @@ export default function App() {
   const [ready, setReady] = useState(false);
   const [tab, setTab] = useState<TabKey>("wow");
 
-  // Admin-only state
+  // Admin-only state.
+  // Token persists in this browser (localStorage) so a page reload — e.g.
+  // after an upload, to see the new data — doesn't wipe a pasted token and
+  // fall back to the (possibly stale) baked-in default.
   const [adminView, setAdminView] = useState(false);
-  const [token, setToken] = useState(DEFAULT_PAT);
+  const [token, setToken] = useState<string>(() => {
+    try {
+      // A stored value (even empty, from an explicit Clear) wins over the
+      // baked default; only fall back to DEFAULT_PAT when nothing is stored.
+      const stored = localStorage.getItem("ucw_pat");
+      return stored !== null ? stored : DEFAULT_PAT;
+    } catch {
+      return DEFAULT_PAT;
+    }
+  });
   const [visibility, setVisibility] = useState<Visibility>(DEFAULT_VISIBILITY);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem("ucw_pat", token);
+    } catch {
+      /* storage unavailable — token stays in memory only */
+    }
+  }, [token]);
 
   useEffect(() => {
     if (!role) return;
@@ -197,7 +217,8 @@ export default function App() {
               setRole(null);
               setReady(false);
               setAdminView(false);
-              setToken("");
+              // token intentionally left in place (persisted) so admins
+              // don't have to re-paste after signing back in.
             }}
             style={{
               background: "transparent",
