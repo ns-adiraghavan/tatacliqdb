@@ -1,1 +1,19 @@
-{"tabs":{"wow":true,"summary":true,"eod":true,"escalations":true},"kpis":{"wow":true,"summary":true,"eod":true,"escalations":true},"clientRange":{"enabled":false,"start":null,"end":null}}
+{
+  "tabs": {
+    "wow": true,
+    "summary": true,
+    "eod": true,
+    "escalations": true
+  },
+  "kpis": {
+    "wow": true,
+    "summary": true,
+    "eod": true,
+    "escalations": true
+  },
+  "clientRange": {
+    "enabled": false,
+    "start": null,
+    "end": null
+  }
+}
