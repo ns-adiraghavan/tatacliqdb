@@ -247,7 +247,7 @@ function SectionCard({ title, children }: { title: string; children: React.React
   );
 }
 
-export default function EodTab({ data }: { data: any }) {
+export default function EodTab({ data, hideKpis }: { data: any; hideKpis?: boolean }) {
   const dates: string[] = data.dates;
   const [selected, setSelected] = useState<string>(dates[dates.length - 1]);
 
@@ -320,6 +320,7 @@ export default function EodTab({ data }: { data: any }) {
       </div>
 
       {/* KPI row */}
+      {!hideKpis && (
       <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
         <KpiCard label="Total Tickets" value={fmtNum(day.total_tickets)} />
         <KpiCard label="Ad-hoc SKUs" value={fmtNum(day.adhoc_skus)} />
@@ -328,6 +329,7 @@ export default function EodTab({ data }: { data: any }) {
         <KpiCard label="Open Tickets" value={fmtNum(day.open_tickets)} />
         <KpiCard label="Closure Rate" value={`${day.closure_rate}%`} />
       </div>
+      )}
 
       {/* Row 1: Category | Platform */}
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>

@@ -12,8 +12,7 @@ import {
 } from "recharts";
 import DataTable, { Column } from "./DataTable";
 import KpiCard from "./KpiCard";
-import wowData from "../data/wow";
-import bifurcationData from "../data/bifurcation";
+import { store } from "../data/store";
 
 function fmtNum(n: number | null | undefined) {
   if (n === null || n === undefined) return "—";
@@ -39,14 +38,14 @@ const BUCKET_ORDER = ["0-3 Days", "4-7 Days", "8-11 Days", "12-16 Days", "16+ Da
 
 type DimKey = "priority" | "status" | "listing_type" | "category" | "platform";
 
-export default function SummaryTab({ data }: { data: any }) {
+export default function SummaryTab({ data, hideKpis }: { data: any; hideKpis?: boolean }) {
   const b = data.banner;
   const insights = data.tat_insights;
   const [selectedCat, setSelectedCat] = useState<string>("All Categories");
   const [dim, setDim] = useState<DimKey>("priority");
 
-  const bifData: any = bifurcationData;
-  const wow: any = wowData;
+  const bifData: any = store.bifurcation;
+  const wow: any = store.wow;
 
   const e2eTickets = (data.listing_type || [])
     .filter((r: any) => String(r.listing_type_group).startsWith("E2E"))
@@ -315,6 +314,7 @@ export default function SummaryTab({ data }: { data: any }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
       {/* SECTION 1 — KPI STRIP */}
+      {!hideKpis && (
       <div
         style={{
           display: "flex",
@@ -327,6 +327,7 @@ export default function SummaryTab({ data }: { data: any }) {
           <KpiCard key={k.label} label={k.label} value={k.value} subValue={k.subValue} />
         ))}
       </div>
+      )}
 
       {/* SECTION 2 — TAT INSIGHTS */}
       <div>

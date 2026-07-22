@@ -1,18 +1,17 @@
 import { useState } from "react";
+import { authenticate, type Role } from "../auth";
 
-const VALID_EMAIL = "tatacliq@netscribes.com";
-const VALID_PASSWORD = "Tatacliq@2026";
-
-export default function Login({ onSignIn }: { onSignIn: () => void }) {
+export default function Login({ onSignIn }: { onSignIn: (role: Role) => void }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (email === VALID_EMAIL && password === VALID_PASSWORD) {
+    const role = authenticate(email, password);
+    if (role) {
       setError("");
-      onSignIn();
+      onSignIn(role);
     } else {
       setError("Invalid email or password.");
     }

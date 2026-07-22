@@ -145,7 +145,7 @@ function KpiCard({
 }
 
 // ------------------------------------------------------------------ main component
-export default function EscalationsTab({ data }: { data: EscalationsData }) {
+export default function EscalationsTab({ data, hideKpis }: { data: EscalationsData; hideKpis?: boolean }) {
   const { kpis, records, by_error_type, by_month, resolution_buckets } = data;
 
   const [filter, setFilter] = useState<"All" | "Critical" | "Non - critical">("All");
@@ -165,6 +165,7 @@ export default function EscalationsTab({ data }: { data: EscalationsData }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
       {/* ---- KPI row ---- */}
+      {!hideKpis && (
       <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
         <KpiCard label="Total Escalations" value={kpis.total_escalations} />
         <KpiCard
@@ -190,6 +191,7 @@ export default function EscalationsTab({ data }: { data: EscalationsData }) {
           accent={RESOLUTION_COLOR}
         />
       </div>
+      )}
 
       {/* ---- Charts row ---- */}
       <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>

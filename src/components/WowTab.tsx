@@ -13,8 +13,7 @@ import {
 } from "recharts";
 import KpiCard from "./KpiCard";
 import DataTable, { Column } from "./DataTable";
-import bifurcationData from "../data/bifurcation";
-import summaryData from "../data/summary";
+import { store } from "../data/store";
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 function fmtDate(iso: string) {
@@ -73,11 +72,11 @@ const BUCKET_ORDER = ["0-3 Days", "4-7 Days", "8-11 Days", "12-16 Days", "16+ Da
 
 type DimKey = "priority" | "status" | "listing_type" | "category" | "platform";
 
-export default function WowTab({ data }: { data: any }) {
+export default function WowTab({ data, hideKpis }: { data: any; hideKpis?: boolean }) {
   const k = data.kpis;
   const weeks: Week[] = data.weeks;
-  const bifData: any = bifurcationData;
-  const summary: any = summaryData;
+  const bifData: any = store.bifurcation;
+  const summary: any = store.summary;
 
   const defaultFrom = weeks[0]?.week_start ?? "";
   const defaultTo = weeks[weeks.length - 1]?.week_end ?? "";
@@ -372,6 +371,7 @@ export default function WowTab({ data }: { data: any }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
       {/* SECTION 1 — KPI STRIP */}
+      {!hideKpis && (
       <div style={{ display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: 12 }}>
         <KpiCard label="Total Tickets" value={fmtNum(filteredTotalTickets)} wowPct={vsAvg("tickets")} badgeLabel="vs month avg" badgeTooltip="Last week vs monthly average" />
         <KpiCard label="Ad-hoc SKUs" value={fmtNum(filteredAdhocSkus)} wowPct={vsAvg("adhoc_skus")} badgeLabel="vs month avg" badgeTooltip="Last week vs monthly average" />
@@ -381,6 +381,7 @@ export default function WowTab({ data }: { data: any }) {
         <KpiCard label="Ad-hoc Tickets" value={fmtNum(filteredAdhocTickets)} wowPct={vsAvg("adhoc_tickets")} badgeLabel="vs month avg" badgeTooltip="Last week vs monthly average" />
 
       </div>
+      )}
 
       {/* SECTION 2 — DATE RANGE PICKER */}
       <div>
