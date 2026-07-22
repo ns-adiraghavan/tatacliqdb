@@ -20,7 +20,7 @@ const ACCOUNTS: Account[] = [
   // Admin — can upload data + toggle client visibility
   { email: "tatacliq@netscribes.com", password: "Tatacliq@2026", role: "admin" },
   // Client — read-only, sees only what the admin has left visible
-  { email: "client@netscribes.com", password: "TataCliq@2026", role: "client" },
+  { email: "mrizwan@tataunistore.com", password: "Tata@2026", role: "client" },
 ];
 
 /** Returns the role for valid credentials, or null. Email is case-insensitive. */
