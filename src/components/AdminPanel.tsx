@@ -116,6 +116,26 @@ export default function AdminPanel({
   const [visStatus, setVisStatus] = useState<Status>({ kind: "idle", msg: "" });
   const [revertStatus, setRevertStatus] = useState<Status>({ kind: "idle", msg: "" });
 
+  // Token editing uses an explicit Save (draft -> committed token).
+  const [tokenDraft, setTokenDraft] = useState(token);
+  const [tokenStatus, setTokenStatus] = useState<Status>({ kind: "idle", msg: "" });
+
+  function saveToken() {
+    const t = tokenDraft.trim();
+    setToken(t); // App persists this to localStorage
+    setTokenDraft(t);
+    setTokenStatus(
+      t
+        ? { kind: "ok", msg: "Token saved to this browser." }
+        : { kind: "error", msg: "Token cleared." }
+    );
+  }
+  function clearToken() {
+    setTokenDraft("");
+    setToken(""); // App persists the empty value so it stays cleared on reload
+    setTokenStatus({ kind: "ok", msg: "Token cleared from this browser." });
+  }
+
   const configPlaceholder = GITHUB.owner === "YOUR_GITHUB_ORG_OR_USER";
 
   const card: React.CSSProperties = {
@@ -299,18 +319,61 @@ export default function AdminPanel({
       {/* GitHub token */}
       <div style={card}>
         <label style={label}>GitHub access token (fine-grained PAT)</label>
-        <input
-          type="password"
-          placeholder="github_pat_…  (Contents: Read and write on this repo)"
-          value={token}
-          onChange={(e) => setToken(e.target.value)}
-          style={inputStyle}
-          autoComplete="off"
-        />
+        <div style={{ display: "flex", gap: 8 }}>
+          <input
+            type="password"
+            placeholder="github_pat_…  (Contents: Read and write on this repo)"
+            value={tokenDraft}
+            onChange={(e) => {
+              setTokenDraft(e.target.value);
+              if (tokenStatus.kind !== "idle") setTokenStatus({ kind: "idle", msg: "" });
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") saveToken();
+            }}
+            style={{ ...inputStyle, flex: 1 }}
+            autoComplete="off"
+          />
+          <button
+            type="button"
+            onClick={saveToken}
+            disabled={tokenDraft === token}
+            style={btnStyle(tokenDraft !== token)}
+          >
+            Save
+          </button>
+          <button
+            type="button"
+            onClick={clearToken}
+            style={{
+              background: "transparent",
+              border: "1px solid #e2e8f0",
+              color: "#64748B",
+              borderRadius: 6,
+              padding: "0 14px",
+              fontSize: 13,
+              cursor: "pointer",
+              fontFamily: "inherit",
+            }}
+          >
+            Clear
+          </button>
+        </div>
         <p style={{ fontSize: 12, color: "#94a3b8", margin: "8px 0 0" }}>
-          A temporary token is pre-filled (it ships in the bundle — rotate before
-          real use). Paste a different token to override for this session.
+          Paste a token and press <strong>Save</strong> — it's stored in this browser and
+          survives reloads. If uploads fail with “Bad credentials” (401), the token is
+          expired or revoked; paste a fresh one and Save.
         </p>
+        {tokenStatus.msg && (
+          <p style={{ fontSize: 13, color: statusColor(tokenStatus), margin: "8px 0 0" }}>
+            {tokenStatus.msg}
+          </p>
+        )}
+        {tokenDraft !== token && (
+          <p style={{ fontSize: 12, color: "#b45309", margin: "6px 0 0" }}>
+            Unsaved change — press Save for it to take effect.
+          </p>
+        )}
       </div>
 
       {/* Data refresh */}
