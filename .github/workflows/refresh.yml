@@ -1,15 +1,21 @@
 name: Refresh dashboard data
 
-# Runs when the admin uploads a new Excel or changes client visibility,
-# regenerates the dashboard JSON with the real generate_json.py, and
-# deploys the result to the EC2.
+# When the admin uploads a new Excel (committed to data/incoming/latest.xlsx),
+# this regenerates the dashboard JSON with the real generate_json.py and
+# COMMITS the result back into the repo (public/data/*.json).
+#
+# Your EC2 box then picks it up via its normal `git pull` (run it manually,
+# or add a 1-minute cron — see SETUP.md), and nginx serves it at /data.
 on:
   push:
     branches: [main]
     paths:
       - "data/incoming/latest.xlsx"
-      - "public/data/visibility.json"
   workflow_dispatch: {}
+
+# Allow the built-in GITHUB_TOKEN to push the regenerated JSON back.
+permissions:
+  contents: write
 
 # Prevent overlapping runs clobbering each other.
 concurrency:
@@ -17,7 +23,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,32 +37,23 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      # Regenerate whenever an Excel exists in the repo. Because the Excel
-      # persists in the repo, every run (including visibility-only pushes)
-      # rebuilds the full, real dataset — so we never deploy blank data
-      # over good data.
       - name: Generate JSON
         run: |
-          if [ -f data/incoming/latest.xlsx ]; then
-            EXCEL_PATH=data/incoming/latest.xlsx OUTPUT_DIR=public/data \
-              python scripts/generate_json.py
-          else
-            echo "No Excel uploaded yet — skipping generation (blank data will deploy)."
+          if [ ! -f data/incoming/latest.xlsx ]; then
+            echo "No Excel at data/incoming/latest.xlsx — nothing to do."
+            exit 0
           fi
+          EXCEL_PATH=data/incoming/latest.xlsx OUTPUT_DIR=public/data \
+            python scripts/generate_json.py
 
-      - name: Deploy data to EC2
-        env:
-          SSH_KEY: ${{ secrets.EC2_SSH_KEY }}
-          HOST: ${{ secrets.EC2_HOST }}
-          USER: ${{ secrets.EC2_USER }}
-          TARGET: ${{ secrets.EC2_TARGET_DIR }}
+      - name: Commit refreshed data back to the repo
         run: |
-          mkdir -p ~/.ssh
-          echo "$SSH_KEY" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
-          # TARGET must be a DEDICATED data-only folder that nginx serves
-          # at /data — --delete keeps it in sync with the 6 JSON files.
-          rsync -avz --delete \
-            -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=accept-new" \
-            public/data/ "$USER@$HOST:$TARGET/"
+          git config user.name  "tatacliq-refresh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/*.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "auto: refresh dashboard data [skip ci]"
+            git push
+          fi
