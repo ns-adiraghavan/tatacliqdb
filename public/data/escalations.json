@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T07:45:18.866629+00:00",
+  "generated_at": "2026-07-27T04:30:23.554659+00:00",
   "kpis": {
     "total_escalations": 22,
     "critical_count": 15,
@@ -292,20 +292,6 @@
       "month": "2026-07"
     },
     {
-      "ticket_id": "UCW-34292",
-      "assigned_on": "2026-07-14",
-      "processed_on": "2026-07-16",
-      "closed_on": "2026-07-17",
-      "subject": "Error_Tatacliq Lifestyle Catalog Template-Lot -121_11.08.2025",
-      "error_by": "NS",
-      "actions_taken": "Size code was not reflecting as it was a 2025 work and size code must have bee changed in between, so we have retrigger that and its reflecting successfully.",
-      "affected_options": 409,
-      "error_type": "Critical",
-      "resolution_days": 2,
-      "process_days": 1,
-      "month": "2026-07"
-    },
-    {
       "ticket_id": "UCW-34182",
       "assigned_on": "2026-07-10",
       "processed_on": "2026-07-16",
@@ -317,6 +303,20 @@
       "error_type": "Non - critical",
       "resolution_days": 6,
       "process_days": 6,
+      "month": "2026-07"
+    },
+    {
+      "ticket_id": "UCW-34292",
+      "assigned_on": "2026-07-14",
+      "processed_on": "2026-07-16",
+      "closed_on": "2026-07-17",
+      "subject": "Error_Tatacliq Lifestyle Catalog Template-Lot -121_11.08.2025",
+      "error_by": "NS",
+      "actions_taken": "Size code was not reflecting as it was a 2025 work and size code must have bee changed in between, so we have retrigger that and its reflecting successfully.",
+      "affected_options": 409,
+      "error_type": "Critical",
+      "resolution_days": 2,
+      "process_days": 1,
       "month": "2026-07"
     }
   ],
