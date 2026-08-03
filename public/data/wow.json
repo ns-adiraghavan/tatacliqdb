@@ -1,16 +1,16 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-07-27T04:30:21.371588+00:00",
+  "generated_at": "2026-08-03T05:35:15.941355+00:00",
   "kpis": {
-    "total_tickets": 739,
-    "adhoc_skus": 36931,
-    "e2e_options": 32873,
-    "avg_tat": 4.59,
-    "e2e_tickets": 537,
-    "adhoc_tickets": 202,
-    "closed_tickets": 697,
-    "open_tickets": 39,
-    "closure_rate": 94.32
+    "total_tickets": 836,
+    "adhoc_skus": 39741,
+    "e2e_options": 35754,
+    "avg_tat": 4.45,
+    "e2e_tickets": 609,
+    "adhoc_tickets": 227,
+    "closed_tickets": 781,
+    "open_tickets": 49,
+    "closure_rate": 93.42
   },
   "weeks": [
     {
@@ -170,11 +170,11 @@
       "tickets": 46,
       "adhoc_skus": 3580,
       "e2e_options": 1244,
-      "avg_tat": 5.18,
+      "avg_tat": 5.21,
       "e2e_tickets": 29,
       "adhoc_tickets": 17,
-      "closed_tickets": 44,
-      "open_tickets": 1,
+      "closed_tickets": 45,
+      "open_tickets": 0,
       "wow_pct": -20.69,
       "cumulative_tickets": 621
     },
@@ -185,11 +185,11 @@
       "tickets": 61,
       "adhoc_skus": 2699,
       "e2e_options": 3612,
-      "avg_tat": 3.58,
+      "avg_tat": 3.59,
       "e2e_tickets": 52,
       "adhoc_tickets": 9,
-      "closed_tickets": 57,
-      "open_tickets": 3,
+      "closed_tickets": 59,
+      "open_tickets": 1,
       "wow_pct": 32.61,
       "cumulative_tickets": 682
     },
@@ -197,16 +197,31 @@
       "week_number": 30,
       "week_start": "2026-07-20",
       "week_end": "2026-07-26",
-      "tickets": 57,
-      "adhoc_skus": 794,
-      "e2e_options": 3104,
-      "avg_tat": 3.13,
-      "e2e_tickets": 46,
-      "adhoc_tickets": 11,
-      "closed_tickets": 21,
-      "open_tickets": 35,
-      "wow_pct": -6.56,
-      "cumulative_tickets": 739
+      "tickets": 64,
+      "adhoc_skus": 987,
+      "e2e_options": 3234,
+      "avg_tat": 4.62,
+      "e2e_tickets": 51,
+      "adhoc_tickets": 13,
+      "closed_tickets": 59,
+      "open_tickets": 4,
+      "wow_pct": 4.92,
+      "cumulative_tickets": 746
+    },
+    {
+      "week_number": 31,
+      "week_start": "2026-07-27",
+      "week_end": "2026-08-02",
+      "tickets": 90,
+      "adhoc_skus": 2617,
+      "e2e_options": 2751,
+      "avg_tat": 2.89,
+      "e2e_tickets": 67,
+      "adhoc_tickets": 23,
+      "closed_tickets": 43,
+      "open_tickets": 44,
+      "wow_pct": 40.62,
+      "cumulative_tickets": 836
     }
   ],
   "brands_by_week": {
@@ -4084,7 +4099,7 @@
         "tickets": 2,
         "adhoc_skus": 0,
         "e2e_options": 92,
-        "avg_tat": 8.5,
+        "avg_tat": 11.0,
         "closure_rate": 50.0
       },
       {
@@ -4101,7 +4116,7 @@
         "adhoc_skus": 19,
         "e2e_options": 0,
         "avg_tat": 9.37,
-        "closure_rate": 50.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Maybelline New York",
@@ -4422,7 +4437,7 @@
         "tickets": 3,
         "adhoc_skus": 21,
         "e2e_options": 3,
-        "avg_tat": 5.46,
+        "avg_tat": 9.83,
         "closure_rate": 66.67
       },
       {
@@ -4430,7 +4445,7 @@
         "tickets": 3,
         "adhoc_skus": 0,
         "e2e_options": 28,
-        "avg_tat": 2.96,
+        "avg_tat": 3.5,
         "closure_rate": 66.67
       },
       {
@@ -4599,7 +4614,7 @@
         "adhoc_skus": 3,
         "e2e_options": 0,
         "avg_tat": 6.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Giva",
@@ -4743,7 +4758,7 @@
         "adhoc_skus": 0,
         "e2e_options": 218,
         "avg_tat": 6.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Pelle Albero",
@@ -4844,44 +4859,44 @@
     ],
     "30": [
       {
+        "brand_name": "Jo Malone London",
+        "tickets": 3,
+        "adhoc_skus": 12,
+        "e2e_options": 2,
+        "avg_tat": 5.43,
+        "closure_rate": 66.67
+      },
+      {
         "brand_name": "Aapno Rajasthan",
         "tickets": 2,
         "adhoc_skus": 0,
         "e2e_options": 361,
-        "avg_tat": 1.8,
-        "closure_rate": 50.0
+        "avg_tat": 3.45,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Foxtale",
         "tickets": 2,
         "adhoc_skus": 0,
         "e2e_options": 2,
-        "avg_tat": 2.0,
-        "closure_rate": 0.0
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Giva",
         "tickets": 2,
         "adhoc_skus": 0,
         "e2e_options": 160,
-        "avg_tat": 3.59,
-        "closure_rate": 50.0
-      },
-      {
-        "brand_name": "Jo Malone London",
-        "tickets": 2,
-        "adhoc_skus": 12,
-        "e2e_options": 1,
-        "avg_tat": 1.08,
-        "closure_rate": 0.0
+        "avg_tat": 3.86,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Pantaloons",
         "tickets": 2,
         "adhoc_skus": 650,
         "e2e_options": 166,
-        "avg_tat": 4.51,
-        "closure_rate": 0.0
+        "avg_tat": 8.05,
+        "closure_rate": 50.0
       },
       {
         "brand_name": "&Honey, Dr. Althea",
@@ -4889,6 +4904,14 @@
         "adhoc_skus": 40,
         "e2e_options": 0,
         "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "3Tenx",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 6,
+        "avg_tat": 2.0,
         "closure_rate": 100.0
       },
       {
@@ -4912,16 +4935,16 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 36,
-        "avg_tat": 1.0,
-        "closure_rate": 0.0
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Bhima Jewels",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 37,
-        "avg_tat": 5.0,
-        "closure_rate": 0.0
+        "avg_tat": 10.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Biotique",
@@ -4936,31 +4959,31 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 7,
-        "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Carolina Herrera",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 4,
-        "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Color Queen",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 7,
-        "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Davidoff",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 5,
-        "avg_tat": 0.0,
+        "avg_tat": 5.0,
         "closure_rate": 0.0
       },
       {
@@ -4969,15 +4992,31 @@
         "adhoc_skus": 0,
         "e2e_options": 218,
         "avg_tat": 5.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Dr. Odin",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 62,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Duroflec",
+        "tickets": 1,
+        "adhoc_skus": 192,
+        "e2e_options": 0,
+        "avg_tat": 5.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Emporio Armani",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 30,
-        "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Estee Lauder",
@@ -4985,7 +5024,7 @@
         "adhoc_skus": 0,
         "e2e_options": 3,
         "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Fabindia",
@@ -5017,7 +5056,7 @@
         "adhoc_skus": 4,
         "e2e_options": 0,
         "avg_tat": 5.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Guess",
@@ -5025,7 +5064,7 @@
         "adhoc_skus": 0,
         "e2e_options": 13,
         "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Hermès",
@@ -5044,6 +5083,14 @@
         "closure_rate": 100.0
       },
       {
+        "brand_name": "Ikonic Professional",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 45,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
         "brand_name": "Iunik",
         "tickets": 1,
         "adhoc_skus": 0,
@@ -5057,7 +5104,7 @@
         "adhoc_skus": 0,
         "e2e_options": 350,
         "avg_tat": 4.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Juliette Has A Gun",
@@ -5080,7 +5127,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 75,
-        "avg_tat": 1.0,
+        "avg_tat": 6.0,
         "closure_rate": 0.0
       },
       {
@@ -5088,16 +5135,16 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 2,
-        "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Lladro",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 1,
-        "avg_tat": 1.0,
-        "closure_rate": 0.0
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Lolita Lempicka",
@@ -5105,7 +5152,7 @@
         "adhoc_skus": 0,
         "e2e_options": 16,
         "avg_tat": 3.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Loreal Paris",
@@ -5113,7 +5160,7 @@
         "adhoc_skus": 10,
         "e2e_options": 0,
         "avg_tat": 5.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "M.A.C.",
@@ -5128,15 +5175,23 @@
         "tickets": 1,
         "adhoc_skus": 1,
         "e2e_options": 0,
-        "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Max&Co,Bmw",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 16,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Maybelline",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 11,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -5144,24 +5199,32 @@
         "tickets": 1,
         "adhoc_skus": 22,
         "e2e_options": 0,
+        "avg_tat": 10.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Mny",
+        "tickets": 1,
+        "adhoc_skus": 1,
+        "e2e_options": 0,
         "avg_tat": 5.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Muthoot Pappachan",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 5,
-        "avg_tat": 1.0,
-        "closure_rate": 0.0
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Nutrabay",
         "tickets": 1,
         "adhoc_skus": 45,
         "e2e_options": 0,
-        "avg_tat": 0.0,
-        "closure_rate": 0.0
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "O3+",
@@ -5200,8 +5263,8 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 108,
-        "avg_tat": 1.0,
-        "closure_rate": 0.0
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Puma",
@@ -5217,7 +5280,7 @@
         "adhoc_skus": 0,
         "e2e_options": 11,
         "avg_tat": 2.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "The Face Shop",
@@ -5225,7 +5288,7 @@
         "adhoc_skus": 1,
         "e2e_options": 0,
         "avg_tat": 1.0,
-        "closure_rate": 0.0
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Tom Ford",
@@ -5240,16 +5303,16 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 28,
-        "avg_tat": 1.0,
-        "closure_rate": 0.0
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Yonex",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 16,
-        "avg_tat": 1.0,
-        "closure_rate": 0.0
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Zaveri Pearls",
@@ -5257,6 +5320,640 @@
         "adhoc_skus": 0,
         "e2e_options": 69,
         "avg_tat": 4.0,
+        "closure_rate": 100.0
+      }
+    ],
+    "31": [
+      {
+        "brand_name": "Converse",
+        "tickets": 3,
+        "adhoc_skus": 314,
+        "e2e_options": 638,
+        "avg_tat": 3.21,
+        "closure_rate": 33.33
+      },
+      {
+        "brand_name": "Ben Sherman",
+        "tickets": 2,
+        "adhoc_skus": 0,
+        "e2e_options": 39,
+        "avg_tat": 3.17,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Benetton",
+        "tickets": 2,
+        "adhoc_skus": 0,
+        "e2e_options": 117,
+        "avg_tat": 2.86,
+        "closure_rate": 50.0
+      },
+      {
+        "brand_name": "Colehaan",
+        "tickets": 2,
+        "adhoc_skus": 0,
+        "e2e_options": 41,
+        "avg_tat": 1.4,
+        "closure_rate": 50.0
+      },
+      {
+        "brand_name": "Forest Essentials",
+        "tickets": 2,
+        "adhoc_skus": 18,
+        "e2e_options": 8,
+        "avg_tat": 2.38,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Libas",
+        "tickets": 2,
+        "adhoc_skus": 91,
+        "e2e_options": 0,
+        "avg_tat": 2.18,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Miduty",
+        "tickets": 2,
+        "adhoc_skus": 3,
+        "e2e_options": 0,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "On",
+        "tickets": 2,
+        "adhoc_skus": 38,
+        "e2e_options": 0,
+        "avg_tat": 3.42,
+        "closure_rate": 50.0
+      },
+      {
+        "brand_name": "Super You",
+        "tickets": 2,
+        "adhoc_skus": 0,
+        "e2e_options": 4,
+        "avg_tat": 0.5,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Tangerine",
+        "tickets": 2,
+        "adhoc_skus": 0,
+        "e2e_options": 55,
+        "avg_tat": 4.24,
+        "closure_rate": 50.0
+      },
+      {
+        "brand_name": "-",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Adidas",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 10,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Adidas, Adidas Original",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 296,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Afnan",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Auraa Trends",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 35,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Autumnlane",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 79,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Bewakoof",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 67,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Bhima Jewels",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 37,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Biba",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 145,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Bvlgari",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 2,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Bvlgari,Hermes",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 2,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Calibar",
+        "tickets": 1,
+        "adhoc_skus": 2,
+        "e2e_options": 0,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Campus",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 113,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Charles & Keith",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 22,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Coola",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 1.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Cotton Culture",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 33,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Davidoff",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 5,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Dolce&Gabbana",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 1.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Dr.Althea",
+        "tickets": 1,
+        "adhoc_skus": 3,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Elca",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 3,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Franck Olivier",
+        "tickets": 1,
+        "adhoc_skus": 7,
+        "e2e_options": 0,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Giva",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 27,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Guess",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 18,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Iunik",
+        "tickets": 1,
+        "adhoc_skus": 1,
+        "e2e_options": 0,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "John Varvatos,Elizabeth Arden",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 2,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Just Cavalli",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 115,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Kameez By Pooja",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 19,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Kisna",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 75,
+        "avg_tat": 1.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Klotthe",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 68,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "L'Occitane",
+        "tickets": 1,
+        "adhoc_skus": 27,
+        "e2e_options": 0,
+        "avg_tat": 5.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Latin Quarters",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 40,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Lattafa",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Liberty",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 9,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Loreal Paris",
+        "tickets": 1,
+        "adhoc_skus": 2,
+        "e2e_options": 0,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Louis Stitch",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 30,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Love Earth",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "M.A.C.",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 1.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Mamaearth",
+        "tickets": 1,
+        "adhoc_skus": 11,
+        "e2e_options": 0,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Mia By Tanishq",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 2,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Mish X",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 26,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Mmtc-Pamp",
+        "tickets": 1,
+        "adhoc_skus": 3,
+        "e2e_options": 0,
+        "avg_tat": 2.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Monkstory",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 11,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Multiple",
+        "tickets": 1,
+        "adhoc_skus": 260,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Neemans",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 25,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Netscribes",
+        "tickets": 1,
+        "adhoc_skus": 598,
+        "e2e_options": 0,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "O3",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 2,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Olaplex",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 9,
+        "avg_tat": 1.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Onitsuka Tiger",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 25,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Oomph",
+        "tickets": 1,
+        "adhoc_skus": 1,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Ornate Jewels",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 16,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Pantaloons",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 146,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Pelle Albero",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 18,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Rasasi",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 2,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Red Tape",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 25,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Sentra",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 32,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Squintalk",
+        "tickets": 1,
+        "adhoc_skus": 64,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Swarvski",
+        "tickets": 1,
+        "adhoc_skus": 48,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Thalgo",
+        "tickets": 1,
+        "adhoc_skus": 13,
+        "e2e_options": 0,
+        "avg_tat": 5.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "The Bear House",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 50,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "The Magic Wand",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 25,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Tom Ford",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 3.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Trove Label",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 13,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Tryme",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 31,
+        "avg_tat": 1.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "U.S. Polo Assn.",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 21,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Under Armour",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 17,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "United Colors Of Benetton",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 4,
+        "avg_tat": 2.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Varnika Arora",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 35,
+        "avg_tat": 4.0,
+        "closure_rate": 100.0
+      },
+      {
+        "brand_name": "Wrogn",
+        "tickets": 1,
+        "adhoc_skus": 1113,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Zabella",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 54,
+        "avg_tat": 3.0,
         "closure_rate": 0.0
       }
     ]

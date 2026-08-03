@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27T04:30:23.554659+00:00",
+  "generated_at": "2026-08-03T05:35:17.904651+00:00",
   "kpis": {
-    "total_escalations": 22,
-    "critical_count": 15,
+    "total_escalations": 23,
+    "critical_count": 16,
     "noncritical_count": 5,
-    "total_affected_options": 1623,
+    "total_affected_options": 2135,
     "avg_resolution_days": 3.91,
     "max_resolution_days": 13.0,
     "min_resolution_days": 0.0,
-    "pct_critical": 68.18
+    "pct_critical": 69.57
   },
   "records": [
     {
@@ -21,7 +21,7 @@
       "actions_taken": "Retriggering Done post deletion",
       "affected_options": 3,
       "error_type": "Critical",
-      "resolution_days": 5,
+      "resolution_days": 5.0,
       "process_days": 5,
       "month": "2026-05"
     },
@@ -35,7 +35,7 @@
       "actions_taken": "Content Retriggering Done post impact validation",
       "affected_options": 4,
       "error_type": "Non - critical",
-      "resolution_days": 3,
+      "resolution_days": 3.0,
       "process_days": 1,
       "month": "2026-05"
     },
@@ -49,7 +49,7 @@
       "actions_taken": "Image Retriggering Done post impact validation",
       "affected_options": 1,
       "error_type": "Critical",
-      "resolution_days": 1,
+      "resolution_days": 1.0,
       "process_days": 1,
       "month": "2026-05"
     },
@@ -63,7 +63,7 @@
       "actions_taken": "Size chart errors were rectified and retriggered accordingly",
       "affected_options": 96,
       "error_type": "Critical",
-      "resolution_days": 11,
+      "resolution_days": 11.0,
       "process_days": 1,
       "month": "2026-05"
     },
@@ -77,7 +77,7 @@
       "actions_taken": "content and image update",
       "affected_options": 50,
       "error_type": "Critical",
-      "resolution_days": 13,
+      "resolution_days": 13.0,
       "process_days": 0,
       "month": "2026-05"
     },
@@ -91,7 +91,7 @@
       "actions_taken": "Size chart updated and Brand Name Migration by CCMT",
       "affected_options": 129,
       "error_type": "Critical",
-      "resolution_days": 9,
+      "resolution_days": 9.0,
       "process_days": 0,
       "month": "2026-05"
     },
@@ -105,7 +105,7 @@
       "actions_taken": "Bust size measurement used as across shoulder, size chart retriggered",
       "affected_options": 31,
       "error_type": "Critical",
-      "resolution_days": 3,
+      "resolution_days": 3.0,
       "process_days": 0,
       "month": "2026-05"
     },
@@ -119,7 +119,7 @@
       "actions_taken": "The special character issue in the description has been corrected by retriggering the SKU.",
       "affected_options": 54,
       "error_type": "Non - critical",
-      "resolution_days": 1,
+      "resolution_days": 1.0,
       "process_days": 0,
       "month": "2026-05"
     },
@@ -133,7 +133,7 @@
       "actions_taken": "Just Size chart code creation by us",
       "affected_options": 0,
       "error_type": "Critical",
-      "resolution_days": 2,
+      "resolution_days": 2.0,
       "process_days": 0,
       "month": "2026-05"
     },
@@ -147,7 +147,7 @@
       "actions_taken": "Just Size chart code creation by us",
       "affected_options": 0,
       "error_type": "Critical",
-      "resolution_days": 2,
+      "resolution_days": 2.0,
       "process_days": 0,
       "month": "2026-05"
     },
@@ -161,7 +161,7 @@
       "actions_taken": "No error",
       "affected_options": 7,
       "error_type": "-",
-      "resolution_days": 2,
+      "resolution_days": 2.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -175,7 +175,7 @@
       "actions_taken": "The special character issue in the description has been corrected by retriggering the SKU and Title",
       "affected_options": 14,
       "error_type": "Non - critical",
-      "resolution_days": 3,
+      "resolution_days": 3.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -189,7 +189,7 @@
       "actions_taken": "The size UK 3 was uploaded by mistake instead of UK 10. We have corrected the issue and retriggered the batch through PCM.",
       "affected_options": 13,
       "error_type": "Critical",
-      "resolution_days": 0,
+      "resolution_days": 0.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -203,7 +203,7 @@
       "actions_taken": "Image Retriggering Done post impact validation",
       "affected_options": 1,
       "error_type": "Critical",
-      "resolution_days": 2,
+      "resolution_days": 2.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -217,7 +217,7 @@
       "actions_taken": "Image Retriggering Done post impact validation",
       "affected_options": 1,
       "error_type": "Critical",
-      "resolution_days": 8,
+      "resolution_days": 8.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -231,7 +231,7 @@
       "actions_taken": "Incorrect Image Sequencing, we update correctly",
       "affected_options": 39,
       "error_type": "Critical",
-      "resolution_days": 4,
+      "resolution_days": 4.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -245,7 +245,7 @@
       "actions_taken": "First image was cropped. Image was properly reviewed, edited and retriggered.",
       "affected_options": 340,
       "error_type": "Critical",
-      "resolution_days": 1,
+      "resolution_days": 1.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -259,7 +259,7 @@
       "actions_taken": "Incorrect spelling in brand name reflecting in Brand Description. Changes were retriggered.",
       "affected_options": 3,
       "error_type": "Non - critical",
-      "resolution_days": 1,
+      "resolution_days": 1.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -273,7 +273,7 @@
       "actions_taken": "No error - The listed products were aligned with the shared input sheet. CCMT team worked on the L4 migration as per brand's requirement.",
       "affected_options": 0,
       "error_type": null,
-      "resolution_days": 0,
+      "resolution_days": 0.0,
       "process_days": 0,
       "month": "2026-06"
     },
@@ -287,7 +287,7 @@
       "actions_taken": "Background was removed as per standard procedure, but the Brand wants them as is. We are currently working on the images",
       "affected_options": 427,
       "error_type": "Critical",
-      "resolution_days": 7,
+      "resolution_days": 7.0,
       "process_days": 0,
       "month": "2026-07"
     },
@@ -301,7 +301,7 @@
       "actions_taken": "The formulation of the lipstick was missing from the title and desc.",
       "affected_options": 1,
       "error_type": "Non - critical",
-      "resolution_days": 6,
+      "resolution_days": 6.0,
       "process_days": 6,
       "month": "2026-07"
     },
@@ -315,30 +315,44 @@
       "actions_taken": "Size code was not reflecting as it was a 2025 work and size code must have bee changed in between, so we have retrigger that and its reflecting successfully.",
       "affected_options": 409,
       "error_type": "Critical",
-      "resolution_days": 2,
+      "resolution_days": 2.0,
       "process_days": 1,
       "month": "2026-07"
+    },
+    {
+      "ticket_id": "UCW-35371",
+      "assigned_on": "2026-08-01",
+      "processed_on": "2026-08-01",
+      "closed_on": null,
+      "subject": "Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
+      "error_by": "NS",
+      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
+      "affected_options": 512,
+      "error_type": "Critical",
+      "resolution_days": null,
+      "process_days": 0,
+      "month": "2026-08"
     }
   ],
   "by_error_type": [
     {
       "error_type": "-",
       "count": 1,
-      "pct": 4.55,
+      "pct": 4.35,
       "avg_resolution_days": 2.0,
       "total_affected": 7
     },
     {
       "error_type": "Critical",
-      "count": 15,
-      "pct": 68.18,
+      "count": 16,
+      "pct": 69.57,
       "avg_resolution_days": 4.67,
-      "total_affected": 1540
+      "total_affected": 2052
     },
     {
       "error_type": "Non - critical",
       "count": 5,
-      "pct": 22.73,
+      "pct": 21.74,
       "avg_resolution_days": 2.8,
       "total_affected": 76
     }
@@ -367,31 +381,39 @@
       "noncritical_count": 1,
       "total_affected": 837,
       "avg_resolution_days": 5.0
+    },
+    {
+      "month": "2026-08",
+      "count": 1,
+      "critical_count": 1,
+      "noncritical_count": 0,
+      "total_affected": 512,
+      "avg_resolution_days": null
     }
   ],
   "resolution_buckets": [
     {
       "bucket": "Same day",
       "count": 2,
-      "pct": 9.09,
+      "pct": 8.7,
       "critical": 1
     },
     {
       "bucket": "1-3 days",
       "count": 12,
-      "pct": 54.55,
+      "pct": 52.17,
       "critical": 7
     },
     {
       "bucket": "4-7 days",
       "count": 4,
-      "pct": 18.18,
+      "pct": 17.39,
       "critical": 3
     },
     {
       "bucket": "8-14 days",
       "count": 4,
-      "pct": 18.18,
+      "pct": 17.39,
       "critical": 4
     },
     {
