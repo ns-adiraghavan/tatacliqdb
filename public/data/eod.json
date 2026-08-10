@@ -1,6 +1,6 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-08-03T05:35:17.753775+00:00",
+  "generated_at": "2026-08-10T04:54:09.807082+00:00",
   "dates": [
     "2026-05-01",
     "2026-05-02",
@@ -81,7 +81,14 @@
     "2026-07-29",
     "2026-07-30",
     "2026-07-31",
-    "2026-08-01"
+    "2026-08-01",
+    "2026-08-03",
+    "2026-08-04",
+    "2026-08-05",
+    "2026-08-06",
+    "2026-08-07",
+    "2026-08-08",
+    "2026-08-09"
   ],
   "days": [
     {
@@ -16033,32 +16040,28 @@
     },
     {
       "date": "2026-07-06",
-      "total_tickets": 11,
+      "total_tickets": 10,
       "adhoc_skus": 91,
-      "e2e_options": 463,
-      "avg_tat": 7.35,
+      "e2e_options": 417,
+      "avg_tat": 6.86,
       "open_tickets": 0,
       "closed_tickets": 10,
-      "closure_rate": 90.91,
-      "e2e_tickets": 7,
+      "closure_rate": 100.0,
+      "e2e_tickets": 6,
       "adhoc_tickets": 4,
       "status": [
         {
           "status": "CLOSED",
           "count": 10
-        },
-        {
-          "status": "FAILED",
-          "count": 1
         }
       ],
       "category": [
         {
           "category": "Beauty & Grooming",
-          "tickets": 8,
+          "tickets": 7,
           "adhoc_skus": 63,
-          "e2e_options": 144,
-          "avg_tat": 9.38
+          "e2e_options": 98,
+          "avg_tat": 6.35
         },
         {
           "category": "Apparel",
@@ -16096,13 +16099,6 @@
           "adhoc_skus": 90,
           "e2e_options": 40,
           "avg_tat": 6.55
-        },
-        {
-          "platform": "Mall;Luxury",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 46,
-          "avg_tat": 20.0
         }
       ],
       "listing_type": [
@@ -16115,10 +16111,10 @@
         },
         {
           "listing_type": "E2E",
-          "tickets": 7,
+          "tickets": 6,
           "adhoc_skus": 0,
-          "e2e_options": 463,
-          "avg_tat": 7.36
+          "e2e_options": 417,
+          "avg_tat": 6.83
         }
       ],
       "brands": [
@@ -16145,14 +16141,6 @@
           "e2e_options": 62,
           "avg_tat": 8.0,
           "status": "CLOSED"
-        },
-        {
-          "brand_name": "Bmw, Iceberg, Trussardi",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 46,
-          "avg_tat": 20.0,
-          "status": "FAILED"
         },
         {
           "brand_name": "L'Oreal Paris",
@@ -16283,18 +16271,6 @@
           "adhoc_skus": 1,
           "e2e_options": 0,
           "tat": 6.0
-        },
-        {
-          "key": "UCW-33949",
-          "status": "FAILED",
-          "assignee": "Chirag Dubal",
-          "category": "Beauty & Grooming",
-          "platform": "Mall & Luxury",
-          "listing_type": "E2E",
-          "brand": "Bmw, Iceberg, Trussardi",
-          "adhoc_skus": 0,
-          "e2e_options": 46,
-          "tat": 20.0
         },
         {
           "key": "UCW-33950",
@@ -17425,14 +17401,14 @@
     },
     {
       "date": "2026-07-13",
-      "total_tickets": 12,
+      "total_tickets": 11,
       "adhoc_skus": 181,
-      "e2e_options": 653,
-      "avg_tat": 5.08,
+      "e2e_options": 650,
+      "avg_tat": 5.07,
       "open_tickets": 0,
       "closed_tickets": 11,
-      "closure_rate": 91.67,
-      "e2e_tickets": 11,
+      "closure_rate": 100.0,
+      "e2e_tickets": 10,
       "adhoc_tickets": 1,
       "status": [
         {
@@ -17442,26 +17418,22 @@
         {
           "status": "CLOSED Due to Inactive/Insufficient Information",
           "count": 1
-        },
-        {
-          "status": "FAILED",
-          "count": 1
         }
       ],
       "category": [
-        {
-          "category": "Jewellery",
-          "tickets": 4,
-          "adhoc_skus": 0,
-          "e2e_options": 472,
-          "avg_tat": 2.1
-        },
         {
           "category": "Footwear",
           "tickets": 3,
           "adhoc_skus": 0,
           "e2e_options": 79,
           "avg_tat": 2.0
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 469,
+          "avg_tat": 2.02
         },
         {
           "category": "Beauty & Grooming",
@@ -17495,10 +17467,10 @@
       "platform": [
         {
           "platform": "Mall",
-          "tickets": 8,
+          "tickets": 7,
           "adhoc_skus": 0,
-          "e2e_options": 574,
-          "avg_tat": 5.62
+          "e2e_options": 571,
+          "avg_tat": 5.6
         },
         {
           "platform": "Luxury",
@@ -17525,21 +17497,13 @@
         },
         {
           "listing_type": "E2E",
-          "tickets": 11,
+          "tickets": 10,
           "adhoc_skus": 0,
-          "e2e_options": 653,
-          "avg_tat": 5.47
+          "e2e_options": 650,
+          "avg_tat": 5.45
         }
       ],
       "brands": [
-        {
-          "brand_name": "Mia By Tanishq",
-          "tickets": 2,
-          "adhoc_skus": 0,
-          "e2e_options": 25,
-          "avg_tat": 3.56,
-          "status": "CLOSED"
-        },
         {
           "brand_name": "Adidas",
           "tickets": 1,
@@ -17594,6 +17558,14 @@
           "adhoc_skus": 0,
           "e2e_options": 5,
           "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Mia By Tanishq",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 22,
+          "avg_tat": 2.0,
           "status": "CLOSED"
         },
         {
@@ -17681,18 +17653,6 @@
           "adhoc_skus": 0,
           "e2e_options": 22,
           "tat": 2.0
-        },
-        {
-          "key": "UCW-34234",
-          "status": "FAILED",
-          "assignee": "Chirag Dubal",
-          "category": "Jewellery",
-          "platform": "Mall",
-          "listing_type": "E2E",
-          "brand": "Mia By Tanishq",
-          "adhoc_skus": 0,
-          "e2e_options": 3,
-          "tat": 15.0
         },
         {
           "key": "UCW-34241",
@@ -18765,7 +18725,7 @@
       "total_tickets": 12,
       "adhoc_skus": 42,
       "e2e_options": 478,
-      "avg_tat": 5.87,
+      "avg_tat": 5.92,
       "open_tickets": 1,
       "closed_tickets": 11,
       "closure_rate": 91.67,
@@ -18787,7 +18747,7 @@
           "tickets": 8,
           "adhoc_skus": 42,
           "e2e_options": 58,
-          "avg_tat": 5.58
+          "avg_tat": 6.63
         },
         {
           "category": "Apparel",
@@ -18817,7 +18777,7 @@
           "tickets": 10,
           "adhoc_skus": 42,
           "e2e_options": 467,
-          "avg_tat": 5.88
+          "avg_tat": 5.93
         },
         {
           "platform": "Luxury",
@@ -18833,7 +18793,7 @@
           "tickets": 3,
           "adhoc_skus": 42,
           "e2e_options": 0,
-          "avg_tat": 8.07
+          "avg_tat": 10.57
         },
         {
           "listing_type": "E2E",
@@ -18849,7 +18809,7 @@
           "tickets": 2,
           "adhoc_skus": 21,
           "e2e_options": 2,
-          "avg_tat": 10.13,
+          "avg_tat": 14.7,
           "status": "CLOSED"
         },
         {
@@ -19028,7 +18988,7 @@
           "brand": "Mamaearth",
           "adhoc_skus": 21,
           "e2e_options": 0,
-          "tat": 11.0
+          "tat": 16.0
         },
         {
           "key": "UCW-34535",
@@ -19085,28 +19045,20 @@
       "total_tickets": 20,
       "adhoc_skus": 76,
       "e2e_options": 2049,
-      "avg_tat": 5.26,
-      "open_tickets": 2,
-      "closed_tickets": 18,
-      "closure_rate": 90.0,
+      "avg_tat": 4.72,
+      "open_tickets": 0,
+      "closed_tickets": 20,
+      "closure_rate": 100.0,
       "e2e_tickets": 16,
       "adhoc_tickets": 4,
       "status": [
         {
           "status": "CLOSED",
-          "count": 16
+          "count": 18
         },
         {
           "status": "CLOSED Due to Inactive/Insufficient Information",
           "count": 2
-        },
-        {
-          "status": "SFA Stage",
-          "count": 1
-        },
-        {
-          "status": "Uploaded/Retriggered",
-          "count": 1
         }
       ],
       "category": [
@@ -19115,7 +19067,7 @@
           "tickets": 13,
           "adhoc_skus": 54,
           "e2e_options": 253,
-          "avg_tat": 5.0
+          "avg_tat": 4.79
         },
         {
           "category": "Jewellery",
@@ -19136,7 +19088,7 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 166,
-          "avg_tat": 10.0
+          "avg_tat": 8.0
         }
       ],
       "platform": [
@@ -19145,7 +19097,7 @@
           "tickets": 11,
           "adhoc_skus": 36,
           "e2e_options": 1806,
-          "avg_tat": 5.37
+          "avg_tat": 4.76
         },
         {
           "platform": "Mall;Luxury",
@@ -19175,7 +19127,7 @@
           "tickets": 16,
           "adhoc_skus": 0,
           "e2e_options": 2049,
-          "avg_tat": 5.24
+          "avg_tat": 4.69
         }
       ],
       "brands": [
@@ -19296,8 +19248,8 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 11,
-          "avg_tat": 10.0,
-          "status": "Uploaded/Retriggered"
+          "avg_tat": 4.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Mia By Tanishq",
@@ -19320,8 +19272,8 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 166,
-          "avg_tat": 10.0,
-          "status": "SFA Stage"
+          "avg_tat": 8.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Png",
@@ -19343,7 +19295,7 @@
       "tickets": [
         {
           "key": "UCW-34573",
-          "status": "SFA Stage",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Multi Category",
           "platform": "Mall",
@@ -19351,7 +19303,7 @@
           "brand": "Pantaloons",
           "adhoc_skus": 0,
           "e2e_options": 166,
-          "tat": 10.0
+          "tat": 8.0
         },
         {
           "key": "UCW-34572",
@@ -19439,7 +19391,7 @@
         },
         {
           "key": "UCW-34613",
-          "status": "Uploaded/Retriggered",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
@@ -19447,7 +19399,7 @@
           "brand": "Maybelline",
           "adhoc_skus": 0,
           "e2e_options": 11,
-          "tat": 10.0
+          "tat": 4.0
         },
         {
           "key": "UCW-34614",
@@ -20133,27 +20085,19 @@
       "total_tickets": 10,
       "adhoc_skus": 13,
       "e2e_options": 291,
-      "avg_tat": 3.36,
-      "open_tickets": 2,
-      "closed_tickets": 8,
-      "closure_rate": 80.0,
+      "avg_tat": 3.23,
+      "open_tickets": 0,
+      "closed_tickets": 10,
+      "closure_rate": 100.0,
       "e2e_tickets": 8,
       "adhoc_tickets": 2,
       "status": [
         {
           "status": "CLOSED",
-          "count": 7
+          "count": 9
         },
         {
           "status": "CLOSED Due to Inactive/Insufficient Information",
-          "count": 1
-        },
-        {
-          "status": "SFA Stage",
-          "count": 1
-        },
-        {
-          "status": "Uploaded/Retriggered",
           "count": 1
         }
       ],
@@ -20170,7 +20114,7 @@
           "tickets": 2,
           "adhoc_skus": 13,
           "e2e_options": 0,
-          "avg_tat": 5.62
+          "avg_tat": 1.0
         },
         {
           "category": "Fashion Jewellery",
@@ -20207,7 +20151,7 @@
           "tickets": 3,
           "adhoc_skus": 12,
           "e2e_options": 37,
-          "avg_tat": 3.72
+          "avg_tat": 2.52
         },
         {
           "platform": "Mall;Luxury",
@@ -20223,7 +20167,7 @@
           "tickets": 2,
           "adhoc_skus": 13,
           "e2e_options": 0,
-          "avg_tat": 5.62
+          "avg_tat": 1.0
         },
         {
           "listing_type": "E2E",
@@ -20255,8 +20199,8 @@
           "tickets": 1,
           "adhoc_skus": 12,
           "e2e_options": 0,
-          "avg_tat": 6.0,
-          "status": "Uploaded/Retriggered"
+          "avg_tat": 1.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Kisna",
@@ -20264,7 +20208,7 @@
           "adhoc_skus": 0,
           "e2e_options": 75,
           "avg_tat": 6.0,
-          "status": "SFA Stage"
+          "status": "CLOSED"
         },
         {
           "brand_name": "Lladro",
@@ -20318,7 +20262,7 @@
       "tickets": [
         {
           "key": "UCW-34794",
-          "status": "Uploaded/Retriggered",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Luxury",
@@ -20326,7 +20270,7 @@
           "brand": "Jo Malone London",
           "adhoc_skus": 12,
           "e2e_options": 0,
-          "tat": 6.0
+          "tat": 1.0
         },
         {
           "key": "UCW-34795",
@@ -20366,7 +20310,7 @@
         },
         {
           "key": "UCW-34815",
-          "status": "SFA Stage",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Jewellery",
           "platform": "Mall",
@@ -20440,14 +20384,14 @@
     },
     {
       "date": "2026-07-25",
-      "total_tickets": 12,
+      "total_tickets": 11,
       "adhoc_skus": 46,
-      "e2e_options": 271,
-      "avg_tat": 2.83,
+      "e2e_options": 266,
+      "avg_tat": 2.81,
       "open_tickets": 0,
       "closed_tickets": 11,
-      "closure_rate": 91.67,
-      "e2e_tickets": 10,
+      "closure_rate": 100.0,
+      "e2e_tickets": 9,
       "adhoc_tickets": 2,
       "status": [
         {
@@ -20457,19 +20401,15 @@
         {
           "status": "CLOSED Due to Inactive/Insufficient Information",
           "count": 2
-        },
-        {
-          "status": "FAILED",
-          "count": 1
         }
       ],
       "category": [
         {
           "category": "Beauty & Grooming",
-          "tickets": 7,
+          "tickets": 6,
           "adhoc_skus": 0,
-          "e2e_options": 29,
-          "avg_tat": 2.83
+          "e2e_options": 24,
+          "avg_tat": 2.38
         },
         {
           "category": "Electronics",
@@ -20517,10 +20457,10 @@
         },
         {
           "platform": "Mall;Luxury",
-          "tickets": 4,
+          "tickets": 3,
           "adhoc_skus": 0,
-          "e2e_options": 25,
-          "avg_tat": 0.39
+          "e2e_options": 20,
+          "avg_tat": 0.1
         },
         {
           "platform": "Luxury",
@@ -20540,10 +20480,10 @@
         },
         {
           "listing_type": "E2E",
-          "tickets": 10,
+          "tickets": 9,
           "adhoc_skus": 0,
-          "e2e_options": 271,
-          "avg_tat": 2.7
+          "e2e_options": 266,
+          "avg_tat": 2.67
         }
       ],
       "brands": [
@@ -20578,14 +20518,6 @@
           "e2e_options": 7,
           "avg_tat": 3.0,
           "status": "CLOSED"
-        },
-        {
-          "brand_name": "Davidoff",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 5,
-          "avg_tat": 5.0,
-          "status": "FAILED"
         },
         {
           "brand_name": "Emporio Armani",
@@ -20740,18 +20672,6 @@
           "adhoc_skus": 0,
           "e2e_options": 199,
           "tat": 3.0
-        },
-        {
-          "key": "UCW-34909",
-          "status": "FAILED",
-          "assignee": "Chirag Dubal",
-          "category": "Beauty & Grooming",
-          "platform": "Mall & Luxury",
-          "listing_type": "E2E",
-          "brand": "Davidoff",
-          "adhoc_skus": 0,
-          "e2e_options": 5,
-          "tat": 5.0
         },
         {
           "key": "UCW-34913",
@@ -21021,58 +20941,39 @@
     },
     {
       "date": "2026-07-27",
-      "total_tickets": 24,
+      "total_tickets": 22,
       "adhoc_skus": 125,
-      "e2e_options": 473,
-      "avg_tat": 3.79,
-      "open_tickets": 2,
-      "closed_tickets": 20,
-      "closure_rate": 83.33,
-      "e2e_tickets": 19,
+      "e2e_options": 459,
+      "avg_tat": 3.84,
+      "open_tickets": 0,
+      "closed_tickets": 22,
+      "closure_rate": 100.0,
+      "e2e_tickets": 17,
       "adhoc_tickets": 5,
       "status": [
         {
           "status": "CLOSED",
-          "count": 15
+          "count": 17
         },
         {
           "status": "CLOSED Due to Inactive/Insufficient Information",
           "count": 5
-        },
-        {
-          "status": "FAILED",
-          "count": 2
-        },
-        {
-          "status": "SFA Stage",
-          "count": 1
-        },
-        {
-          "status": "Uploaded/Retriggered",
-          "count": 1
         }
       ],
       "category": [
         {
           "category": "Beauty & Grooming",
-          "tickets": 10,
+          "tickets": 9,
           "adhoc_skus": 51,
-          "e2e_options": 19,
-          "avg_tat": 4.23
+          "e2e_options": 18,
+          "avg_tat": 4.38
         },
         {
           "category": "Footwear",
           "tickets": 7,
           "adhoc_skus": 26,
           "e2e_options": 222,
-          "avg_tat": 3.97
-        },
-        {
-          "category": "Jewellery",
-          "tickets": 3,
-          "adhoc_skus": 0,
-          "e2e_options": 130,
-          "avg_tat": 2.37
+          "avg_tat": 4.06
         },
         {
           "category": "Apparel",
@@ -21080,6 +20981,13 @@
           "adhoc_skus": 0,
           "e2e_options": 101,
           "avg_tat": 3.7
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 117,
+          "avg_tat": 2.08
         },
         {
           "category": "Fashion Jewellery",
@@ -21099,10 +21007,10 @@
       "platform": [
         {
           "platform": "Mall",
-          "tickets": 15,
+          "tickets": 13,
           "adhoc_skus": 11,
-          "e2e_options": 430,
-          "avg_tat": 3.85
+          "e2e_options": 416,
+          "avg_tat": 3.91
         },
         {
           "platform": "Luxury",
@@ -21125,14 +21033,14 @@
           "tickets": 5,
           "adhoc_skus": 125,
           "e2e_options": 0,
-          "avg_tat": 4.23
+          "avg_tat": 4.32
         },
         {
           "listing_type": "E2E",
-          "tickets": 19,
+          "tickets": 17,
           "adhoc_skus": 0,
-          "e2e_options": 473,
-          "avg_tat": 3.76
+          "e2e_options": 459,
+          "avg_tat": 3.8
         }
       ],
       "brands": [
@@ -21143,14 +21051,6 @@
           "e2e_options": 39,
           "avg_tat": 3.17,
           "status": "CLOSED"
-        },
-        {
-          "brand_name": "Tangerine",
-          "tickets": 2,
-          "adhoc_skus": 0,
-          "e2e_options": 55,
-          "avg_tat": 4.24,
-          "status": "CLOSED Due to Inactive/Insufficient Information"
         },
         {
           "brand_name": "-",
@@ -21225,20 +21125,12 @@
           "status": "CLOSED"
         },
         {
-          "brand_name": "Love Earth",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 1,
-          "avg_tat": 5.0,
-          "status": "FAILED"
-        },
-        {
           "brand_name": "Mamaearth",
           "tickets": 1,
           "adhoc_skus": 11,
           "e2e_options": 0,
-          "avg_tat": 5.0,
-          "status": "Uploaded/Retriggered"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Olaplex",
@@ -21261,8 +21153,8 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 18,
-          "avg_tat": 5.0,
-          "status": "SFA Stage"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Rasasi",
@@ -21297,6 +21189,14 @@
           "status": "CLOSED"
         },
         {
+          "brand_name": "Tangerine",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 42,
+          "avg_tat": 4.0,
+          "status": "CLOSED Due to Inactive/Insufficient Information"
+        },
+        {
           "brand_name": "Thalgo",
           "tickets": 1,
           "adhoc_skus": 13,
@@ -21316,7 +21216,7 @@
       "tickets": [
         {
           "key": "UCW-34995",
-          "status": "Uploaded/Retriggered",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
@@ -21324,7 +21224,7 @@
           "brand": "Mamaearth",
           "adhoc_skus": 11,
           "e2e_options": 0,
-          "tat": 5.0
+          "tat": 6.0
         },
         {
           "key": "UCW-34997",
@@ -21337,18 +21237,6 @@
           "adhoc_skus": 0,
           "e2e_options": 42,
           "tat": 4.0
-        },
-        {
-          "key": "UCW-34998",
-          "status": "FAILED",
-          "assignee": "Chirag Dubal",
-          "category": "Jewellery",
-          "platform": "Mall",
-          "listing_type": "E2E",
-          "brand": "Tangerine",
-          "adhoc_skus": 0,
-          "e2e_options": 13,
-          "tat": 5.0
         },
         {
           "key": "UCW-35004",
@@ -21495,18 +21383,6 @@
           "tat": 3.0
         },
         {
-          "key": "UCW-35053",
-          "status": "FAILED",
-          "assignee": "Chirag Dubal",
-          "category": "Beauty & Grooming",
-          "platform": "Mall",
-          "listing_type": "E2E",
-          "brand": "Love Earth",
-          "adhoc_skus": 0,
-          "e2e_options": 1,
-          "tat": 5.0
-        },
-        {
           "key": "UCW-35054",
           "status": "CLOSED",
           "assignee": "Chirag Dubal",
@@ -21544,7 +21420,7 @@
         },
         {
           "key": "UCW-35063",
-          "status": "SFA Stage",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
           "platform": "Mall",
@@ -21552,7 +21428,7 @@
           "brand": "Pelle Albero",
           "adhoc_skus": 0,
           "e2e_options": 18,
-          "tat": 5.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35065",
@@ -21606,51 +21482,35 @@
     },
     {
       "date": "2026-07-28",
-      "total_tickets": 20,
+      "total_tickets": 19,
       "adhoc_skus": 1,
-      "e2e_options": 1427,
-      "avg_tat": 3.87,
-      "open_tickets": 7,
-      "closed_tickets": 12,
-      "closure_rate": 60.0,
-      "e2e_tickets": 19,
+      "e2e_options": 1408,
+      "avg_tat": 5.25,
+      "open_tickets": 0,
+      "closed_tickets": 19,
+      "closure_rate": 100.0,
+      "e2e_tickets": 18,
       "adhoc_tickets": 1,
       "status": [
         {
-          "status": "Agency PREPROCESS",
-          "count": 4
-        },
-        {
           "status": "CLOSED",
-          "count": 12
-        },
-        {
-          "status": "FAILED",
-          "count": 1
-        },
-        {
-          "status": "SFA Stage",
-          "count": 2
-        },
-        {
-          "status": "Size Chart Code Creation",
-          "count": 1
+          "count": 19
         }
       ],
       "category": [
-        {
-          "category": "Apparel",
-          "tickets": 7,
-          "adhoc_skus": 0,
-          "e2e_options": 622,
-          "avg_tat": 3.9
-        },
         {
           "category": "Footwear",
           "tickets": 7,
           "adhoc_skus": 0,
           "e2e_options": 621,
-          "avg_tat": 3.88
+          "avg_tat": 5.56
+        },
+        {
+          "category": "Apparel",
+          "tickets": 6,
+          "adhoc_skus": 0,
+          "e2e_options": 603,
+          "avg_tat": 4.95
         },
         {
           "category": "Jewellery",
@@ -21680,21 +21540,21 @@
           "tickets": 8,
           "adhoc_skus": 1,
           "e2e_options": 282,
-          "avg_tat": 3.71
+          "avg_tat": 5.23
         },
         {
           "platform": "Luxury",
-          "tickets": 7,
+          "tickets": 6,
           "adhoc_skus": 0,
-          "e2e_options": 730,
-          "avg_tat": 3.87
+          "e2e_options": 711,
+          "avg_tat": 5.59
         },
         {
           "platform": "Mall;Luxury",
           "tickets": 5,
           "adhoc_skus": 0,
           "e2e_options": 415,
-          "avg_tat": 3.95
+          "avg_tat": 4.69
         }
       ],
       "listing_type": [
@@ -21707,10 +21567,10 @@
         },
         {
           "listing_type": "E2E",
-          "tickets": 19,
+          "tickets": 18,
           "adhoc_skus": 0,
-          "e2e_options": 1427,
-          "avg_tat": 3.87
+          "e2e_options": 1408,
+          "avg_tat": 5.25
         }
       ],
       "brands": [
@@ -21727,8 +21587,8 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 296,
-          "avg_tat": 4.0,
-          "status": "SFA Stage"
+          "avg_tat": 5.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Autumnlane",
@@ -21743,8 +21603,8 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 145,
-          "avg_tat": 4.0,
-          "status": "Agency PREPROCESS"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Charles & Keith",
@@ -21759,16 +21619,16 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 503,
-          "avg_tat": 4.0,
-          "status": "Agency PREPROCESS"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Cotton Culture",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 33,
-          "avg_tat": 4.0,
-          "status": "Agency PREPROCESS"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Davidoff",
@@ -21803,20 +21663,12 @@
           "status": "CLOSED"
         },
         {
-          "brand_name": "Kameez By Pooja",
-          "tickets": 1,
-          "adhoc_skus": 0,
-          "e2e_options": 19,
-          "avg_tat": 4.0,
-          "status": "FAILED"
-        },
-        {
           "brand_name": "Latin Quarters",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 40,
-          "avg_tat": 4.0,
-          "status": "Agency PREPROCESS"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Mia By Tanishq",
@@ -21839,16 +21691,16 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 25,
-          "avg_tat": 4.0,
-          "status": "SFA Stage"
+          "avg_tat": 5.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Onitsuka Tiger",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 25,
-          "avg_tat": 4.0,
-          "status": "Size Chart Code Creation"
+          "avg_tat": 5.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Oomph",
@@ -21878,7 +21730,7 @@
       "tickets": [
         {
           "key": "UCW-35082",
-          "status": "SFA Stage",
+          "status": "CLOSED",
           "assignee": "netscribes",
           "category": "Footwear",
           "platform": "Mall",
@@ -21886,7 +21738,7 @@
           "brand": "Neemans",
           "adhoc_skus": 0,
           "e2e_options": 25,
-          "tat": 4.0
+          "tat": 5.0
         },
         {
           "key": "UCW-35088",
@@ -21926,7 +21778,7 @@
         },
         {
           "key": "UCW-35103",
-          "status": "Agency PREPROCESS",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -21934,11 +21786,11 @@
           "brand": "Latin Quarters",
           "adhoc_skus": 0,
           "e2e_options": 40,
-          "tat": 4.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35105",
-          "status": "SFA Stage",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall & Luxury",
@@ -21946,7 +21798,7 @@
           "brand": "Adidas, Adidas Original",
           "adhoc_skus": 0,
           "e2e_options": 296,
-          "tat": 4.0
+          "tat": 5.0
         },
         {
           "key": "UCW-35106",
@@ -21998,7 +21850,7 @@
         },
         {
           "key": "UCW-35115",
-          "status": "Agency PREPROCESS",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -22006,19 +21858,7 @@
           "brand": "Biba",
           "adhoc_skus": 0,
           "e2e_options": 145,
-          "tat": 4.0
-        },
-        {
-          "key": "UCW-35119",
-          "status": "FAILED",
-          "assignee": "Chirag Dubal",
-          "category": "Apparel",
-          "platform": "Luxury",
-          "listing_type": "E2E",
-          "brand": "Kameez By Pooja",
-          "adhoc_skus": 0,
-          "e2e_options": 19,
-          "tat": 4.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35123",
@@ -22058,7 +21898,7 @@
         },
         {
           "key": "UCW-35126",
-          "status": "Agency PREPROCESS",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -22066,11 +21906,11 @@
           "brand": "Cotton Culture",
           "adhoc_skus": 0,
           "e2e_options": 33,
-          "tat": 4.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35129",
-          "status": "Size Chart Code Creation",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
           "platform": "Luxury",
@@ -22078,7 +21918,7 @@
           "brand": "Onitsuka Tiger",
           "adhoc_skus": 0,
           "e2e_options": 25,
-          "tat": 4.0
+          "tat": 5.0
         },
         {
           "key": "UCW-35130",
@@ -22106,7 +21946,7 @@
         },
         {
           "key": "UCW-35132",
-          "status": "Agency PREPROCESS",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
           "platform": "Luxury",
@@ -22114,7 +21954,7 @@
           "brand": "Converse",
           "adhoc_skus": 0,
           "e2e_options": 503,
-          "tat": 4.0
+          "tat": 6.0
         }
       ]
     },
@@ -22123,40 +21963,24 @@
       "total_tickets": 15,
       "adhoc_skus": 1526,
       "e2e_options": 206,
-      "avg_tat": 2.97,
-      "open_tickets": 8,
-      "closed_tickets": 7,
-      "closure_rate": 46.67,
+      "avg_tat": 6.77,
+      "open_tickets": 1,
+      "closed_tickets": 14,
+      "closure_rate": 93.33,
       "e2e_tickets": 8,
       "adhoc_tickets": 7,
       "status": [
-        {
-          "status": "Agency PREPROCESS",
-          "count": 2
-        },
         {
           "status": "Agency Production QC",
           "count": 1
         },
         {
-          "status": "Brand to Resolve Queries",
-          "count": 3
-        },
-        {
           "status": "CLOSED",
-          "count": 6
+          "count": 11
         },
         {
           "status": "CLOSED Due to Inactive/Insufficient Information",
-          "count": 1
-        },
-        {
-          "status": "Query To CCMT",
-          "count": 1
-        },
-        {
-          "status": "Uploaded/Retriggered",
-          "count": 1
+          "count": 3
         }
       ],
       "category": [
@@ -22165,14 +21989,14 @@
           "tickets": 7,
           "adhoc_skus": 347,
           "e2e_options": 4,
-          "avg_tat": 2.99
+          "avg_tat": 7.51
         },
         {
           "category": "Apparel",
           "tickets": 5,
           "adhoc_skus": 1179,
           "e2e_options": 147,
-          "avg_tat": 3.0
+          "avg_tat": 6.82
         },
         {
           "category": "Fashion Jewellery",
@@ -22202,14 +22026,14 @@
           "tickets": 10,
           "adhoc_skus": 1248,
           "e2e_options": 115,
-          "avg_tat": 2.97
+          "avg_tat": 6.8
         },
         {
           "platform": "Mall;Luxury",
           "tickets": 4,
           "adhoc_skus": 278,
           "e2e_options": 56,
-          "avg_tat": 3.0
+          "avg_tat": 7.0
         },
         {
           "platform": "Luxury",
@@ -22225,14 +22049,14 @@
           "tickets": 7,
           "adhoc_skus": 1526,
           "e2e_options": 0,
-          "avg_tat": 3.0
+          "avg_tat": 7.0
         },
         {
           "listing_type": "E2E",
           "tickets": 8,
           "adhoc_skus": 0,
           "e2e_options": 206,
-          "avg_tat": 2.9
+          "avg_tat": 6.33
         }
       ],
       "brands": [
@@ -22257,8 +22081,8 @@
           "tickets": 1,
           "adhoc_skus": 18,
           "e2e_options": 0,
-          "avg_tat": 3.0,
-          "status": "Brand to Resolve Queries"
+          "avg_tat": 8.0,
+          "status": "CLOSED Due to Inactive/Insufficient Information"
         },
         {
           "brand_name": "John Varvatos,Elizabeth Arden",
@@ -22273,23 +22097,23 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 68,
-          "avg_tat": 3.0,
-          "status": "Agency PREPROCESS"
+          "avg_tat": 8.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Libas",
           "tickets": 1,
           "adhoc_skus": 66,
           "e2e_options": 0,
-          "avg_tat": 3.0,
-          "status": "Uploaded/Retriggered"
+          "avg_tat": 4.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Loreal Paris",
           "tickets": 1,
           "adhoc_skus": 2,
           "e2e_options": 0,
-          "avg_tat": 2.0,
+          "avg_tat": 5.0,
           "status": "CLOSED Due to Inactive/Insufficient Information"
         },
         {
@@ -22297,8 +22121,8 @@
           "tickets": 1,
           "adhoc_skus": 260,
           "e2e_options": 0,
-          "avg_tat": 3.0,
-          "status": "Query To CCMT"
+          "avg_tat": 8.0,
+          "status": "Agency Production QC"
         },
         {
           "brand_name": "O3",
@@ -22321,16 +22145,16 @@
           "tickets": 1,
           "adhoc_skus": 64,
           "e2e_options": 0,
-          "avg_tat": 3.0,
-          "status": "Brand to Resolve Queries"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "The Magic Wand",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 25,
-          "avg_tat": 3.0,
-          "status": "Agency Production QC"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "United Colors Of Benetton",
@@ -22345,22 +22169,22 @@
           "tickets": 1,
           "adhoc_skus": 1113,
           "e2e_options": 0,
-          "avg_tat": 3.0,
-          "status": "Brand to Resolve Queries"
+          "avg_tat": 7.0,
+          "status": "CLOSED Due to Inactive/Insufficient Information"
         },
         {
           "brand_name": "Zabella",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 54,
-          "avg_tat": 3.0,
-          "status": "Agency PREPROCESS"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         }
       ],
       "tickets": [
         {
           "key": "UCW-35144",
-          "status": "Brand to Resolve Queries",
+          "status": "CLOSED Due to Inactive/Insufficient Information",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -22368,11 +22192,11 @@
           "brand": "Wrogn",
           "adhoc_skus": 1113,
           "e2e_options": 0,
-          "tat": 3.0
+          "tat": 7.0
         },
         {
           "key": "UCW-35149",
-          "status": "Query To CCMT",
+          "status": "Agency Production QC",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall & Luxury",
@@ -22380,7 +22204,7 @@
           "brand": "Multiple",
           "adhoc_skus": 260,
           "e2e_options": 0,
-          "tat": 3.0
+          "tat": 8.0
         },
         {
           "key": "UCW-35150",
@@ -22420,7 +22244,7 @@
         },
         {
           "key": "UCW-35186",
-          "status": "Agency PREPROCESS",
+          "status": "CLOSED",
           "assignee": "Mohd Tahir Shaikh",
           "category": "Apparel",
           "platform": "Mall & Luxury",
@@ -22428,11 +22252,11 @@
           "brand": "Zabella",
           "adhoc_skus": 0,
           "e2e_options": 54,
-          "tat": 3.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35189",
-          "status": "Agency Production QC",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -22440,11 +22264,11 @@
           "brand": "The Magic Wand",
           "adhoc_skus": 0,
           "e2e_options": 25,
-          "tat": 3.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35191",
-          "status": "Agency PREPROCESS",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -22452,11 +22276,11 @@
           "brand": "Klotthe",
           "adhoc_skus": 0,
           "e2e_options": 68,
-          "tat": 3.0
+          "tat": 8.0
         },
         {
           "key": "UCW-35194",
-          "status": "Brand to Resolve Queries",
+          "status": "CLOSED Due to Inactive/Insufficient Information",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall & Luxury",
@@ -22464,7 +22288,7 @@
           "brand": "Forest Essentials",
           "adhoc_skus": 18,
           "e2e_options": 0,
-          "tat": 3.0
+          "tat": 8.0
         },
         {
           "key": "UCW-35199",
@@ -22492,7 +22316,7 @@
         },
         {
           "key": "UCW-35213",
-          "status": "Uploaded/Retriggered",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -22500,7 +22324,7 @@
           "brand": "Libas",
           "adhoc_skus": 66,
           "e2e_options": 0,
-          "tat": 3.0
+          "tat": 4.0
         },
         {
           "key": "UCW-35215",
@@ -22516,7 +22340,7 @@
         },
         {
           "key": "UCW-35217",
-          "status": "Brand to Resolve Queries",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
@@ -22524,7 +22348,7 @@
           "brand": "Squintalk",
           "adhoc_skus": 64,
           "e2e_options": 0,
-          "tat": 3.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35221",
@@ -22536,7 +22360,7 @@
           "brand": "Loreal Paris",
           "adhoc_skus": 2,
           "e2e_options": 0,
-          "tat": 2.0
+          "tat": 5.0
         }
       ]
     },
@@ -22545,27 +22369,19 @@
       "total_tickets": 4,
       "adhoc_skus": 3,
       "e2e_options": 51,
-      "avg_tat": 2.0,
-      "open_tickets": 3,
-      "closed_tickets": 1,
-      "closure_rate": 25.0,
+      "avg_tat": 6.97,
+      "open_tickets": 0,
+      "closed_tickets": 4,
+      "closure_rate": 100.0,
       "e2e_tickets": 3,
       "adhoc_tickets": 1,
       "status": [
         {
-          "status": "Agency PREPROCESS",
-          "count": 1
-        },
-        {
-          "status": "Brand to Resolve Queries",
-          "count": 1
-        },
-        {
           "status": "CLOSED",
-          "count": 1
+          "count": 3
         },
         {
-          "status": "Ticket Raised",
+          "status": "CLOSED Due to Inactive/Insufficient Information",
           "count": 1
         }
       ],
@@ -22575,7 +22391,7 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 49,
-          "avg_tat": 2.0
+          "avg_tat": 7.0
         },
         {
           "category": "Beauty & Grooming",
@@ -22589,14 +22405,14 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 1,
-          "avg_tat": 2.0
+          "avg_tat": 3.0
         },
         {
           "category": "Jewellery",
           "tickets": 1,
           "adhoc_skus": 3,
           "e2e_options": 0,
-          "avg_tat": 2.0
+          "avg_tat": 5.0
         }
       ],
       "platform": [
@@ -22605,7 +22421,7 @@
           "tickets": 4,
           "adhoc_skus": 3,
           "e2e_options": 51,
-          "avg_tat": 2.0
+          "avg_tat": 6.97
         }
       ],
       "listing_type": [
@@ -22614,14 +22430,14 @@
           "tickets": 1,
           "adhoc_skus": 3,
           "e2e_options": 0,
-          "avg_tat": 2.0
+          "avg_tat": 5.0
         },
         {
           "listing_type": "E2E",
           "tickets": 3,
           "adhoc_skus": 0,
           "e2e_options": 51,
-          "avg_tat": 2.0
+          "avg_tat": 6.98
         }
       ],
       "brands": [
@@ -22630,8 +22446,8 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 49,
-          "avg_tat": 2.0,
-          "status": "Agency PREPROCESS"
+          "avg_tat": 7.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Coola",
@@ -22646,22 +22462,22 @@
           "tickets": 1,
           "adhoc_skus": 3,
           "e2e_options": 0,
-          "avg_tat": 2.0,
-          "status": "Ticket Raised"
+          "avg_tat": 5.0,
+          "status": "CLOSED Due to Inactive/Insufficient Information"
         },
         {
           "brand_name": "Super You",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 1,
-          "avg_tat": 2.0,
-          "status": "Brand to Resolve Queries"
+          "avg_tat": 3.0,
+          "status": "CLOSED"
         }
       ],
       "tickets": [
         {
           "key": "UCW-35230",
-          "status": "Brand to Resolve Queries",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Health & Wellness",
           "platform": "Mall",
@@ -22669,7 +22485,7 @@
           "brand": "Super You",
           "adhoc_skus": 0,
           "e2e_options": 1,
-          "tat": 2.0
+          "tat": 3.0
         },
         {
           "key": "UCW-35245",
@@ -22685,7 +22501,7 @@
         },
         {
           "key": "UCW-35247",
-          "status": "Ticket Raised",
+          "status": "CLOSED Due to Inactive/Insufficient Information",
           "assignee": "Chirag Dubal",
           "category": "Jewellery",
           "platform": "Mall",
@@ -22693,11 +22509,11 @@
           "brand": "Mmtc-Pamp",
           "adhoc_skus": 3,
           "e2e_options": 0,
-          "tat": 2.0
+          "tat": 5.0
         },
         {
           "key": "UCW-35264",
-          "status": "Agency PREPROCESS",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -22705,7 +22521,7 @@
           "brand": "Benetton",
           "adhoc_skus": 0,
           "e2e_options": 49,
-          "tat": 2.0
+          "tat": 7.0
         }
       ]
     },
@@ -22714,32 +22530,28 @@
       "total_tickets": 18,
       "adhoc_skus": 325,
       "e2e_options": 519,
-      "avg_tat": 1.0,
-      "open_tickets": 15,
-      "closed_tickets": 3,
-      "closure_rate": 16.67,
+      "avg_tat": 4.26,
+      "open_tickets": 5,
+      "closed_tickets": 13,
+      "closure_rate": 72.22,
       "e2e_tickets": 13,
       "adhoc_tickets": 5,
       "status": [
-        {
-          "status": "Agency Production QC",
-          "count": 1
-        },
         {
           "status": "Brand to Resolve Queries",
           "count": 2
         },
         {
           "status": "CLOSED",
-          "count": 3
+          "count": 13
         },
         {
-          "status": "Size Chart Code Creation",
+          "status": "Query To CCMT",
           "count": 1
         },
         {
-          "status": "Ticket Raised",
-          "count": 10
+          "status": "Tech Error",
+          "count": 1
         },
         {
           "status": "Uploaded/Retriggered",
@@ -22752,28 +22564,28 @@
           "tickets": 7,
           "adhoc_skus": 314,
           "e2e_options": 332,
-          "avg_tat": 1.0
+          "avg_tat": 5.57
         },
         {
           "category": "Beauty & Grooming",
           "tickets": 6,
           "adhoc_skus": 8,
           "e2e_options": 12,
-          "avg_tat": 1.0
+          "avg_tat": 3.5
         },
         {
           "category": "Footwear",
           "tickets": 3,
           "adhoc_skus": 0,
           "e2e_options": 175,
-          "avg_tat": 1.0
+          "avg_tat": 1.84
         },
         {
           "category": "Health & Wellness",
           "tickets": 2,
           "adhoc_skus": 3,
           "e2e_options": 0,
-          "avg_tat": 1.0
+          "avg_tat": 3.0
         }
       ],
       "platform": [
@@ -22782,21 +22594,21 @@
           "tickets": 13,
           "adhoc_skus": 325,
           "e2e_options": 449,
-          "avg_tat": 1.0
+          "avg_tat": 4.46
         },
         {
           "platform": "Mall;Luxury",
           "tickets": 3,
           "adhoc_skus": 0,
           "e2e_options": 59,
-          "avg_tat": 1.0
+          "avg_tat": 2.97
         },
         {
           "platform": "Luxury",
           "tickets": 2,
           "adhoc_skus": 0,
           "e2e_options": 11,
-          "avg_tat": 1.0
+          "avg_tat": 2.0
         }
       ],
       "listing_type": [
@@ -22805,14 +22617,14 @@
           "tickets": 5,
           "adhoc_skus": 325,
           "e2e_options": 0,
-          "avg_tat": 1.0
+          "avg_tat": 5.97
         },
         {
           "listing_type": "E2E",
           "tickets": 13,
           "adhoc_skus": 0,
           "e2e_options": 519,
-          "avg_tat": 1.0
+          "avg_tat": 4.07
         }
       ],
       "brands": [
@@ -22821,32 +22633,32 @@
           "tickets": 2,
           "adhoc_skus": 314,
           "e2e_options": 135,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 3.05,
+          "status": "Tech Error"
         },
         {
           "brand_name": "Miduty",
           "tickets": 2,
           "adhoc_skus": 3,
           "e2e_options": 0,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 3.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Bewakoof",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 67,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Bvlgari",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 2,
-          "avg_tat": 1.0,
-          "status": "Agency Production QC"
+          "avg_tat": 2.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Dolce&Gabbana",
@@ -22861,40 +22673,40 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 8,
-          "avg_tat": 1.0,
-          "status": "Brand to Resolve Queries"
+          "avg_tat": 2.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Franck Olivier",
           "tickets": 1,
           "adhoc_skus": 7,
           "e2e_options": 0,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 6.0,
+          "status": "Uploaded/Retriggered"
         },
         {
           "brand_name": "Iunik",
           "tickets": 1,
           "adhoc_skus": 1,
           "e2e_options": 0,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Liberty",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 9,
-          "avg_tat": 1.0,
-          "status": "Size Chart Code Creation"
+          "avg_tat": 2.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Louis Stitch",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 30,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 6.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "M.A.C.",
@@ -22909,32 +22721,32 @@
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 26,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 6.0,
+          "status": "Brand to Resolve Queries"
         },
         {
           "brand_name": "Pantaloons",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 146,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 6.0,
+          "status": "Query To CCMT"
         },
         {
           "brand_name": "The Bear House",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 50,
-          "avg_tat": 1.0,
-          "status": "Brand to Resolve Queries"
+          "avg_tat": 3.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Trove Label",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 13,
-          "avg_tat": 1.0,
-          "status": "Ticket Raised"
+          "avg_tat": 6.0,
+          "status": "Brand to Resolve Queries"
         },
         {
           "brand_name": "Tryme",
@@ -22942,13 +22754,13 @@
           "adhoc_skus": 0,
           "e2e_options": 31,
           "avg_tat": 1.0,
-          "status": "Uploaded/Retriggered"
+          "status": "CLOSED"
         }
       ],
       "tickets": [
         {
           "key": "UCW-35291",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
@@ -22956,11 +22768,11 @@
           "brand": "Iunik",
           "adhoc_skus": 1,
           "e2e_options": 0,
-          "tat": 1.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35295",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -22968,7 +22780,7 @@
           "brand": "Louis Stitch",
           "adhoc_skus": 0,
           "e2e_options": 30,
-          "tat": 1.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35306",
@@ -22984,7 +22796,7 @@
         },
         {
           "key": "UCW-35308",
-          "status": "Agency Production QC",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Luxury",
@@ -22992,11 +22804,11 @@
           "brand": "Bvlgari",
           "adhoc_skus": 0,
           "e2e_options": 2,
-          "tat": 1.0
+          "tat": 2.0
         },
         {
           "key": "UCW-35309",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Health & Wellness",
           "platform": "Mall",
@@ -23004,11 +22816,11 @@
           "brand": "Miduty",
           "adhoc_skus": 2,
           "e2e_options": 0,
-          "tat": 1.0
+          "tat": 3.0
         },
         {
           "key": "UCW-35316",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Health & Wellness",
           "platform": "Mall",
@@ -23016,11 +22828,11 @@
           "brand": "Miduty",
           "adhoc_skus": 1,
           "e2e_options": 0,
-          "tat": 1.0
+          "tat": 3.0
         },
         {
           "key": "UCW-35328",
-          "status": "Uploaded/Retriggered",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
           "platform": "Mall",
@@ -23032,7 +22844,7 @@
         },
         {
           "key": "UCW-35337",
-          "status": "Brand to Resolve Queries",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall & Luxury",
@@ -23040,11 +22852,11 @@
           "brand": "The Bear House",
           "adhoc_skus": 0,
           "e2e_options": 50,
-          "tat": 1.0
+          "tat": 3.0
         },
         {
           "key": "UCW-35341",
-          "status": "Ticket Raised",
+          "status": "Query To CCMT",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -23052,11 +22864,11 @@
           "brand": "Pantaloons",
           "adhoc_skus": 0,
           "e2e_options": 146,
-          "tat": 1.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35342",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -23064,11 +22876,11 @@
           "brand": "Bewakoof",
           "adhoc_skus": 0,
           "e2e_options": 67,
-          "tat": 1.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35346",
-          "status": "Brand to Resolve Queries",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall & Luxury",
@@ -23076,11 +22888,11 @@
           "brand": "Forest Essentials",
           "adhoc_skus": 0,
           "e2e_options": 8,
-          "tat": 1.0
+          "tat": 2.0
         },
         {
           "key": "UCW-35348",
-          "status": "Ticket Raised",
+          "status": "Uploaded/Retriggered",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
@@ -23088,11 +22900,11 @@
           "brand": "Franck Olivier",
           "adhoc_skus": 7,
           "e2e_options": 0,
-          "tat": 1.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35351",
-          "status": "Ticket Raised",
+          "status": "Tech Error",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -23100,7 +22912,7 @@
           "brand": "Converse",
           "adhoc_skus": 314,
           "e2e_options": 0,
-          "tat": 1.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35352",
@@ -23112,11 +22924,11 @@
           "brand": "Converse",
           "adhoc_skus": 0,
           "e2e_options": 135,
-          "tat": 1.0
+          "tat": 2.0
         },
         {
           "key": "UCW-35355",
-          "status": "Ticket Raised",
+          "status": "Brand to Resolve Queries",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -23124,7 +22936,7 @@
           "brand": "Mish X",
           "adhoc_skus": 0,
           "e2e_options": 26,
-          "tat": 1.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35356",
@@ -23140,7 +22952,7 @@
         },
         {
           "key": "UCW-35357",
-          "status": "Ticket Raised",
+          "status": "Brand to Resolve Queries",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -23148,11 +22960,11 @@
           "brand": "Trove Label",
           "adhoc_skus": 0,
           "e2e_options": 13,
-          "tat": 1.0
+          "tat": 6.0
         },
         {
           "key": "UCW-35358",
-          "status": "Size Chart Code Creation",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
           "platform": "Luxury",
@@ -23160,7 +22972,7 @@
           "brand": "Liberty",
           "adhoc_skus": 0,
           "e2e_options": 9,
-          "tat": 1.0
+          "tat": 2.0
         }
       ]
     },
@@ -23169,24 +22981,16 @@
       "total_tickets": 9,
       "adhoc_skus": 637,
       "e2e_options": 75,
-      "avg_tat": 0.0,
-      "open_tickets": 9,
-      "closed_tickets": 0,
-      "closure_rate": 0.0,
+      "avg_tat": 3.52,
+      "open_tickets": 0,
+      "closed_tickets": 9,
+      "closure_rate": 100.0,
       "e2e_tickets": 5,
       "adhoc_tickets": 4,
       "status": [
         {
-          "status": "Agency Production QC",
-          "count": 1
-        },
-        {
-          "status": "Ticket Raised",
-          "count": 7
-        },
-        {
-          "status": "Uploaded/Retriggered",
-          "count": 1
+          "status": "CLOSED",
+          "count": 9
         }
       ],
       "category": [
@@ -23195,28 +22999,28 @@
           "tickets": 3,
           "adhoc_skus": 12,
           "e2e_options": 34,
-          "avg_tat": 0.0
+          "avg_tat": 3.09
         },
         {
           "category": "Health & Wellness",
           "tickets": 2,
           "adhoc_skus": 2,
           "e2e_options": 3,
-          "avg_tat": 0.0
+          "avg_tat": 1.0
         },
         {
           "category": "Apparel",
           "tickets": 1,
           "adhoc_skus": 25,
           "e2e_options": 0,
-          "avg_tat": 0.0
+          "avg_tat": 5.0
         },
         {
           "category": "Beauty & Grooming",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 1,
-          "avg_tat": 0.0
+          "avg_tat": 1.0
         },
         {
           "category": "Jewellery",
@@ -23230,7 +23034,7 @@
           "tickets": 1,
           "adhoc_skus": 598,
           "e2e_options": 0,
-          "avg_tat": 0.0
+          "avg_tat": 4.0
         }
       ],
       "platform": [
@@ -23239,21 +23043,21 @@
           "tickets": 6,
           "adhoc_skus": 27,
           "e2e_options": 62,
-          "avg_tat": 0.0
+          "avg_tat": 3.51
         },
         {
           "platform": "Luxury",
           "tickets": 2,
           "adhoc_skus": 12,
           "e2e_options": 13,
-          "avg_tat": 0.0
+          "avg_tat": 2.12
         },
         {
           "platform": "Mall;Luxury",
           "tickets": 1,
           "adhoc_skus": 598,
           "e2e_options": 0,
-          "avg_tat": 0.0
+          "avg_tat": 4.0
         }
       ],
       "listing_type": [
@@ -23262,14 +23066,14 @@
           "tickets": 4,
           "adhoc_skus": 637,
           "e2e_options": 0,
-          "avg_tat": 0.0
+          "avg_tat": 4.03
         },
         {
           "listing_type": "E2E",
           "tickets": 5,
           "adhoc_skus": 0,
           "e2e_options": 75,
-          "avg_tat": 0.0
+          "avg_tat": 2.79
         }
       ],
       "brands": [
@@ -23279,77 +23083,77 @@
           "adhoc_skus": 0,
           "e2e_options": 37,
           "avg_tat": 0.0,
-          "status": "Uploaded/Retriggered"
+          "status": "CLOSED"
         },
         {
           "brand_name": "Calibar",
           "tickets": 1,
           "adhoc_skus": 2,
           "e2e_options": 0,
-          "avg_tat": 0.0,
-          "status": "Ticket Raised"
+          "avg_tat": 1.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Colehaan",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 13,
-          "avg_tat": 0.0,
-          "status": "Ticket Raised"
+          "avg_tat": 2.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Lattafa",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 1,
-          "avg_tat": 0.0,
-          "status": "Agency Production QC"
+          "avg_tat": 1.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Libas",
           "tickets": 1,
           "adhoc_skus": 25,
           "e2e_options": 0,
-          "avg_tat": 0.0,
-          "status": "Ticket Raised"
+          "avg_tat": 5.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Netscribes",
           "tickets": 1,
           "adhoc_skus": 598,
           "e2e_options": 0,
-          "avg_tat": 0.0,
-          "status": "Ticket Raised"
+          "avg_tat": 4.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "On",
           "tickets": 1,
           "adhoc_skus": 12,
           "e2e_options": 0,
-          "avg_tat": 0.0,
-          "status": "Ticket Raised"
+          "avg_tat": 4.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "Super You",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 3,
-          "avg_tat": 0.0,
-          "status": "Ticket Raised"
+          "avg_tat": 1.0,
+          "status": "CLOSED"
         },
         {
           "brand_name": "U.S. Polo Assn.",
           "tickets": 1,
           "adhoc_skus": 0,
           "e2e_options": 21,
-          "avg_tat": 0.0,
-          "status": "Ticket Raised"
+          "avg_tat": 4.0,
+          "status": "CLOSED"
         }
       ],
       "tickets": [
         {
           "key": "UCW-35368",
-          "status": "Uploaded/Retriggered",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Jewellery",
           "platform": "Mall",
@@ -23361,7 +23165,7 @@
         },
         {
           "key": "UCW-35371",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Multi Category",
           "platform": "Mall & Luxury",
@@ -23369,11 +23173,11 @@
           "brand": "Netscribes",
           "adhoc_skus": 598,
           "e2e_options": 0,
-          "tat": 0.0
+          "tat": 4.0
         },
         {
           "key": "UCW-35373",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
           "platform": "Luxury",
@@ -23381,11 +23185,11 @@
           "brand": "On",
           "adhoc_skus": 12,
           "e2e_options": 0,
-          "tat": 0.0
+          "tat": 4.0
         },
         {
           "key": "UCW-35376",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Health & Wellness",
           "platform": "Mall",
@@ -23393,11 +23197,11 @@
           "brand": "Calibar",
           "adhoc_skus": 2,
           "e2e_options": 0,
-          "tat": 0.0
+          "tat": 1.0
         },
         {
           "key": "UCW-35382",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Apparel",
           "platform": "Mall",
@@ -23405,11 +23209,11 @@
           "brand": "Libas",
           "adhoc_skus": 25,
           "e2e_options": 0,
-          "tat": 0.0
+          "tat": 5.0
         },
         {
           "key": "UCW-35386",
-          "status": "Agency Production QC",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Beauty & Grooming",
           "platform": "Mall",
@@ -23417,11 +23221,11 @@
           "brand": "Lattafa",
           "adhoc_skus": 0,
           "e2e_options": 1,
-          "tat": 0.0
+          "tat": 1.0
         },
         {
           "key": "UCW-35387",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Health & Wellness",
           "platform": "Mall",
@@ -23429,11 +23233,11 @@
           "brand": "Super You",
           "adhoc_skus": 0,
           "e2e_options": 3,
-          "tat": 0.0
+          "tat": 1.0
         },
         {
           "key": "UCW-35393",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
           "platform": "Mall",
@@ -23441,11 +23245,11 @@
           "brand": "U.S. Polo Assn.",
           "adhoc_skus": 0,
           "e2e_options": 21,
-          "tat": 0.0
+          "tat": 4.0
         },
         {
           "key": "UCW-35394",
-          "status": "Ticket Raised",
+          "status": "CLOSED",
           "assignee": "Chirag Dubal",
           "category": "Footwear",
           "platform": "Luxury",
@@ -23453,6 +23257,2901 @@
           "brand": "Colehaan",
           "adhoc_skus": 0,
           "e2e_options": 13,
+          "tat": 2.0
+        }
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "total_tickets": 27,
+      "adhoc_skus": 2685,
+      "e2e_options": 1904,
+      "avg_tat": 4.18,
+      "open_tickets": 4,
+      "closed_tickets": 22,
+      "closure_rate": 81.48,
+      "e2e_tickets": 19,
+      "adhoc_tickets": 8,
+      "status": [
+        {
+          "status": "Agency PREPROCESS",
+          "count": 2
+        },
+        {
+          "status": "Agency Production QC",
+          "count": 1
+        },
+        {
+          "status": "CLOSED",
+          "count": 22
+        },
+        {
+          "status": "FAILED",
+          "count": 1
+        },
+        {
+          "status": "Size Chart Code Creation",
+          "count": 1
+        }
+      ],
+      "category": [
+        {
+          "category": "Beauty & Grooming",
+          "tickets": 10,
+          "adhoc_skus": 12,
+          "e2e_options": 39,
+          "avg_tat": 2.92
+        },
+        {
+          "category": "Apparel",
+          "tickets": 5,
+          "adhoc_skus": 1203,
+          "e2e_options": 289,
+          "avg_tat": 4.92
+        },
+        {
+          "category": "Fine Jewellery",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 805,
+          "avg_tat": 4.84
+        },
+        {
+          "category": "Footwear",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 299,
+          "avg_tat": 3.0
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 3,
+          "adhoc_skus": 1451,
+          "e2e_options": 43,
+          "avg_tat": 2.0
+        },
+        {
+          "category": "Bags & Wallets",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 80,
+          "avg_tat": 4.0
+        },
+        {
+          "category": "HOME",
+          "tickets": 1,
+          "adhoc_skus": 19,
+          "e2e_options": 0,
+          "avg_tat": 3.0
+        },
+        {
+          "category": "Multi Category",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 349,
+          "avg_tat": 5.0
+        }
+      ],
+      "platform": [
+        {
+          "platform": "Mall",
+          "tickets": 19,
+          "adhoc_skus": 2682,
+          "e2e_options": 1404,
+          "avg_tat": 3.86
+        },
+        {
+          "platform": "Mall;Luxury",
+          "tickets": 5,
+          "adhoc_skus": 3,
+          "e2e_options": 382,
+          "avg_tat": 4.98
+        },
+        {
+          "platform": "Luxury",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 118,
+          "avg_tat": 3.0
+        }
+      ],
+      "listing_type": [
+        {
+          "listing_type": "Ad-hoc",
+          "tickets": 8,
+          "adhoc_skus": 2685,
+          "e2e_options": 0,
+          "avg_tat": 3.36
+        },
+        {
+          "listing_type": "E2E",
+          "tickets": 19,
+          "adhoc_skus": 0,
+          "e2e_options": 1904,
+          "avg_tat": 4.45
+        }
+      ],
+      "brands": [
+        {
+          "brand_name": "Foxtale",
+          "tickets": 3,
+          "adhoc_skus": 3,
+          "e2e_options": 0,
+          "avg_tat": 3.67,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Locci",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 5,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Adityabirla",
+          "tickets": 1,
+          "adhoc_skus": 1202,
+          "e2e_options": 0,
+          "avg_tat": 5.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Bobbi Brown",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 20,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Cotton Culture",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 21,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Davidoff",
+          "tickets": 1,
+          "adhoc_skus": 7,
+          "e2e_options": 0,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Eze Perfume",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 2,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Fabindia",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 30,
+          "avg_tat": 2.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Flying Machine, U.S. Polo Assn., Arrow, Arrow Sport, Arrow Newyork",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 148,
+          "avg_tat": 5.0,
+          "status": "Agency Production QC"
+        },
+        {
+          "brand_name": "Inc.5",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 80,
+          "avg_tat": 4.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Invhome",
+          "tickets": 1,
+          "adhoc_skus": 19,
+          "e2e_options": 0,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Isharya",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 41,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Khadlaj",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 1,
+          "avg_tat": 2.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Laa Polki Stories",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 25,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Malabar Gold And Diamonds",
+          "tickets": 1,
+          "adhoc_skus": 1451,
+          "e2e_options": 0,
+          "avg_tat": 2.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "On",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 52,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Pantaloons",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 120,
+          "avg_tat": 5.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Puma",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 349,
+          "avg_tat": 5.0,
+          "status": "FAILED"
+        },
+        {
+          "brand_name": "Silvostyle By Png",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 739,
+          "avg_tat": 5.0,
+          "status": "Size Chart Code Creation"
+        },
+        {
+          "brand_name": "Tangerine",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 13,
+          "avg_tat": 2.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "The Face Shop",
+          "tickets": 1,
+          "adhoc_skus": 3,
+          "e2e_options": 0,
+          "avg_tat": 5.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Tryme",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 78,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Wella Professionals",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 11,
+          "avg_tat": 2.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Woodland",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 169,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        }
+      ],
+      "tickets": [
+        {
+          "key": "UCW-35410",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Tryme",
+          "adhoc_skus": 0,
+          "e2e_options": 78,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35419",
+          "status": "Size Chart Code Creation",
+          "assignee": "Chirag Dubal",
+          "category": "Fine Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Silvostyle By Png",
+          "adhoc_skus": 0,
+          "e2e_options": 739,
+          "tat": 5.0
+        },
+        {
+          "key": "UCW-35421",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "On",
+          "adhoc_skus": 0,
+          "e2e_options": 52,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35427",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Fabindia",
+          "adhoc_skus": 0,
+          "e2e_options": 30,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35429",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Malabar Gold And Diamonds",
+          "adhoc_skus": 1451,
+          "e2e_options": 0,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35431",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Foxtale",
+          "adhoc_skus": 1,
+          "e2e_options": 0,
+          "tat": 5.0
+        },
+        {
+          "key": "UCW-35432",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Woodland",
+          "adhoc_skus": 0,
+          "e2e_options": 169,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35435",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Foxtale",
+          "adhoc_skus": 1,
+          "e2e_options": 0,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35438",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Foxtale",
+          "adhoc_skus": 1,
+          "e2e_options": 0,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35439",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Tangerine",
+          "adhoc_skus": 0,
+          "e2e_options": 13,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35447",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Locci",
+          "adhoc_skus": 0,
+          "e2e_options": 2,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35450",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Locci",
+          "adhoc_skus": 0,
+          "e2e_options": 3,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35457",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Adityabirla",
+          "adhoc_skus": 1202,
+          "e2e_options": 0,
+          "tat": 5.0
+        },
+        {
+          "key": "UCW-35458",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Eze Perfume",
+          "adhoc_skus": 0,
+          "e2e_options": 2,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35461",
+          "status": "Agency Production QC",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Flying Machine, U.S. Polo Assn., Arrow, Arrow Sport, Arrow Newyork",
+          "adhoc_skus": 0,
+          "e2e_options": 148,
+          "tat": 5.0
+        },
+        {
+          "key": "UCW-35463",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "HOME",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Invhome",
+          "adhoc_skus": 19,
+          "e2e_options": 0,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35468",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Fine Jewellery",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Isharya",
+          "adhoc_skus": 0,
+          "e2e_options": 41,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35470",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Fine Jewellery",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Laa Polki Stories",
+          "adhoc_skus": 0,
+          "e2e_options": 25,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35474",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Wella Professionals",
+          "adhoc_skus": 0,
+          "e2e_options": 11,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35481",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Bags & Wallets",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Inc.5",
+          "adhoc_skus": 0,
+          "e2e_options": 80,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35485",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Cotton Culture",
+          "adhoc_skus": 0,
+          "e2e_options": 21,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35487",
+          "status": "FAILED",
+          "assignee": "Chirag Dubal",
+          "category": "Multi Category",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Puma",
+          "adhoc_skus": 0,
+          "e2e_options": 349,
+          "tat": 5.0
+        },
+        {
+          "key": "UCW-35488",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "Ad-hoc",
+          "brand": "The Face Shop",
+          "adhoc_skus": 3,
+          "e2e_options": 0,
+          "tat": 5.0
+        },
+        {
+          "key": "UCW-35489",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Davidoff",
+          "adhoc_skus": 7,
+          "e2e_options": 0,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35491",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Khadlaj",
+          "adhoc_skus": 0,
+          "e2e_options": 1,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35492",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Pantaloons",
+          "adhoc_skus": 0,
+          "e2e_options": 120,
+          "tat": 5.0
+        },
+        {
+          "key": "UCW-35493",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Bobbi Brown",
+          "adhoc_skus": 0,
+          "e2e_options": 20,
+          "tat": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "total_tickets": 14,
+      "adhoc_skus": 96,
+      "e2e_options": 455,
+      "avg_tat": 3.72,
+      "open_tickets": 8,
+      "closed_tickets": 6,
+      "closure_rate": 42.86,
+      "e2e_tickets": 12,
+      "adhoc_tickets": 2,
+      "status": [
+        {
+          "status": "Agency Production QC",
+          "count": 1
+        },
+        {
+          "status": "Brand to Resolve Queries",
+          "count": 4
+        },
+        {
+          "status": "CLOSED",
+          "count": 6
+        },
+        {
+          "status": "Size Chart Code Creation",
+          "count": 1
+        },
+        {
+          "status": "Uploaded/Retriggered",
+          "count": 2
+        }
+      ],
+      "category": [
+        {
+          "category": "Apparel",
+          "tickets": 5,
+          "adhoc_skus": 58,
+          "e2e_options": 203,
+          "avg_tat": 4.0
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 4,
+          "adhoc_skus": 38,
+          "e2e_options": 110,
+          "avg_tat": 3.04
+        },
+        {
+          "category": "Beauty & Grooming",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 104,
+          "avg_tat": 3.97
+        },
+        {
+          "category": "Electronics",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 14,
+          "avg_tat": 4.0
+        },
+        {
+          "category": "Footwear",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 24,
+          "avg_tat": 2.0
+        }
+      ],
+      "platform": [
+        {
+          "platform": "Mall",
+          "tickets": 11,
+          "adhoc_skus": 96,
+          "e2e_options": 332,
+          "avg_tat": 3.67
+        },
+        {
+          "platform": "Mall;Luxury",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 123,
+          "avg_tat": 4.0
+        }
+      ],
+      "listing_type": [
+        {
+          "listing_type": "Ad-hoc",
+          "tickets": 2,
+          "adhoc_skus": 96,
+          "e2e_options": 0,
+          "avg_tat": 4.0
+        },
+        {
+          "listing_type": "E2E",
+          "tickets": 12,
+          "adhoc_skus": 0,
+          "e2e_options": 455,
+          "avg_tat": 3.7
+        }
+      ],
+      "brands": [
+        {
+          "brand_name": "Ornate Jewels",
+          "tickets": 2,
+          "adhoc_skus": 38,
+          "e2e_options": 21,
+          "avg_tat": 3.29,
+          "status": "Uploaded/Retriggered"
+        },
+        {
+          "brand_name": "Accessorize London",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 49,
+          "avg_tat": 2.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Bareminerals",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 62,
+          "avg_tat": 4.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Ben Sherman",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 47,
+          "avg_tat": 4.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "L'Oreal Paris",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 3,
+          "avg_tat": 3.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Libas",
+          "tickets": 1,
+          "adhoc_skus": 58,
+          "e2e_options": 0,
+          "avg_tat": 4.0,
+          "status": "Uploaded/Retriggered"
+        },
+        {
+          "brand_name": "Lotto",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 24,
+          "avg_tat": 2.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Ministitch",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 20,
+          "avg_tat": 4.0,
+          "status": "Size Chart Code Creation"
+        },
+        {
+          "brand_name": "Oneplus",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 14,
+          "avg_tat": 4.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Palmonas",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 40,
+          "avg_tat": 4.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Pantaloons",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 114,
+          "avg_tat": 4.0,
+          "status": "Agency Production QC"
+        },
+        {
+          "brand_name": "Round Lab, D'Alba Piedmont",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 39,
+          "avg_tat": 4.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Skechers",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 22,
+          "avg_tat": 4.0,
+          "status": "Brand to Resolve Queries"
+        }
+      ],
+      "tickets": [
+        {
+          "key": "UCW-35515",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Electronics",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Oneplus",
+          "adhoc_skus": 0,
+          "e2e_options": 14,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35517",
+          "status": "Uploaded/Retriggered",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Ornate Jewels",
+          "adhoc_skus": 38,
+          "e2e_options": 0,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35520",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Ben Sherman",
+          "adhoc_skus": 0,
+          "e2e_options": 47,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35523",
+          "status": "Size Chart Code Creation",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Ministitch",
+          "adhoc_skus": 0,
+          "e2e_options": 20,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35524",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Palmonas",
+          "adhoc_skus": 0,
+          "e2e_options": 40,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35527",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Lotto",
+          "adhoc_skus": 0,
+          "e2e_options": 24,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35531",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Ornate Jewels",
+          "adhoc_skus": 0,
+          "e2e_options": 21,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35534",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Round Lab, D'Alba Piedmont",
+          "adhoc_skus": 0,
+          "e2e_options": 39,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35538",
+          "status": "Uploaded/Retriggered",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Libas",
+          "adhoc_skus": 58,
+          "e2e_options": 0,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35539",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "L'Oreal Paris",
+          "adhoc_skus": 0,
+          "e2e_options": 3,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35540",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Accessorize London",
+          "adhoc_skus": 0,
+          "e2e_options": 49,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35543",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Bareminerals",
+          "adhoc_skus": 0,
+          "e2e_options": 62,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35548",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Skechers",
+          "adhoc_skus": 0,
+          "e2e_options": 22,
+          "tat": 4.0
+        },
+        {
+          "key": "UCW-35549",
+          "status": "Agency Production QC",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Pantaloons",
+          "adhoc_skus": 0,
+          "e2e_options": 114,
+          "tat": 4.0
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "total_tickets": 10,
+      "adhoc_skus": 3,
+      "e2e_options": 190,
+      "avg_tat": 2.23,
+      "open_tickets": 7,
+      "closed_tickets": 3,
+      "closure_rate": 30.0,
+      "e2e_tickets": 7,
+      "adhoc_tickets": 3,
+      "status": [
+        {
+          "status": "Agency PREPROCESS",
+          "count": 3
+        },
+        {
+          "status": "Brand to Resolve Queries",
+          "count": 2
+        },
+        {
+          "status": "CLOSED",
+          "count": 3
+        },
+        {
+          "status": "Tech Error",
+          "count": 1
+        },
+        {
+          "status": "Uploaded/Retriggered",
+          "count": 1
+        }
+      ],
+      "category": [
+        {
+          "category": "Apparel",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 107,
+          "avg_tat": 3.0
+        },
+        {
+          "category": "Footwear",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 66,
+          "avg_tat": 1.3
+        },
+        {
+          "category": "Beauty & Grooming",
+          "tickets": 2,
+          "adhoc_skus": 3,
+          "e2e_options": 0,
+          "avg_tat": 1.0
+        },
+        {
+          "category": "Electronics",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 17,
+          "avg_tat": 3.0
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 0,
+          "avg_tat": 3.0
+        }
+      ],
+      "platform": [
+        {
+          "platform": "Mall",
+          "tickets": 6,
+          "adhoc_skus": 3,
+          "e2e_options": 57,
+          "avg_tat": 2.98
+        },
+        {
+          "platform": "Mall;Luxury",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 87,
+          "avg_tat": 2.71
+        },
+        {
+          "platform": "Luxury",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 46,
+          "avg_tat": 1.0
+        }
+      ],
+      "listing_type": [
+        {
+          "listing_type": "Ad-hoc",
+          "tickets": 3,
+          "adhoc_skus": 3,
+          "e2e_options": 0,
+          "avg_tat": 1.5
+        },
+        {
+          "listing_type": "E2E",
+          "tickets": 7,
+          "adhoc_skus": 0,
+          "e2e_options": 190,
+          "avg_tat": 2.23
+        }
+      ],
+      "brands": [
+        {
+          "brand_name": "Ascis",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 10,
+          "avg_tat": 3.0,
+          "status": "Uploaded/Retriggered"
+        },
+        {
+          "brand_name": "Fotocare",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 17,
+          "avg_tat": 3.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Kaftanize",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 51,
+          "avg_tat": 3.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Loreal Paris",
+          "tickets": 1,
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Malabar Gold And Diamonds",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 0,
+          "avg_tat": 3.0,
+          "status": "Tech Error"
+        },
+        {
+          "brand_name": "Rosso Brunello",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 46,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Smriti Gupta",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 26,
+          "avg_tat": 3.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Stylobug",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 30,
+          "avg_tat": 3.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Thalgo",
+          "tickets": 1,
+          "adhoc_skus": 1,
+          "e2e_options": 0,
+          "avg_tat": 3.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Under Armour",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 10,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        }
+      ],
+      "tickets": [
+        {
+          "key": "UCW-35556",
+          "status": "Tech Error",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Malabar Gold And Diamonds",
+          "adhoc_skus": 0,
+          "e2e_options": 0,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35560",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Under Armour",
+          "adhoc_skus": 0,
+          "e2e_options": 10,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35562",
+          "status": "Uploaded/Retriggered",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Ascis",
+          "adhoc_skus": 0,
+          "e2e_options": 10,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35563",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Rosso Brunello",
+          "adhoc_skus": 0,
+          "e2e_options": 46,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35565",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Smriti Gupta",
+          "adhoc_skus": 0,
+          "e2e_options": 26,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35566",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Kaftanize",
+          "adhoc_skus": 0,
+          "e2e_options": 51,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35570",
+          "status": "CLOSED",
+          "assignee": "netscribes",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Loreal Paris",
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35574",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Stylobug",
+          "adhoc_skus": 0,
+          "e2e_options": 30,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35583",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Thalgo",
+          "adhoc_skus": 1,
+          "e2e_options": 0,
+          "tat": 3.0
+        },
+        {
+          "key": "UCW-35593",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Electronics",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Fotocare",
+          "adhoc_skus": 0,
+          "e2e_options": 17,
+          "tat": 3.0
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "total_tickets": 9,
+      "adhoc_skus": 6,
+      "e2e_options": 301,
+      "avg_tat": 1.99,
+      "open_tickets": 4,
+      "closed_tickets": 5,
+      "closure_rate": 55.56,
+      "e2e_tickets": 8,
+      "adhoc_tickets": 1,
+      "status": [
+        {
+          "status": "Agency PREPROCESS",
+          "count": 1
+        },
+        {
+          "status": "Brand to Resolve Queries",
+          "count": 1
+        },
+        {
+          "status": "CLOSED",
+          "count": 5
+        },
+        {
+          "status": "Uploaded/Retriggered",
+          "count": 2
+        }
+      ],
+      "category": [
+        {
+          "category": "Beauty & Grooming",
+          "tickets": 5,
+          "adhoc_skus": 6,
+          "e2e_options": 18,
+          "avg_tat": 1.54
+        },
+        {
+          "category": "Footwear",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 258,
+          "avg_tat": 2.0
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 25,
+          "avg_tat": 2.0
+        }
+      ],
+      "platform": [
+        {
+          "platform": "Mall",
+          "tickets": 4,
+          "adhoc_skus": 6,
+          "e2e_options": 99,
+          "avg_tat": 1.99
+        },
+        {
+          "platform": "Luxury",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 19,
+          "avg_tat": 1.97
+        },
+        {
+          "platform": "Mall;Luxury",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 183,
+          "avg_tat": 2.0
+        }
+      ],
+      "listing_type": [
+        {
+          "listing_type": "Ad-hoc",
+          "tickets": 1,
+          "adhoc_skus": 6,
+          "e2e_options": 0,
+          "avg_tat": 2.0
+        },
+        {
+          "listing_type": "E2E",
+          "tickets": 8,
+          "adhoc_skus": 0,
+          "e2e_options": 301,
+          "avg_tat": 1.99
+        }
+      ],
+      "brands": [
+        {
+          "brand_name": "Dolce&Gabbana",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 9,
+          "avg_tat": 1.78,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Calvin Klein",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 4,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Cole Haan",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 10,
+          "avg_tat": 2.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Colors Queen",
+          "tickets": 1,
+          "adhoc_skus": 6,
+          "e2e_options": 0,
+          "avg_tat": 2.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Maybelline New York",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 5,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Skechers",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 179,
+          "avg_tat": 2.0,
+          "status": "Uploaded/Retriggered"
+        },
+        {
+          "brand_name": "Taraash",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 25,
+          "avg_tat": 2.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Tryme",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 69,
+          "avg_tat": 2.0,
+          "status": "Uploaded/Retriggered"
+        }
+      ],
+      "tickets": [
+        {
+          "key": "UCW-35606",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Maybelline New York",
+          "adhoc_skus": 0,
+          "e2e_options": 5,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35614",
+          "status": "CLOSED",
+          "assignee": "netscribes",
+          "category": "Beauty & Grooming",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Dolce&Gabbana",
+          "adhoc_skus": 0,
+          "e2e_options": 1,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35615",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Calvin Klein",
+          "adhoc_skus": 0,
+          "e2e_options": 4,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35621",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Colors Queen",
+          "adhoc_skus": 6,
+          "e2e_options": 0,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35631",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Cole Haan",
+          "adhoc_skus": 0,
+          "e2e_options": 10,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35634",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Taraash",
+          "adhoc_skus": 0,
+          "e2e_options": 25,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35641",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Dolce&Gabbana",
+          "adhoc_skus": 0,
+          "e2e_options": 8,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35653",
+          "status": "Uploaded/Retriggered",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Tryme",
+          "adhoc_skus": 0,
+          "e2e_options": 69,
+          "tat": 2.0
+        },
+        {
+          "key": "UCW-35657",
+          "status": "Uploaded/Retriggered",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Skechers",
+          "adhoc_skus": 0,
+          "e2e_options": 179,
+          "tat": 2.0
+        }
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "total_tickets": 16,
+      "adhoc_skus": 1360,
+      "e2e_options": 770,
+      "avg_tat": 1.0,
+      "open_tickets": 11,
+      "closed_tickets": 5,
+      "closure_rate": 31.25,
+      "e2e_tickets": 13,
+      "adhoc_tickets": 3,
+      "status": [
+        {
+          "status": "Agency PREPROCESS",
+          "count": 2
+        },
+        {
+          "status": "Agency Production QC",
+          "count": 2
+        },
+        {
+          "status": "Brand to Resolve Queries",
+          "count": 5
+        },
+        {
+          "status": "CLOSED",
+          "count": 5
+        },
+        {
+          "status": "Ticket Raised",
+          "count": 2
+        }
+      ],
+      "category": [
+        {
+          "category": "Beauty & Grooming",
+          "tickets": 6,
+          "adhoc_skus": 273,
+          "e2e_options": 105,
+          "avg_tat": 1.0
+        },
+        {
+          "category": "Footwear",
+          "tickets": 4,
+          "adhoc_skus": 1085,
+          "e2e_options": 128,
+          "avg_tat": 1.0
+        },
+        {
+          "category": "Apparel",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 185,
+          "avg_tat": 1.0
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 22,
+          "avg_tat": 1.0
+        },
+        {
+          "category": "Health & Wellness",
+          "tickets": 1,
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "avg_tat": 1.0
+        },
+        {
+          "category": "Multi Category",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 330,
+          "avg_tat": 1.0
+        }
+      ],
+      "platform": [
+        {
+          "platform": "Mall",
+          "tickets": 9,
+          "adhoc_skus": 2,
+          "e2e_options": 665,
+          "avg_tat": 1.0
+        },
+        {
+          "platform": "Luxury",
+          "tickets": 4,
+          "adhoc_skus": 1358,
+          "e2e_options": 7,
+          "avg_tat": 1.0
+        },
+        {
+          "platform": "Mall;Luxury",
+          "tickets": 3,
+          "adhoc_skus": 0,
+          "e2e_options": 98,
+          "avg_tat": 1.0
+        }
+      ],
+      "listing_type": [
+        {
+          "listing_type": "Ad-hoc",
+          "tickets": 3,
+          "adhoc_skus": 1360,
+          "e2e_options": 0,
+          "avg_tat": 1.0
+        },
+        {
+          "listing_type": "E2E",
+          "tickets": 13,
+          "adhoc_skus": 0,
+          "e2e_options": 770,
+          "avg_tat": 1.0
+        }
+      ],
+      "brands": [
+        {
+          "brand_name": "Aditya Birla Multi",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 132,
+          "avg_tat": 1.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Allen Solly, Louis Phillpe",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 56,
+          "avg_tat": 1.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Amouage",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 6,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "D&G",
+          "tickets": 1,
+          "adhoc_skus": 273,
+          "e2e_options": 0,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Dolce&Gabbana",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 1,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Fabindia",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 330,
+          "avg_tat": 1.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Isharya",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 16,
+          "avg_tat": 1.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Kenzo",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 4,
+          "avg_tat": 1.0,
+          "status": "Agency Production QC"
+        },
+        {
+          "brand_name": "Miduty",
+          "tickets": 1,
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "avg_tat": 1.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Mushio",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 92,
+          "avg_tat": 1.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Neemans",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 25,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Taraash 925",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 6,
+          "avg_tat": 1.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "The Bear House",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 100,
+          "avg_tat": 1.0,
+          "status": "Agency Production QC"
+        },
+        {
+          "brand_name": "The Face Shop",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 2,
+          "avg_tat": 1.0,
+          "status": "CLOSED"
+        },
+        {
+          "brand_name": "Under Armour",
+          "tickets": 1,
+          "adhoc_skus": 1085,
+          "e2e_options": 0,
+          "avg_tat": 1.0,
+          "status": "Agency PREPROCESS"
+        }
+      ],
+      "tickets": [
+        {
+          "key": "UCW-35670",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Mushio",
+          "adhoc_skus": 0,
+          "e2e_options": 92,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35675",
+          "status": "Agency Production QC",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "The Bear House",
+          "adhoc_skus": 0,
+          "e2e_options": 100,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35676",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Health & Wellness",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Miduty",
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35680",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Amouage",
+          "adhoc_skus": 0,
+          "e2e_options": 6,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35681",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Luxury",
+          "listing_type": "Ad-hoc",
+          "brand": "D&G",
+          "adhoc_skus": 273,
+          "e2e_options": 0,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35682",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Dolce&Gabbana",
+          "adhoc_skus": 0,
+          "e2e_options": 1,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35685",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Neemans",
+          "adhoc_skus": 0,
+          "e2e_options": 25,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35690",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Aditya Birla Multi",
+          "adhoc_skus": 0,
+          "e2e_options": 85,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35692",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Aditya Birla Multi",
+          "adhoc_skus": 0,
+          "e2e_options": 47,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35693",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Allen Solly, Louis Phillpe",
+          "adhoc_skus": 0,
+          "e2e_options": 56,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35704",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Isharya",
+          "adhoc_skus": 0,
+          "e2e_options": 16,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35705",
+          "status": "CLOSED",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "The Face Shop",
+          "adhoc_skus": 0,
+          "e2e_options": 2,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35707",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Multi Category",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Fabindia",
+          "adhoc_skus": 0,
+          "e2e_options": 330,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35715",
+          "status": "Agency Production QC",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Kenzo",
+          "adhoc_skus": 0,
+          "e2e_options": 4,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35731",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Luxury",
+          "listing_type": "Ad-hoc",
+          "brand": "Under Armour",
+          "adhoc_skus": 1085,
+          "e2e_options": 0,
+          "tat": 1.0
+        },
+        {
+          "key": "UCW-35741",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Taraash 925",
+          "adhoc_skus": 0,
+          "e2e_options": 6,
+          "tat": 1.0
+        }
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "total_tickets": 17,
+      "adhoc_skus": 14,
+      "e2e_options": 431,
+      "avg_tat": 0.0,
+      "open_tickets": 17,
+      "closed_tickets": 0,
+      "closure_rate": 0.0,
+      "e2e_tickets": 12,
+      "adhoc_tickets": 5,
+      "status": [
+        {
+          "status": "Agency PREPROCESS",
+          "count": 4
+        },
+        {
+          "status": "Brand to Resolve Queries",
+          "count": 7
+        },
+        {
+          "status": "Ticket Raised",
+          "count": 6
+        }
+      ],
+      "category": [
+        {
+          "category": "Beauty & Grooming",
+          "tickets": 8,
+          "adhoc_skus": 8,
+          "e2e_options": 99,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Footwear",
+          "tickets": 4,
+          "adhoc_skus": 0,
+          "e2e_options": 120,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Apparel",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 129,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Fashion Jewellery",
+          "tickets": 1,
+          "adhoc_skus": 6,
+          "e2e_options": 0,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 37,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Multi Category",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 46,
+          "avg_tat": 0.0
+        }
+      ],
+      "platform": [
+        {
+          "platform": "Mall",
+          "tickets": 10,
+          "adhoc_skus": 10,
+          "e2e_options": 294,
+          "avg_tat": 0.0
+        },
+        {
+          "platform": "Mall;Luxury",
+          "tickets": 4,
+          "adhoc_skus": 2,
+          "e2e_options": 82,
+          "avg_tat": 0.0
+        },
+        {
+          "platform": "Luxury",
+          "tickets": 3,
+          "adhoc_skus": 2,
+          "e2e_options": 55,
+          "avg_tat": 0.0
+        }
+      ],
+      "listing_type": [
+        {
+          "listing_type": "Ad-hoc",
+          "tickets": 5,
+          "adhoc_skus": 14,
+          "e2e_options": 0,
+          "avg_tat": 0.0
+        },
+        {
+          "listing_type": "E2E",
+          "tickets": 12,
+          "adhoc_skus": 0,
+          "e2e_options": 431,
+          "avg_tat": 0.0
+        }
+      ],
+      "brands": [
+        {
+          "brand_name": "Truffle Collection",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 33,
+          "avg_tat": 0.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Anua",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 40,
+          "avg_tat": 0.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Club York",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 69,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Color Queen",
+          "tickets": 1,
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Contraband",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 20,
+          "avg_tat": 0.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Joyallukas",
+          "tickets": 1,
+          "adhoc_skus": 6,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Kazo",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 60,
+          "avg_tat": 0.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Kenzo",
+          "tickets": 1,
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Luxaderme",
+          "tickets": 1,
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Maybelline New York",
+          "tickets": 1,
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "On",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 18,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Pepper Tree",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 17,
+          "avg_tat": 0.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Puig",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 22,
+          "avg_tat": 0.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Sangeeta Boochra",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 37,
+          "avg_tat": 0.0,
+          "status": "Brand to Resolve Queries"
+        },
+        {
+          "brand_name": "Tryme",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 69,
+          "avg_tat": 0.0,
+          "status": "Agency PREPROCESS"
+        },
+        {
+          "brand_name": "Uspa, Arrow",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 46,
+          "avg_tat": 0.0,
+          "status": "Agency PREPROCESS"
+        }
+      ],
+      "tickets": [
+        {
+          "key": "UCW-35748",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Sangeeta Boochra",
+          "adhoc_skus": 0,
+          "e2e_options": 37,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35751",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Anua",
+          "adhoc_skus": 0,
+          "e2e_options": 40,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35754",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Pepper Tree",
+          "adhoc_skus": 0,
+          "e2e_options": 17,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35756",
+          "status": "Ticket Raised",
+          "assignee": "Shweta Phadtare",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Maybelline New York",
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35758",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "Ad-hoc",
+          "brand": "Luxaderme",
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35760",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Luxury",
+          "listing_type": "Ad-hoc",
+          "brand": "Kenzo",
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35761",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Contraband",
+          "adhoc_skus": 0,
+          "e2e_options": 20,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35762",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Puig",
+          "adhoc_skus": 0,
+          "e2e_options": 22,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35776",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Fashion Jewellery",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Joyallukas",
+          "adhoc_skus": 6,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35778",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "On",
+          "adhoc_skus": 0,
+          "e2e_options": 18,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35784",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Kazo",
+          "adhoc_skus": 0,
+          "e2e_options": 60,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35786",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Tryme",
+          "adhoc_skus": 0,
+          "e2e_options": 69,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35788",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Color Queen",
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35791",
+          "status": "Agency PREPROCESS",
+          "assignee": "Chirag Dubal",
+          "category": "Multi Category",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Uspa, Arrow",
+          "adhoc_skus": 0,
+          "e2e_options": 46,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35793",
+          "status": "Brand to Resolve Queries",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Truffle Collection",
+          "adhoc_skus": 0,
+          "e2e_options": 24,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35817",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Truffle Collection",
+          "adhoc_skus": 0,
+          "e2e_options": 9,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35821",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Club York",
+          "adhoc_skus": 0,
+          "e2e_options": 69,
+          "tat": 0.0
+        }
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "total_tickets": 15,
+      "adhoc_skus": 217,
+      "e2e_options": 638,
+      "avg_tat": 0.0,
+      "open_tickets": 15,
+      "closed_tickets": 0,
+      "closure_rate": 0.0,
+      "e2e_tickets": 10,
+      "adhoc_tickets": 5,
+      "status": [
+        {
+          "status": "Ticket Raised",
+          "count": 15
+        }
+      ],
+      "category": [
+        {
+          "category": "Beauty & Grooming",
+          "tickets": 5,
+          "adhoc_skus": 68,
+          "e2e_options": 69,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Apparel",
+          "tickets": 4,
+          "adhoc_skus": 148,
+          "e2e_options": 131,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Footwear",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 79,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Jewellery",
+          "tickets": 2,
+          "adhoc_skus": 0,
+          "e2e_options": 228,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Electronics",
+          "tickets": 1,
+          "adhoc_skus": 1,
+          "e2e_options": 0,
+          "avg_tat": 0.0
+        },
+        {
+          "category": "Multi Category",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 131,
+          "avg_tat": 0.0
+        }
+      ],
+      "platform": [
+        {
+          "platform": "Mall",
+          "tickets": 8,
+          "adhoc_skus": 149,
+          "e2e_options": 327,
+          "avg_tat": 0.0
+        },
+        {
+          "platform": "Mall;Luxury",
+          "tickets": 6,
+          "adhoc_skus": 68,
+          "e2e_options": 134,
+          "avg_tat": 0.0
+        },
+        {
+          "platform": "Luxury",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 177,
+          "avg_tat": 0.0
+        }
+      ],
+      "listing_type": [
+        {
+          "listing_type": "Ad-hoc",
+          "tickets": 5,
+          "adhoc_skus": 217,
+          "e2e_options": 0,
+          "avg_tat": 0.0
+        },
+        {
+          "listing_type": "E2E",
+          "tickets": 10,
+          "adhoc_skus": 0,
+          "e2e_options": 638,
+          "avg_tat": 0.0
+        }
+      ],
+      "brands": [
+        {
+          "brand_name": "Andamen",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 96,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Bioderma",
+          "tickets": 1,
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Boat",
+          "tickets": 1,
+          "adhoc_skus": 1,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Cava",
+          "tickets": 1,
+          "adhoc_skus": 46,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Cin Cin",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 35,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Dyson",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 1,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Estee Lauder",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 2,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Forest Hill",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 66,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Giva",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 51,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Joules By Radhika",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 177,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Libas",
+          "tickets": 1,
+          "adhoc_skus": 102,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "London Rag",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 41,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "R&B",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 131,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Tommy Hilfiger",
+          "tickets": 1,
+          "adhoc_skus": 66,
+          "e2e_options": 0,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        },
+        {
+          "brand_name": "Tryme",
+          "tickets": 1,
+          "adhoc_skus": 0,
+          "e2e_options": 38,
+          "avg_tat": 0.0,
+          "status": "Ticket Raised"
+        }
+      ],
+      "tickets": [
+        {
+          "key": "UCW-35825",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Electronics",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Boat",
+          "adhoc_skus": 1,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35826",
+          "status": "Ticket Raised",
+          "assignee": "netscribes",
+          "category": "Beauty & Grooming",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Forest Hill",
+          "adhoc_skus": 0,
+          "e2e_options": 66,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35827",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Luxury",
+          "listing_type": "E2E",
+          "brand": "Joules By Radhika",
+          "adhoc_skus": 0,
+          "e2e_options": 177,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35829",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Jewellery",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Giva",
+          "adhoc_skus": 0,
+          "e2e_options": 51,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35831",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Dyson",
+          "adhoc_skus": 0,
+          "e2e_options": 1,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35832",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "Ad-hoc",
+          "brand": "Tommy Hilfiger",
+          "adhoc_skus": 66,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35834",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Cava",
+          "adhoc_skus": 46,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35837",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Estee Lauder",
+          "adhoc_skus": 0,
+          "e2e_options": 2,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35836",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "Tryme",
+          "adhoc_skus": 0,
+          "e2e_options": 38,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35841",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Beauty & Grooming",
+          "platform": "Mall & Luxury",
+          "listing_type": "Ad-hoc",
+          "brand": "Bioderma",
+          "adhoc_skus": 2,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35845",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Andamen",
+          "adhoc_skus": 0,
+          "e2e_options": 96,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35847",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall & Luxury",
+          "listing_type": "E2E",
+          "brand": "Cin Cin",
+          "adhoc_skus": 0,
+          "e2e_options": 35,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35853",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Footwear",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "London Rag",
+          "adhoc_skus": 0,
+          "e2e_options": 41,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35854",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Apparel",
+          "platform": "Mall",
+          "listing_type": "Ad-hoc",
+          "brand": "Libas",
+          "adhoc_skus": 102,
+          "e2e_options": 0,
+          "tat": 0.0
+        },
+        {
+          "key": "UCW-35856",
+          "status": "Ticket Raised",
+          "assignee": "Chirag Dubal",
+          "category": "Multi Category",
+          "platform": "Mall",
+          "listing_type": "E2E",
+          "brand": "R&B",
+          "adhoc_skus": 0,
+          "e2e_options": 131,
           "tat": 0.0
         }
       ]
