@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-24T05:26:20.818933+00:00",
+  "generated_at": "2026-08-31T04:30:12.059285+00:00",
   "kpis": {
-    "total_escalations": 37,
-    "critical_count": 29,
+    "total_escalations": 41,
+    "critical_count": 33,
     "noncritical_count": 6,
-    "total_affected_options": 2674,
-    "avg_resolution_days": 3.0,
+    "total_affected_options": 2810,
+    "avg_resolution_days": 2.92,
     "max_resolution_days": 13.0,
     "min_resolution_days": 0.0,
-    "pct_critical": 78.38
+    "pct_critical": 80.49
   },
   "records": [
     {
@@ -348,42 +348,14 @@
       "month": "2026-08"
     },
     {
-      "ticket_id": "UCW-36130",
-      "assigned_on": "2026-08-15",
-      "processed_on": "2026-08-15",
-      "closed_on": "2026-08-15",
-      "subject": "CLONE - Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
-      "error_by": "NS",
-      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
-      "affected_options": 2,
-      "error_type": "Critical",
-      "resolution_days": 0.0,
-      "process_days": 0,
-      "month": "2026-08"
-    },
-    {
-      "ticket_id": "UCW-36122",
-      "assigned_on": "2026-08-14",
-      "processed_on": "2026-08-14",
-      "closed_on": "2026-08-15",
-      "subject": "Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
-      "error_by": "NS",
-      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
-      "affected_options": 2,
-      "error_type": "Critical",
-      "resolution_days": 1.0,
-      "process_days": 0,
-      "month": "2026-08"
-    },
-    {
-      "ticket_id": "UCW-36087",
+      "ticket_id": "UCW-36047",
       "assigned_on": "2026-08-13",
       "processed_on": "2026-08-13",
       "closed_on": "2026-08-13",
-      "subject": "Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
+      "subject": "CLONE - Error_Puma | Title & Images Mismatch | Sneakers",
       "error_by": "NS",
-      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
-      "affected_options": 167,
+      "actions_taken": "Images and title mismatch. Images has been retriggered, awaiting relfection",
+      "affected_options": 2,
       "error_type": "Critical",
       "resolution_days": 0.0,
       "process_days": 0,
@@ -404,14 +376,14 @@
       "month": "2026-08"
     },
     {
-      "ticket_id": "UCW-36047",
+      "ticket_id": "UCW-36087",
       "assigned_on": "2026-08-13",
       "processed_on": "2026-08-13",
       "closed_on": "2026-08-13",
-      "subject": "CLONE - Error_Puma | Title & Images Mismatch | Sneakers",
+      "subject": "Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
       "error_by": "NS",
-      "actions_taken": "Images and title mismatch. Images has been retriggered, awaiting relfection",
-      "affected_options": 2,
+      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
+      "affected_options": 167,
       "error_type": "Critical",
       "resolution_days": 0.0,
       "process_days": 0,
@@ -428,6 +400,34 @@
       "affected_options": 2,
       "error_type": "Critical",
       "resolution_days": 1.0,
+      "process_days": 0,
+      "month": "2026-08"
+    },
+    {
+      "ticket_id": "UCW-36122",
+      "assigned_on": "2026-08-14",
+      "processed_on": "2026-08-14",
+      "closed_on": "2026-08-15",
+      "subject": "Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
+      "error_by": "NS",
+      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
+      "affected_options": 2,
+      "error_type": "Critical",
+      "resolution_days": 1.0,
+      "process_days": 0,
+      "month": "2026-08"
+    },
+    {
+      "ticket_id": "UCW-36130",
+      "assigned_on": "2026-08-15",
+      "processed_on": "2026-08-15",
+      "closed_on": "2026-08-15",
+      "subject": "CLONE - Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
+      "error_by": "NS",
+      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
+      "affected_options": 2,
+      "error_type": "Critical",
+      "resolution_days": 0.0,
       "process_days": 0,
       "month": "2026-08"
     },
@@ -449,13 +449,13 @@
       "ticket_id": "UCW-36176",
       "assigned_on": "2026-08-17",
       "processed_on": "2026-08-17",
-      "closed_on": null,
+      "closed_on": "2026-08-26",
       "subject": "CLONE - CLONE - Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
       "error_by": "NS",
       "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
       "affected_options": 38,
       "error_type": "Critical",
-      "resolution_days": null,
+      "resolution_days": 8.0,
       "process_days": 0,
       "month": "2026-08"
     },
@@ -477,13 +477,13 @@
       "ticket_id": "UCW-36280",
       "assigned_on": "2026-08-19",
       "processed_on": "2026-08-19",
-      "closed_on": null,
+      "closed_on": "2026-08-20",
       "subject": "CLONE - CLONE - CLONE - CLONE - Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
       "error_by": "NS",
       "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
       "affected_options": 38,
       "error_type": "Critical",
-      "resolution_days": null,
+      "resolution_days": 1.0,
       "process_days": 0,
       "month": "2026-08"
     },
@@ -491,13 +491,13 @@
       "ticket_id": "UCW-36323",
       "assigned_on": "2026-08-20",
       "processed_on": "2026-08-20",
-      "closed_on": null,
+      "closed_on": "2026-08-21",
       "subject": "CLONE - CLONE - CLONE - CLONE - CLONE - Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
       "error_by": "NS",
       "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
       "affected_options": 38,
       "error_type": "Critical",
-      "resolution_days": null,
+      "resolution_days": 0.0,
       "process_days": 0,
       "month": "2026-08"
     },
@@ -505,13 +505,13 @@
       "ticket_id": "UCW-36372",
       "assigned_on": "2026-08-21",
       "processed_on": "2026-08-21",
-      "closed_on": null,
+      "closed_on": "2026-08-26",
       "subject": "Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
       "error_by": "NS",
       "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
       "affected_options": 38,
       "error_type": "Critical",
-      "resolution_days": null,
+      "resolution_days": 4.0,
       "process_days": 0,
       "month": "2026-08"
     },
@@ -528,27 +528,83 @@
       "resolution_days": null,
       "process_days": 0,
       "month": "2026-08"
+    },
+    {
+      "ticket_id": "UCW-36481",
+      "assigned_on": "2026-08-24",
+      "processed_on": "2026-08-24",
+      "closed_on": "2026-08-26",
+      "subject": "Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
+      "error_by": "NS",
+      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
+      "affected_options": 38,
+      "error_type": "Critical",
+      "resolution_days": 1.0,
+      "process_days": 0,
+      "month": "2026-08"
+    },
+    {
+      "ticket_id": "UCW-36658",
+      "assigned_on": "2026-08-26",
+      "processed_on": "2026-08-26",
+      "closed_on": "2026-08-28",
+      "subject": "CLONE - Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
+      "error_by": "NS",
+      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
+      "affected_options": 41,
+      "error_type": "Critical",
+      "resolution_days": 1.0,
+      "process_days": 0,
+      "month": "2026-08"
+    },
+    {
+      "ticket_id": "UCW-36801",
+      "assigned_on": "2026-08-27",
+      "processed_on": "2026-08-27",
+      "closed_on": null,
+      "subject": "Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
+      "error_by": "NS",
+      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
+      "affected_options": 17,
+      "error_type": "Critical",
+      "resolution_days": null,
+      "process_days": 0,
+      "month": "2026-08"
+    },
+    {
+      "ticket_id": "UCW-36912",
+      "assigned_on": "2026-08-28",
+      "processed_on": "2026-08-28",
+      "closed_on": null,
+      "subject": "CLONE - Error_Weekly Consolidated QC Report (1 July – 13 July) | Agency Name -  Netscribes",
+      "error_by": "NS",
+      "actions_taken": "Error of various tickets and various issues. Team has taken necessary action and awaiting validation.",
+      "affected_options": 40,
+      "error_type": "Critical",
+      "resolution_days": null,
+      "process_days": 0,
+      "month": "2026-08"
     }
   ],
   "by_error_type": [
     {
       "error_type": "-",
       "count": 1,
-      "pct": 2.7,
+      "pct": 2.44,
       "avg_resolution_days": 2.0,
       "total_affected": 7
     },
     {
       "error_type": "Critical",
-      "count": 29,
-      "pct": 78.38,
-      "avg_resolution_days": 3.25,
-      "total_affected": 2590
+      "count": 33,
+      "pct": 80.49,
+      "avg_resolution_days": 3.1,
+      "total_affected": 2726
     },
     {
       "error_type": "Non - critical",
       "count": 6,
-      "pct": 16.22,
+      "pct": 14.63,
       "avg_resolution_days": 2.67,
       "total_affected": 77
     }
@@ -580,37 +636,37 @@
     },
     {
       "month": "2026-08",
-      "count": 15,
-      "critical_count": 14,
+      "count": 19,
+      "critical_count": 18,
       "noncritical_count": 1,
-      "total_affected": 1051,
-      "avg_resolution_days": 1.0
+      "total_affected": 1187,
+      "avg_resolution_days": 1.56
     }
   ],
   "resolution_buckets": [
     {
       "bucket": "Same day",
-      "count": 7,
-      "pct": 18.92,
-      "critical": 6
+      "count": 8,
+      "pct": 19.51,
+      "critical": 7
     },
     {
       "bucket": "1-3 days",
-      "count": 16,
-      "pct": 43.24,
-      "critical": 10
+      "count": 19,
+      "pct": 46.34,
+      "critical": 13
     },
     {
       "bucket": "4-7 days",
-      "count": 5,
-      "pct": 13.51,
-      "critical": 4
+      "count": 6,
+      "pct": 14.63,
+      "critical": 5
     },
     {
       "bucket": "8-14 days",
-      "count": 4,
-      "pct": 10.81,
-      "critical": 4
+      "count": 5,
+      "pct": 12.2,
+      "critical": 5
     },
     {
       "bucket": "15+ days",
