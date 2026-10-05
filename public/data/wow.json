@@ -1,16 +1,16 @@
 {
   "data_month": "2026-05-01",
-  "generated_at": "2026-09-28T05:37:58.403861+00:00",
+  "generated_at": "2026-10-05T06:33:38.078854+00:00",
   "kpis": {
-    "total_tickets": 1391,
-    "adhoc_skus": 70873,
-    "e2e_options": 57082,
-    "avg_tat": 5.0,
-    "e2e_tickets": 985,
-    "adhoc_tickets": 406,
-    "closed_tickets": 1320,
-    "open_tickets": 64,
-    "closure_rate": 94.9
+    "total_tickets": 1441,
+    "adhoc_skus": 130286,
+    "e2e_options": 59611,
+    "avg_tat": 4.83,
+    "e2e_tickets": 1014,
+    "adhoc_tickets": 427,
+    "closed_tickets": 1324,
+    "open_tickets": 110,
+    "closure_rate": 91.88
   },
   "weeks": [
     {
@@ -230,7 +230,7 @@
       "tickets": 108,
       "adhoc_skus": 4379,
       "e2e_options": 4762,
-      "avg_tat": 6.96,
+      "avg_tat": 7.6,
       "e2e_tickets": 82,
       "adhoc_tickets": 26,
       "closed_tickets": 107,
@@ -260,7 +260,7 @@
       "tickets": 55,
       "adhoc_skus": 2089,
       "e2e_options": 2381,
-      "avg_tat": 5.26,
+      "avg_tat": 5.27,
       "e2e_tickets": 37,
       "adhoc_tickets": 18,
       "closed_tickets": 54,
@@ -275,7 +275,7 @@
       "tickets": 106,
       "adhoc_skus": 7127,
       "e2e_options": 4282,
-      "avg_tat": 4.4,
+      "avg_tat": 4.58,
       "e2e_tickets": 75,
       "adhoc_tickets": 31,
       "closed_tickets": 103,
@@ -305,7 +305,7 @@
       "tickets": 69,
       "adhoc_skus": 1425,
       "e2e_options": 2579,
-      "avg_tat": 6.32,
+      "avg_tat": 7.79,
       "e2e_tickets": 47,
       "adhoc_tickets": 22,
       "closed_tickets": 62,
@@ -320,11 +320,11 @@
       "tickets": 54,
       "adhoc_skus": 2378,
       "e2e_options": 3256,
-      "avg_tat": 3.53,
+      "avg_tat": 4.24,
       "e2e_tickets": 33,
       "adhoc_tickets": 21,
-      "closed_tickets": 40,
-      "open_tickets": 13,
+      "closed_tickets": 43,
+      "open_tickets": 10,
       "wow_pct": -21.74,
       "cumulative_tickets": 1335
     },
@@ -335,13 +335,28 @@
       "tickets": 56,
       "adhoc_skus": 5400,
       "e2e_options": 1868,
-      "avg_tat": 3.34,
+      "avg_tat": 7.89,
       "e2e_tickets": 31,
       "adhoc_tickets": 25,
-      "closed_tickets": 13,
-      "open_tickets": 43,
+      "closed_tickets": 14,
+      "open_tickets": 42,
       "wow_pct": 3.7,
       "cumulative_tickets": 1391
+    },
+    {
+      "week_number": 40,
+      "week_start": "2026-09-28",
+      "week_end": "2026-10-04",
+      "tickets": 50,
+      "adhoc_skus": 59413,
+      "e2e_options": 2529,
+      "avg_tat": 3.02,
+      "e2e_tickets": 29,
+      "adhoc_tickets": 21,
+      "closed_tickets": 0,
+      "open_tickets": 50,
+      "wow_pct": -10.71,
+      "cumulative_tickets": 1441
     }
   ],
   "brands_by_week": {
@@ -6619,7 +6634,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 349,
-        "avg_tat": 40.0,
+        "avg_tat": 45.0,
         "closure_rate": 0.0
       },
       {
@@ -7149,7 +7164,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 0,
-        "avg_tat": 34.0,
+        "avg_tat": 39.0,
         "closure_rate": 0.0
       },
       {
@@ -7223,7 +7238,7 @@
         "tickets": 1,
         "adhoc_skus": 4,
         "e2e_options": 0,
-        "avg_tat": 26.0,
+        "avg_tat": 31.0,
         "closure_rate": 0.0
       },
       {
@@ -7537,7 +7552,7 @@
         "tickets": 3,
         "adhoc_skus": 0,
         "e2e_options": 32,
-        "avg_tat": 12.88,
+        "avg_tat": 15.36,
         "closure_rate": 66.67
       },
       {
@@ -8065,7 +8080,7 @@
         "tickets": 1,
         "adhoc_skus": 569,
         "e2e_options": 0,
-        "avg_tat": 22.0,
+        "avg_tat": 27.0,
         "closure_rate": 0.0
       },
       {
@@ -8089,7 +8104,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 5,
-        "avg_tat": 21.0,
+        "avg_tat": 26.0,
         "closure_rate": 0.0
       },
       {
@@ -8459,7 +8474,7 @@
         "tickets": 1,
         "adhoc_skus": 2,
         "e2e_options": 0,
-        "avg_tat": 17.0,
+        "avg_tat": 22.0,
         "closure_rate": 0.0
       },
       {
@@ -8621,7 +8636,7 @@
         "tickets": 2,
         "adhoc_skus": 8,
         "e2e_options": 0,
-        "avg_tat": 8.0,
+        "avg_tat": 10.5,
         "closure_rate": 50.0
       },
       {
@@ -8645,7 +8660,7 @@
         "tickets": 2,
         "adhoc_skus": 2,
         "e2e_options": 0,
-        "avg_tat": 8.5,
+        "avg_tat": 11.0,
         "closure_rate": 50.0
       },
       {
@@ -8757,7 +8772,7 @@
         "tickets": 1,
         "adhoc_skus": 5,
         "e2e_options": 0,
-        "avg_tat": 15.0,
+        "avg_tat": 20.0,
         "closure_rate": 0.0
       },
       {
@@ -8765,7 +8780,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 34,
-        "avg_tat": 11.0,
+        "avg_tat": 16.0,
         "closure_rate": 0.0
       },
       {
@@ -8797,7 +8812,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 7,
-        "avg_tat": 14.0,
+        "avg_tat": 19.0,
         "closure_rate": 0.0
       },
       {
@@ -8813,7 +8828,7 @@
         "tickets": 1,
         "adhoc_skus": 61,
         "e2e_options": 0,
-        "avg_tat": 3.0,
+        "avg_tat": 15.0,
         "closure_rate": 100.0
       },
       {
@@ -8909,7 +8924,7 @@
         "tickets": 1,
         "adhoc_skus": 33,
         "e2e_options": 0,
-        "avg_tat": 12.0,
+        "avg_tat": 17.0,
         "closure_rate": 0.0
       },
       {
@@ -8949,7 +8964,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 168,
-        "avg_tat": 11.0,
+        "avg_tat": 16.0,
         "closure_rate": 0.0
       },
       {
@@ -9111,7 +9126,7 @@
         "tickets": 2,
         "adhoc_skus": 2,
         "e2e_options": 1,
-        "avg_tat": 3.0,
+        "avg_tat": 4.67,
         "closure_rate": 50.0
       },
       {
@@ -9119,7 +9134,7 @@
         "tickets": 2,
         "adhoc_skus": 0,
         "e2e_options": 321,
-        "avg_tat": 3.35,
+        "avg_tat": 3.78,
         "closure_rate": 50.0
       },
       {
@@ -9127,7 +9142,7 @@
         "tickets": 1,
         "adhoc_skus": 4,
         "e2e_options": 0,
-        "avg_tat": 7.0,
+        "avg_tat": 12.0,
         "closure_rate": 0.0
       },
       {
@@ -9143,7 +9158,7 @@
         "tickets": 1,
         "adhoc_skus": 31,
         "e2e_options": 0,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9167,7 +9182,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 23,
-        "avg_tat": 7.0,
+        "avg_tat": 12.0,
         "closure_rate": 0.0
       },
       {
@@ -9183,7 +9198,7 @@
         "tickets": 1,
         "adhoc_skus": 91,
         "e2e_options": 0,
-        "avg_tat": 7.0,
+        "avg_tat": 12.0,
         "closure_rate": 0.0
       },
       {
@@ -9199,15 +9214,15 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 27,
-        "avg_tat": 5.0,
-        "closure_rate": 0.0
+        "avg_tat": 8.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Cuckoo",
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 4,
-        "avg_tat": 9.0,
+        "avg_tat": 14.0,
         "closure_rate": 0.0
       },
       {
@@ -9239,8 +9254,8 @@
         "tickets": 1,
         "adhoc_skus": 1,
         "e2e_options": 0,
-        "avg_tat": 8.0,
-        "closure_rate": 0.0
+        "avg_tat": 11.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Flat N Heels",
@@ -9263,7 +9278,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 27,
-        "avg_tat": 7.0,
+        "avg_tat": 12.0,
         "closure_rate": 0.0
       },
       {
@@ -9271,8 +9286,8 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 11,
-        "avg_tat": 8.0,
-        "closure_rate": 0.0
+        "avg_tat": 11.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Inalsa",
@@ -9327,7 +9342,7 @@
         "tickets": 1,
         "adhoc_skus": 313,
         "e2e_options": 0,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9375,7 +9390,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 2,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9383,7 +9398,7 @@
         "tickets": 1,
         "adhoc_skus": 308,
         "e2e_options": 0,
-        "avg_tat": 6.0,
+        "avg_tat": 11.0,
         "closure_rate": 0.0
       },
       {
@@ -9481,7 +9496,7 @@
         "tickets": 4,
         "adhoc_skus": 0,
         "e2e_options": 676,
-        "avg_tat": 2.77,
+        "avg_tat": 6.95,
         "closure_rate": 50.0
       },
       {
@@ -9489,7 +9504,7 @@
         "tickets": 3,
         "adhoc_skus": 14,
         "e2e_options": 3,
-        "avg_tat": 1.35,
+        "avg_tat": 6.35,
         "closure_rate": 0.0
       },
       {
@@ -9497,7 +9512,7 @@
         "tickets": 2,
         "adhoc_skus": 2,
         "e2e_options": 0,
-        "avg_tat": 3.0,
+        "avg_tat": 8.0,
         "closure_rate": 0.0
       },
       {
@@ -9505,7 +9520,7 @@
         "tickets": 2,
         "adhoc_skus": 1,
         "e2e_options": 3,
-        "avg_tat": 1.25,
+        "avg_tat": 6.25,
         "closure_rate": 0.0
       },
       {
@@ -9513,7 +9528,7 @@
         "tickets": 2,
         "adhoc_skus": 2,
         "e2e_options": 0,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9521,7 +9536,7 @@
         "tickets": 2,
         "adhoc_skus": 3,
         "e2e_options": 0,
-        "avg_tat": 3.0,
+        "avg_tat": 5.0,
         "closure_rate": 100.0
       },
       {
@@ -9529,7 +9544,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 2,
-        "avg_tat": 3.0,
+        "avg_tat": 8.0,
         "closure_rate": 0.0
       },
       {
@@ -9545,7 +9560,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 1,
-        "avg_tat": 1.0,
+        "avg_tat": 6.0,
         "closure_rate": 0.0
       },
       {
@@ -9553,7 +9568,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 15,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9561,7 +9576,7 @@
         "tickets": 1,
         "adhoc_skus": 357,
         "e2e_options": 0,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9577,7 +9592,7 @@
         "tickets": 1,
         "adhoc_skus": 114,
         "e2e_options": 0,
-        "avg_tat": 1.0,
+        "avg_tat": 6.0,
         "closure_rate": 0.0
       },
       {
@@ -9585,7 +9600,7 @@
         "tickets": 1,
         "adhoc_skus": 3,
         "e2e_options": 0,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9593,7 +9608,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 1,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9601,7 +9616,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 6,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9609,7 +9624,7 @@
         "tickets": 1,
         "adhoc_skus": 3790,
         "e2e_options": 0,
-        "avg_tat": 4.0,
+        "avg_tat": 9.0,
         "closure_rate": 0.0
       },
       {
@@ -9617,7 +9632,7 @@
         "tickets": 1,
         "adhoc_skus": 3,
         "e2e_options": 0,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9625,7 +9640,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 1,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9633,7 +9648,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 1,
-        "avg_tat": 3.0,
+        "avg_tat": 8.0,
         "closure_rate": 0.0
       },
       {
@@ -9641,15 +9656,15 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 35,
-        "avg_tat": 4.0,
-        "closure_rate": 0.0
+        "avg_tat": 7.0,
+        "closure_rate": 100.0
       },
       {
         "brand_name": "Goodcare",
         "tickets": 1,
         "adhoc_skus": 22,
         "e2e_options": 0,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9657,7 +9672,7 @@
         "tickets": 1,
         "adhoc_skus": 159,
         "e2e_options": 0,
-        "avg_tat": 3.0,
+        "avg_tat": 8.0,
         "closure_rate": 0.0
       },
       {
@@ -9665,7 +9680,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 4,
-        "avg_tat": 1.0,
+        "avg_tat": 6.0,
         "closure_rate": 0.0
       },
       {
@@ -9681,7 +9696,7 @@
         "tickets": 1,
         "adhoc_skus": 190,
         "e2e_options": 0,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9689,7 +9704,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 340,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9697,7 +9712,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 1,
-        "avg_tat": 3.0,
+        "avg_tat": 8.0,
         "closure_rate": 0.0
       },
       {
@@ -9713,7 +9728,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 11,
-        "avg_tat": 3.0,
+        "avg_tat": 8.0,
         "closure_rate": 0.0
       },
       {
@@ -9729,7 +9744,7 @@
         "tickets": 1,
         "adhoc_skus": 2,
         "e2e_options": 0,
-        "avg_tat": 4.0,
+        "avg_tat": 9.0,
         "closure_rate": 0.0
       },
       {
@@ -9737,7 +9752,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 57,
-        "avg_tat": 1.0,
+        "avg_tat": 6.0,
         "closure_rate": 0.0
       },
       {
@@ -9745,7 +9760,7 @@
         "tickets": 1,
         "adhoc_skus": 12,
         "e2e_options": 0,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9761,7 +9776,7 @@
         "tickets": 1,
         "adhoc_skus": 10,
         "e2e_options": 0,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9769,7 +9784,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 14,
-        "avg_tat": 1.0,
+        "avg_tat": 6.0,
         "closure_rate": 0.0
       },
       {
@@ -9793,7 +9808,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 3,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9801,7 +9816,7 @@
         "tickets": 1,
         "adhoc_skus": 1,
         "e2e_options": 0,
-        "avg_tat": 2.0,
+        "avg_tat": 7.0,
         "closure_rate": 0.0
       },
       {
@@ -9809,7 +9824,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 398,
-        "avg_tat": 5.0,
+        "avg_tat": 10.0,
         "closure_rate": 0.0
       },
       {
@@ -9817,7 +9832,7 @@
         "tickets": 1,
         "adhoc_skus": 538,
         "e2e_options": 0,
-        "avg_tat": 1.0,
+        "avg_tat": 6.0,
         "closure_rate": 0.0
       },
       {
@@ -9825,7 +9840,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 4,
-        "avg_tat": 3.0,
+        "avg_tat": 8.0,
         "closure_rate": 0.0
       },
       {
@@ -9833,7 +9848,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 25,
-        "avg_tat": 4.0,
+        "avg_tat": 5.0,
         "closure_rate": 100.0
       },
       {
@@ -9841,7 +9856,7 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 5,
-        "avg_tat": 3.0,
+        "avg_tat": 8.0,
         "closure_rate": 0.0
       },
       {
@@ -9849,7 +9864,385 @@
         "tickets": 1,
         "adhoc_skus": 0,
         "e2e_options": 19,
+        "avg_tat": 7.0,
+        "closure_rate": 0.0
+      }
+    ],
+    "40": [
+      {
+        "brand_name": "Multiple Brands",
+        "tickets": 3,
+        "adhoc_skus": 221,
+        "e2e_options": 0,
+        "avg_tat": 4.08,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Fabindia",
+        "tickets": 2,
+        "adhoc_skus": 2,
+        "e2e_options": 612,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Aarika",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 31,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Abh",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 2,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Adidas",
+        "tickets": 1,
+        "adhoc_skus": 54868,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Audio Technica",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 30,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Beauty Garage",
+        "tickets": 1,
+        "adhoc_skus": 42,
+        "e2e_options": 0,
         "avg_tat": 2.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Biotique",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Bobbi Brown",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 1,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Crepdog Crew",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 4,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "De Maison Decor",
+        "tickets": 1,
+        "adhoc_skus": 27,
+        "e2e_options": 0,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Dolce&Gabbana",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 4,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Flat N Heels",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 23,
+        "avg_tat": 2.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "H K Jewels",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 65,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Irth By House Of Titan",
+        "tickets": 1,
+        "adhoc_skus": 104,
+        "e2e_options": 0,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Ixia By Giva",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 204,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Jockey",
+        "tickets": 1,
+        "adhoc_skus": 107,
+        "e2e_options": 0,
+        "avg_tat": 0.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Joyallukas",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 207,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Kiddopanti",
+        "tickets": 1,
+        "adhoc_skus": 21,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Kisna",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 44,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Klian Paris",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 52,
+        "avg_tat": 2.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "L'Oreal",
+        "tickets": 1,
+        "adhoc_skus": 1,
+        "e2e_options": 0,
+        "avg_tat": 2.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "La Prairie",
+        "tickets": 1,
+        "adhoc_skus": 27,
+        "e2e_options": 0,
+        "avg_tat": 2.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Libas",
+        "tickets": 1,
+        "adhoc_skus": 1048,
+        "e2e_options": 0,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Louis Stitch",
+        "tickets": 1,
+        "adhoc_skus": 176,
+        "e2e_options": 0,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Mayank Modi",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 30,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Maybelline New York",
+        "tickets": 1,
+        "adhoc_skus": 5,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Mia By Tanishq",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 8,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Multiple",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 93,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Park Avenue",
+        "tickets": 1,
+        "adhoc_skus": 794,
+        "e2e_options": 0,
+        "avg_tat": 2.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Police,Elie Sab",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 15,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Portronics",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 409,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Puma, Adidas, New Balance",
+        "tickets": 1,
+        "adhoc_skus": 1406,
+        "e2e_options": 0,
+        "avg_tat": 2.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Redchief",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 3,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Rubans",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 412,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Shapercult",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 39,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Silvostyle By Png",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 68,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Spring Soul",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 24,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Swiss Beauty",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 13,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Swisse",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 25,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Table Manners & Co",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 3,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Teejh Yasha",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 96,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "The Sleep Company",
+        "tickets": 1,
+        "adhoc_skus": 519,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Vaamsi",
+        "tickets": 1,
+        "adhoc_skus": 30,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Van Huesen",
+        "tickets": 1,
+        "adhoc_skus": 7,
+        "e2e_options": 0,
+        "avg_tat": 5.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Voylla",
+        "tickets": 1,
+        "adhoc_skus": 0,
+        "e2e_options": 11,
+        "avg_tat": 4.0,
+        "closure_rate": 0.0
+      },
+      {
+        "brand_name": "Welspun",
+        "tickets": 1,
+        "adhoc_skus": 8,
+        "e2e_options": 0,
+        "avg_tat": 3.0,
         "closure_rate": 0.0
       }
     ]
